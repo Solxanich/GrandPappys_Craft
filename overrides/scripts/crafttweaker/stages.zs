@@ -31,7 +31,7 @@ static stageFarmer as Stage = ZenStager.initStage("farmer"); //chickens
 static stageBard as Stage = ZenStager.initStage("bard"); //AoA, aether
 static stageWarrior as Stage = ZenStager.initStage("warrior"); //icefire
 
-static stageUnused as Stage = ZenStager.initStage("unused"); //
+static stageUnused as Stage = ZenStager.initStage("unused"); 
 
 // ==================================
 // Mob Staging
@@ -88,7 +88,10 @@ if(loadedMods.contains("iceandfire")){
 			"iceandfire:myrmex_sentinel","iceandfire:myrmex_soldier","iceandfire:myrmex_worker",
 			"iceandfire:seaserpent","iceandfire:seaserpentarrow","iceandfire:seaserpentbubble",
 			"iceandfire:siren","iceandfire:stonestatue", "iceandfire:if_hydra",
-			"iceandfire:stymphalianarrow","iceandfire:stymphalianbird","iceandfire:stymphalianfeather"
+			"iceandfire:stymphalianarrow","iceandfire:stymphalianbird","iceandfire:stymphalianfeather",
+			"iceandfire:dread_beast","iceandfire:dread_ghoul","iceandfire:dread_horse","iceandfire:dread_knight",
+			"iceandfire:dread_lich","iceandfire:dread_lich_skull","iceandfire:dread_scuttler",
+			"iceandfire:dread_thrall"
 		],
 		stageDefault.stage: [
 			"iceandfire:snowvillager"
@@ -156,7 +159,7 @@ if(loadedMods.contains("minecraft")){
 	mobsMap = {
 		stageOverworld.stage: [
 			"minecraft:blaze","minecraft:cave_spider",
-			"minecraft:creeper",
+			"minecraft:creeper","minecraft:stray",
 			"minecraft:evocation_fangs","minecraft:evocation_illager",
 			"minecraft:ghast","minecraft:giant","minecraft:guardian",
 			"minecraft:illusion_illager","minecraft:polar_bear","minecraft:shulker",
@@ -197,10 +200,10 @@ if(loadedMods.contains("vampirism")){
 		stageOverworld.stage: [
 			"vampirism:advanced_hunter","vampirism:advanced_vampire",
 			"vampirism:blinding_bat","vampirism:converted_creature","vampirism:converted_horse",
-			"vampirism:converted_sheep","vampirism:crossbow_arrow","vampirism:dark_blood_projectile",
+			"vampirism:converted_sheep",
 			"vampirism:dummy_creature","vampirism:ghost","vampirism:hunter_trainer",
-			"vampirism:hunter_trainer_dummy","vampirism:particle_cloud","vampirism:soul_orb",
-			"vampirism:special_dracula_halloween","vampirism:throwable_item","vampirism:vampire",
+			"vampirism:hunter_trainer_dummy","vampirism:soul_orb",
+			"vampirism:special_dracula_halloween","vampirism:vampire",
 			"vampirism:vampire_baron","vampirism:vampire_hunter","vampirism:vampire_minion_s",
 			"vampirism:villager_angry","vampirism:villager_converted","vampirism:villager_hunter_faction",
 			"vampirism:villager_vampire_faction"
@@ -633,12 +636,11 @@ if(loadedMods.contains("lycanitesmobs")){
 // ==================================
 // Mod Staging
 static stagedMods as string[][string] = {
-	stageTerraria.stage : [
+/*	stageTerraria.stage : [
 		"terraria"
-	],
+	], */
 	stageOverworld.stage : [
 		"akashictome",
-		"bibliocraft",
 		"cookingforblockheads",
 		"lordcraft",
 		"spartanweaponry",
@@ -647,7 +649,8 @@ static stagedMods as string[][string] = {
 		"lycanitesmobs",
 		"netherex",
 		"variedcommodities",
-		"mob_grinding_utils"
+		"mob_grinding_utils",
+		"thermalfoundation"
 	],
 	stageTech.stage:[
 		"immersiveengineering",
@@ -670,7 +673,6 @@ static stagedMods as string[][string] = {
 		"crimsonrevelations",
 		"thaumcraft",
 		"thaumicaugmentation",
-		"thaumicjei",
 		"thaumicperiphery",
 		"thaumictinkerer"
 	],
@@ -704,7 +706,8 @@ static stagedMods as string[][string] = {
 	stageFarmer.stage: [
 		"tropicraft",
 		"mahoutsukai",
-		"soulus"
+		"soulus",
+		"bibliocraft"
 	],
 	stageBard.stage: [
 		"thebetweenlands",
@@ -723,10 +726,8 @@ static stagedMods as string[][string] = {
 	],
 	stageWarrior.stage: [
 		"defiledlands",
-		"armorplus"
-	],
-	stageUnused.stage: [
-		"thermalfoundation"
+		"armorplus",
+		"improvedbackpacks"
 	]
 };
 
@@ -771,10 +772,6 @@ static stagedCT as IIngredient[][string] = {
 	],
 	stageWarrior.stage: [
 		<contenttweaker:bottlesteam>
-	],
-	stageUnused.stage: [
-		<minecraft:spawn_egg>,
-		<chickens:spawn_egg>
 	]
 };
 for stageName, items in stagedCT {
@@ -791,14 +788,9 @@ static stagedItems as IIngredient[][string] = {
 	]
 };
 static mobSpawners as string[] = ["minecraft:blaze","minecraft:cave_spider",
-			"minecraft:creeper",
-			"minecraft:enderman","minecraft:evocation_fangs","minecraft:evocation_illager",
-			"minecraft:ghast","minecraft:giant","minecraft:guardian",
-			"minecraft:illusion_illager","minecraft:polar_bear","minecraft:shulker",
-			"minecraft:skeleton","minecraft:skeleton_horse","minecraft:spider",
-			"minecraft:vex","minecraft:villager_golem","minecraft:vindication_illager","minecraft:witch",
-			"minecraft:wither","minecraft:wither_skeleton","minecraft:zombie","minecraft:zombie_horse",
-			"minecraft:zombie_pigman","minecraft:zombie_villager","minecraft:husk","minecraft:endermite"
+			"minecraft:creeper","minecraft:skeleton","minecraft:skeleton_horse","minecraft:spider",
+			"minecraft:wither_skeleton","minecraft:zombie","minecraft:zombie_horse",
+			"minecraft:zombie_villager"
 		];
 
 	

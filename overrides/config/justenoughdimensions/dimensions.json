@@ -11,8 +11,8 @@
 			"PlayerInventoryGroup": "Digimon"
 			},
 		"worldinfo_onetime": {
-			"SpawnX": "0.0",
-			"SpawnZ": "0.0"
+			"SpawnX": 0,
+			"SpawnZ": 0
 		}
 	},
 	{
@@ -23,20 +23,45 @@
 			}
 	},
 	{
-      "dim": 57,
-	  "jed": {
-                "PlayerInventoryGroup": "Pixelmon"
+      		"dim": 57,
+	  	"jed": {
+                	"PlayerInventoryGroup": "Pixelmon"
+            	},
+      		"dimensiontype": {
+        		"id": 57,
+        		"name": "Pixelmon Realm",
+        		"suffix": "_dim57",
+        		"keeploaded": false,
+        		"worldprovider": "WorldProviderSurfaceJED"
+      		},
+       		"worldinfo_onetime": {
+        		"generatorName": "Default"
+      		}
+	},
+		{
+      		"dim": 58,
+			"jed": {
+                "ForceGameMode": true
             },
-      "dimensiontype": {
-        "id": 57,
-        "name": "Pixelmon Realm",
-        "suffix": "_dim57",
-        "keeploaded": false,
-        "worldprovider": "WorldProviderSurfaceJED"
-      },
-       "worldinfo_onetime": {
-        "generatorName": "Default"
-      }
-    }
-  ]
+      		"dimensiontype": {
+        		"id": 58,
+        		"name": "Plane Realm",
+        		"suffix": "_dim58",
+        		"keeploaded": false,
+        		"worldprovider": "WorldProviderSurfaceJED"
+      		},
+       		"worldinfo_onetime": {
+				"generatorName": "flat",
+				"GameRules": {
+					"SpawnRadius": "0"
+				},
+				"SpawnX": 0,
+				"SpawnZ": 0,
+				"SpawnY": 64,
+				"GameType": 2,
+				"generatorOptions": "3;minecraft:air;1",
+				"GGgeneratorOptions": "3;minecraft:bedrock,63*minecraft:stone,minecraft:grass;1"
+            }
+		}
+   ]
 }

@@ -68,10 +68,10 @@
 	},
 	"color": {
 		"colors": [
-			"BROWN",
-			"YELLOW",
 			"BLUE",
-			"LIME"
+			"YELLOW",
+			"LIME",
+			"BROWN"
 		],
 		"dyeBehavior": "ONLY_DEFINED_COLORS"
 	},

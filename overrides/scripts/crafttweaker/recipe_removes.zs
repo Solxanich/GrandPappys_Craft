@@ -2,3 +2,17 @@ recipes.removeByRegex("lordcraft:(3[0-5]|5[6-9]|[6-9][0-9]|1([0-4][0-9]|5([0-2]|
 recipes.remove(<enderstorage:ender_storage>);
 recipes.remove(<lordcraft:tile>);
 recipes.remove(<lordcraft:book_sharing>);
+recipes.remove(<qualitytools:emerald_ring>);
+recipes.remove(<qualitytools:emerald_amulet>);
+recipes.remove(<antiqueatlas:empty_antique_atlas>);
+recipes.remove(<waystones:waystone>);
+recipes.remove(<firstaid:plaster>);
+recipes.remove(<firstaid:bandage>);
+recipes.remove(<roughtweaks:salve>);
+recipes.remove(<roughtweaks:plaster>);
+recipes.remove(<roughtweaks:bandage>);
+recipes.remove(<minecraft:snow_layer>);
+recipes.remove(<minecraft:web>);
+recipes.remove(<sereneseasons:greenhouse_glass>);
+recipes.remove(<minecraft:sandstone>);
+recipes.remove(<minecraft:red_sandstone>);

@@ -2993,6 +2993,9 @@ bloodarsenal:blood_capacitor
 bountifulbaubles:reforger
 campfire:ash
 campfire:campfire
+cd4017be_lib:energy_supp
+cd4017be_lib:item_supp
+cd4017be_lib:fluid_supp
 chickens:henhouse
 chickens:henhouse_acacia
 chickens:henhouse_birch
@@ -4226,6 +4229,9 @@ vampirism:blood_grinder
 vampirism:blood_sieve
 vampirism:totem_top
 vampirism:totem_base
+dimstack:portal
+dimstack:dim_pipe
+dimstack:bedrock
 waystones:waystone
 weather2:tornado_sensor
 weather2:tornado_siren
@@ -4236,8 +4242,6 @@ weather2:weather_machine
 weather2:weather_deflector
 weather2:anemometer
 weather2:sand_layer
-academy:ac_rf_input
-academy:ac_rf_output
 academy:ability_interferer
 academy:cat_engine
 academy:constraint_metal
@@ -4259,6 +4263,8 @@ academy:solar_gen
 academy:windgen_base
 academy:windgen_main
 academy:windgen_pillar
+academy:ac_rf_input
+academy:ac_rf_output
 harvestcraft:pamblackberrycrop
 harvestcraft:pamblueberrycrop
 harvestcraft:pamcandleberrycrop
@@ -5377,6 +5383,8 @@ mca:rose_gold_ore
 mca:villager_spawner
 petrock:stoneiumore
 petrock:stoneiumblock
+simplesponge:sponge
+simplesponge:magmatic_sponge
 variedcommodities:trading_block
 variedcommodities:carpentry_bench
 variedcommodities:blood_block
