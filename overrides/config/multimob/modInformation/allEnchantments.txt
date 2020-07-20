@@ -46,6 +46,7 @@ bibliocraft:bibliocraft.deathcompassench
 bibliocraft:bibliocraft.readingench
 toughasnails:warming
 toughasnails:cooling
+corpsecomplex:soulbound
 defiledlands:sharpshooter
 defiledlands:economical
 defiledlands:destructive
@@ -219,7 +220,6 @@ apotheosis:splitting
 apotheosis:natures_blessing
 apotheosis:rebounding
 apotheosis:magic_protection
-apotheosis:capturing
 apotheosis:true_infinity
 mujmajnkraftsbettersurvival:vampirism
 mujmajnkraftsbettersurvival:agility

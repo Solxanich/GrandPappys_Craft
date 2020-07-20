@@ -392,7 +392,7 @@ Spawning {
     # Number of blocks for a level increase when Spawn Levels By Distance enabled.
     distancePerLevel=30
     # The maximum number of entities (NPC or Pokémon) that can spawn per player. Lower for better performance.
-    entitiesPerPlayer=75
+    entitiesPerPlayer=40
     # Chance of a wild Pokémon spawning with its hidden Ability (1/rate). 0 disables hidden Ability spawns.
     hiddenAbilitySpawnRate=150
     # The horizontal radius of the areas randomly selected near the player to do spawning in. Lower for better performance but less reliable spawning.
@@ -414,7 +414,7 @@ Spawning {
     # The maximum distance from the player that entities may spawn.
     maximumDistanceFromCentre=64
     # The maximum number of Pokémon that can be naturally spawned in at once. This does not count fishing, external moves, commands, or legendary spawning.
-    maximumSpawnedPokemon=3000
+    maximumSpawnedPokemon=1500
     # Chance for a Meltan to spawn when smelting a metal ore block. 1/x
     meltanSpawnChance=3072
     # Percentage chance for a Meltan to transform into Ditto on capture.
@@ -428,7 +428,7 @@ Spawning {
     # Shiny calculation uses 1/(Shiny rate) to get odds of becoming Shiny.
     shinySpawnRate=4096
     # The number of spawn passes made per minute. Decrease for better performance.
-    spawnFrequency=120
+    spawnFrequency=20
     # Sets spawning of Gyms in close proximity to newly generated towns on or off.
     spawnGyms=true
     # Sets whether or not Pokémon levels are determined by distance from the World's spawn point.

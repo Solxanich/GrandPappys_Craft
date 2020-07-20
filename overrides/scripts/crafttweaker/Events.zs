@@ -16,8 +16,9 @@ events.onPlayerChangedDimension(function(event as crafttweaker.event.PlayerChang
 		event.player.sendChat("Downloaded.");}
 });
 
-events.onPlayerSleepInBed(function(event as crafttweaker.event.PlayerSleepInBedEvent){
-	if (!event.player.hasGameStage("Overworld") & event.player.dimension==0){event.player.addGameStage("Overworld");event.player.sendChat("You hear a strange noise coming from beneath you...");
+events.onPlayerAdvancement(function(event as crafttweaker.event.PlayerAdvancementEvent){
+	if (!event.player.hasGameStage("Overworld") & event.player.dimension==0 & event.id=="minecraft:adventure/sleep_in_bed"){
+		event.player.addGameStage("Overworld");event.player.sendChat("You hear a strange noise coming from beneath you...");
 		event.player.sendChat("The ancient spirits of light and dark have awoken!");
 		event.player.sendChat("It's dangerous to go alone now. Take this, and use it wisely!");
 		event.player.give(<bountifulbaubles:potionwormhole>);}
@@ -26,7 +27,20 @@ events.onPlayerSleepInBed(function(event as crafttweaker.event.PlayerSleepInBedE
 
 
 events.onPlayerLoggedIn(function(event as crafttweaker.event.PlayerLoggedInEvent){
-	if (!event.player.hasGameStage("Default") & event.player.dimension==0){event.player.addGameStage("Default");}
+	if (!event.player.hasGameStage("Default") & event.player.dimension==58){
+		event.player.addGameStage("Default");
+		event.player.give(<minecraft:written_book>.withTag({
+			pages:["{\"text\":\"Oh my.\\nThe plane's left and right engines are gone! \\n
+			You better quickly learn how to use your parachute, and then jump!\"}",
+			"{\"text\":\"Parachute Instructions: \\n 1. Wear Parachute in \\u0020Armor Slot  \\n 2. 
+			Jump through plane hatch to get out of crashing plane \\n 3. 
+			Press ALT+B to open parachute when you can see land. \"}"],
+			title:"IMPORTANT: READ NOW",author:"Flight Attendant",
+			display:{Lore:["If you wish to live, you should probably listen to your flight attendant."]}}));
+		event.player.give(<improvedbackpacks:backpack>.withDisplayName("Parachute"));
+		event.player.addPotionEffect(<potion:minecraft:regeneration>.makePotionEffect(6000,2));
+		event.player.addPotionEffect(<potion:minecraft:absorption>.makePotionEffect(6000,2));
+	}
 });
 
 events.onPlayerItemPickup(function(event as crafttweaker.event.PlayerItemPickupEvent){
@@ -43,6 +57,7 @@ events.onPlayerCrafted(function(event as crafttweaker.event.PlayerCraftedEvent){
 		event.player.addGameStage("aether");
 	}
 });
+
 
 
 		

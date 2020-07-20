@@ -1,0 +1,94 @@
+{
+	"*": {
+		"*": {
+			"type": "sorrow",
+			"midnight_jewel": true
+		},
+		"minecraft:blaze": {
+			"type": "blazing",
+			"midnight_jewel": true
+		},
+		"minecraft:zombie": {
+			"type": "normal",
+			"midnight_jewel": true
+		},
+		"minecraft:cave_spider": {
+			"type": "spooky",
+			"midnight_jewel": true
+		},
+		"minecraft:skeleton": {
+			"type": "earthy",
+			"midnight_jewel": true
+		},
+		"minecraft:enderman": {
+			"type": "ender",
+			"midnight_jewel": true
+		}
+	},
+	"Mineshaft": {
+		"*": {
+			"type": "sorrow",
+			"midnight_jewel": true
+		},
+		"minecraft:blaze": {
+			"type": "blazing",
+			"midnight_jewel": true
+		},
+		"minecraft:zombie": {
+			"type": "normal",
+			"midnight_jewel": true
+		},
+		"minecraft:cave_spider": {
+			"type": "spooky",
+			"midnight_jewel": true
+		},
+		"minecraft:skeleton": {
+			"type": "earthy",
+			"midnight_jewel": true
+		}
+	},
+	"Stronghold": {
+		"*": {
+			"type": "sorrow",
+			"midnight_jewel": true
+		},
+		"minecraft:blaze": {
+			"type": "blazing",
+			"midnight_jewel": true
+		},
+		"minecraft:zombie": {
+			"type": "normal",
+			"midnight_jewel": true
+		},
+		"minecraft:cave_spider": {
+			"type": "spooky",
+			"midnight_jewel": true
+		},
+		"minecraft:skeleton": {
+			"type": "earthy",
+			"midnight_jewel": true
+		}
+	},
+	"Mansion": {
+		"*": {
+			"type": "sorrow",
+			"midnight_jewel": true
+		},
+		"minecraft:blaze": {
+			"type": "blazing",
+			"midnight_jewel": true
+		},
+		"minecraft:zombie": {
+			"type": "normal",
+			"midnight_jewel": true
+		},
+		"minecraft:cave_spider": {
+			"type": "spooky",
+			"midnight_jewel": true
+		},
+		"minecraft:skeleton": {
+			"type": "earthy",
+			"midnight_jewel": true
+		}
+	}
+}
