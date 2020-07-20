@@ -1,0 +1,19 @@
+#Sun Jun 14 13:59:35 MDT 2020
+shaderPack=Sildurs Vibrant Shaders v1.22 Extreme.zip
+antialiasingLevel=0
+normalMapEnabled=true
+specularMapEnabled=true
+renderResMul=0.70710677
+shadowResMul=1.0
+handDepthMul=0.125
+cloudShadow=false
+oldHandLight=default
+oldLighting=false
+tweakBlockDamage=false
+shadowClipFrustrum=true
+TexMinFilB=0
+TexMinFilN=0
+TexMinFilS=0
+TexMagFilB=0
+TexMagFilN=0
+TexMagFilS=0
