@@ -1,0 +1,19 @@
+{
+    "type": "crafting_forge",
+	"research": 15,
+    "input": [
+        {
+            "item": "minecraft:egg",
+			"count": 1
+        },
+		{
+            "item": "lordcraft:crystal_basic_lightning",
+			"data": 0,
+			"count": 1
+        }
+    ],
+    "result": {
+        "item": "contenttweaker:mysticegg",
+		"count": 1
+    }
+}

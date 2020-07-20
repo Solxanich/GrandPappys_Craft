@@ -1,0 +1,42 @@
+{
+  "config_version": {
+    "id": "__default",
+    "version": 0
+  },
+  "dimensions": [
+    {
+		"dim": 8,
+		"override": true,
+		"jed": {
+			"PlayerInventoryGroup": "Digimon"
+			},
+		"worldinfo_onetime": {
+			"SpawnX": "0.0",
+			"SpawnZ": "0.0"
+		}
+	},
+	{
+		"dim": 72,
+		"override": true,
+		"jed": {
+			"PlayerInventoryGroup": "Pixelmon"
+			}
+	},
+	{
+      "dim": 57,
+	  "jed": {
+                "PlayerInventoryGroup": "Pixelmon"
+            },
+      "dimensiontype": {
+        "id": 57,
+        "name": "Pixelmon Realm",
+        "suffix": "_dim57",
+        "keeploaded": false,
+        "worldprovider": "WorldProviderSurfaceJED"
+      },
+       "worldinfo_onetime": {
+        "generatorName": "Default"
+      }
+    }
+  ]
+}
