@@ -642,7 +642,6 @@ static stagedMods as string[][string] = {
 	stageOverworld.stage : [
 		"akashictome",
 		"cookingforblockheads",
-		"lordcraft",
 		"spartanweaponry",
 		"storagedrawers",
 		"aquaculture",
