@@ -1,0 +1,7 @@
+{
+	title: "Mystical Research",
+	icon: "lordcraft:lord_grassb",
+	always_invisible: false,
+	group: 0,
+	default_quest_shape: ""
+}

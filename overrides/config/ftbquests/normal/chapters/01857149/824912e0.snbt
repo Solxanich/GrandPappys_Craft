@@ -1,0 +1,19 @@
+{
+	x: -12.5d,
+	y: -2.0d,
+	dependencies: [
+		"41c69d2f"
+	],
+	hide: true,
+	tasks: [{
+		uid: "35204162",
+		type: "kill",
+		entity: "aoa3:runic_guardian",
+		value: 1L
+	}],
+	rewards: [{
+		uid: "1bf14b95",
+		type: "xp",
+		xp: 100
+	}]
+}

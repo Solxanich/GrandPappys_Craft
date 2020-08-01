@@ -1,0 +1,19 @@
+{
+	x: -20.0d,
+	y: -12.0d,
+	dependencies: [
+		"41c69d2f"
+	],
+	hide: true,
+	tasks: [{
+		uid: "8576bc2a",
+		type: "kill",
+		entity: "minecraft:elder_guardian",
+		value: 1L
+	}],
+	rewards: [{
+		uid: "1a83e938",
+		type: "xp",
+		xp: 100
+	}]
+}

@@ -1,0 +1,40 @@
+{
+	x: 0.0d,
+	y: -2.0d,
+	dependencies: [
+		"d7205e1f"
+	],
+	hide: true,
+	tasks: [{
+		uid: "89ec9829",
+		type: "item",
+		items: [{
+			item: "minecraft:quartz_block"
+		}],
+		count: 14L
+	},
+	{
+		uid: "780ecd3e",
+		type: "checkmark",
+		title: "Make a quartz portal! (4 wide x 5 tall)"
+	},
+	{
+		uid: "83431c77",
+		type: "item",
+		items: [{
+			item: "minecraft:water_bucket"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "f61f7a49",
+		type: "ftbmoney:money",
+		ftb_money: 100L
+	},
+	{
+		uid: "2e11faf9",
+		type: "xp",
+		xp: 50
+	}]
+}

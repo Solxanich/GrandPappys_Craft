@@ -1,0 +1,32 @@
+{
+	title: "Don't Worry! Your old Grandpappy won't let the game end here",
+	x: -1.5d,
+	y: 0.0d,
+	text: [
+		"Grandpappy Solxan will interfere a little among the living to help out you grandkids.",
+		"How about we start by dusting off my old survival guide, and grabbing some dirt?",
+		"I might be able to use the dirt to recover some of your belongings."
+	],
+	dependencies: [
+		"2b2e3b60"
+	],
+	hide: true,
+	tasks: [{
+		uid: "d1e23e23",
+		type: "item",
+		items: [{
+			item: "minecraft:dirt"
+		}],
+		count: 4L
+	}],
+	rewards: [{
+		uid: "4dc94551",
+		type: "item",
+		item: "levelup2:skillbook"
+	},
+	{
+		uid: "06714001",
+		type: "item",
+		item: "guideapi:notreepunching-guide_book"
+	}]
+}

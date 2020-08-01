@@ -1,0 +1,39 @@
+{
+	x: 1.0d,
+	y: -1.0d,
+	dependencies: [
+		"637fcd5f"
+	],
+	hide: true,
+	tasks: [{
+		uid: "7798ea2f",
+		type: "item",
+		items: [{
+			item: "mob_grinding_utils:saw"
+		}]
+	},
+	{
+		uid: "f9ae0e8b",
+		type: "item",
+		items: [{
+			item: "mob_grinding_utils:wither_muffler"
+		}]
+	},
+	{
+		uid: "76b782b7",
+		type: "item",
+		items: [{
+			item: "mob_grinding_utils:tank_sink"
+		}]
+	}],
+	rewards: [{
+		uid: "02ffe68e",
+		type: "ftbmoney:money",
+		ftb_money: 10L
+	},
+	{
+		uid: "17615b0a",
+		type: "xp",
+		xp: 20
+	}]
+}

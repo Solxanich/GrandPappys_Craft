@@ -1,0 +1,26 @@
+{
+	title: "I made a mistake.",
+	x: 10.0d,
+	y: -9.0d,
+	dependencies: [
+		"55012c8a"
+	],
+	hide: true,
+	tasks: [{
+		uid: "bc40fcb2",
+		type: "item",
+		items: [{
+			item: "vampirism:church_altar"
+		}]
+	}],
+	rewards: [{
+		uid: "162ad911",
+		type: "ftbmoney:money",
+		ftb_money: 10L
+	},
+	{
+		uid: "cf2cadd7",
+		type: "xp",
+		xp: 20
+	}]
+}

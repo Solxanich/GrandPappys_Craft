@@ -1,0 +1,7 @@
+{
+	title: "Challenges",
+	icon: "aoa3:candlefire_sword",
+	always_invisible: false,
+	group: 0,
+	default_quest_shape: ""
+}

@@ -1,0 +1,25 @@
+{
+	x: 4.5d,
+	y: -1.0d,
+	dependencies: [
+		"b4bf6d61"
+	],
+	hide: true,
+	tasks: [{
+		uid: "6d25322c",
+		type: "item",
+		items: [{
+			item: "hatchery:nest"
+		}]
+	}],
+	rewards: [{
+		uid: "be2292e3",
+		type: "ftbmoney:money",
+		ftb_money: 25L
+	},
+	{
+		uid: "a7810566",
+		type: "xp",
+		xp: 20
+	}]
+}

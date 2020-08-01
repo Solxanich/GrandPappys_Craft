@@ -1,0 +1,25 @@
+{
+	x: 1.0d,
+	y: -7.0d,
+	dependencies: [
+		"d66582b0"
+	],
+	hide: true,
+	tasks: [{
+		uid: "91205aa9",
+		type: "item",
+		items: [{
+			item: "storagedrawers:controller"
+		}]
+	}],
+	rewards: [{
+		uid: "01573eb5",
+		type: "ftbmoney:money",
+		ftb_money: 10L
+	},
+	{
+		uid: "3b4643a0",
+		type: "xp",
+		xp: 20
+	}]
+}

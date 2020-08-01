@@ -428,7 +428,7 @@ Spawning {
     # Shiny calculation uses 1/(Shiny rate) to get odds of becoming Shiny.
     shinySpawnRate=4096
     # The number of spawn passes made per minute. Decrease for better performance.
-    spawnFrequency=20
+    spawnFrequency=10
     # Sets spawning of Gyms in close proximity to newly generated towns on or off.
     spawnGyms=true
     # Sets whether or not Pokémon levels are determined by distance from the World's spawn point.
@@ -454,7 +454,7 @@ Spawning {
     # pixelmon.config.spawnZygardeCells.comment
     spawnZygardeCells=true
     # The maximum number of spawns in a single spawn cycle for a single player. Lower for slower spawning and better performance.
-    spawnsPerPass=5
+    spawnsPerPass=20
     # Chance for a wild Pokemon to turn into a Ditto on capture.
     transformToDittoOnCatch=0.001
     # If true, Pokémon will spawn with the most recent moves in their level-up movepools. If false, Pokémon will spawn with random moves from their level-up movepools.

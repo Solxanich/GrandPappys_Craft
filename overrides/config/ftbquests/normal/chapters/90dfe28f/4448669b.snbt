@@ -1,0 +1,20 @@
+{
+	x: -3.5d,
+	y: -4.5d,
+	dependencies: [
+		"fac6c160"
+	],
+	hide: true,
+	tasks: [{
+		uid: "d0c0f636",
+		type: "item",
+		items: [{
+			item: "pixelmon:great_ball"
+		}]
+	}],
+	rewards: [{
+		uid: "fe9a16fe",
+		type: "item",
+		item: "enderstorage:ender_storage"
+	}]
+}

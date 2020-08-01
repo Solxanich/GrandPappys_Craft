@@ -1,0 +1,45 @@
+{
+	x: 12.0d,
+	y: -3.5d,
+	shape: "heart",
+	dependencies: [
+		"58dcd473"
+	],
+	hide: true,
+	tasks: [{
+		uid: "ea235c61",
+		type: "item",
+		items: [{
+			id: "lordcraft:void_sword",
+			tag: {
+				Quality: {
+					Slots: [
+						"mainhand"
+					],
+					Color: "red",
+					AttributeModifiers: [{
+						UUIDMost: -9180584293976748944L,
+						UUIDLeast: -9087470208273148028L,
+						Amount: -1.0d,
+						AttributeName: "generic.reachDistance",
+						Operation: 0,
+						Name: "qualitytools"
+					}],
+					Name: "quality.short.name"
+				}
+			}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "f657e6f8",
+		type: "ftbmoney:money",
+		ftb_money: 250L
+	},
+	{
+		uid: "bb4996a6",
+		type: "xp",
+		xp: 250
+	}]
+}

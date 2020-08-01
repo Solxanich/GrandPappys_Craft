@@ -1,0 +1,29 @@
+{
+	x: 6.5d,
+	y: -10.0d,
+	shape: "heart",
+	dependencies: [
+		"abb48338",
+		"570bee6e",
+		"fd9cea39"
+	],
+	hide: true,
+	tasks: [{
+		uid: "e16043c8",
+		type: "item",
+		items: [{
+			item: "minecraft:bed"
+		}],
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "0a7dc59d",
+		type: "xp",
+		xp: 100
+	},
+	{
+		uid: "6526a8af",
+		type: "item",
+		item: "contenttweaker:vocationaltoken"
+	}]
+}

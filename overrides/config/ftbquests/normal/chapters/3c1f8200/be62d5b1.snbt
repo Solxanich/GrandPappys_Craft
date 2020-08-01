@@ -1,0 +1,75 @@
+{
+	x: 4.0d,
+	y: -1.5d,
+	dependencies: [
+		"07d3b2b2"
+	],
+	tasks: [{
+		uid: "629eb320",
+		type: "item",
+		items: [{
+			item: "cookingforblockheads:fridge"
+		}],
+		count: 2L
+	},
+	{
+		uid: "757b68b1",
+		type: "item",
+		items: [{
+			item: "cookingforblockheads:counter"
+		}]
+	},
+	{
+		uid: "8d840894",
+		type: "item",
+		items: [{
+			item: "cookingforblockheads:cabinet"
+		}]
+	},
+	{
+		uid: "8db73a0c",
+		type: "item",
+		items: [{
+			item: "cookingforblockheads:corner"
+		}]
+	},
+	{
+		uid: "7a447119",
+		type: "item",
+		items: [{
+			item: "cookingforblockheads:kitchen_floor"
+		}]
+	},
+	{
+		uid: "3161eef0",
+		type: "item",
+		items: [{
+			item: "cookingforblockheads:tool_rack"
+		}],
+		count: 4L
+	},
+	{
+		uid: "31f0f6e5",
+		type: "item",
+		items: [{
+			item: "cookingforblockheads:oven"
+		}]
+	},
+	{
+		uid: "90c945a0",
+		type: "item",
+		items: [{
+			item: "cookingforblockheads:cow_jar"
+		}]
+	}],
+	rewards: [{
+		uid: "e8392b13",
+		type: "ftbmoney:money",
+		ftb_money: 200L
+	},
+	{
+		uid: "abd5933d",
+		type: "xp",
+		xp: 100
+	}]
+}

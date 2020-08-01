@@ -1,0 +1,24 @@
+{
+	x: -8.5d,
+	y: -12.0d,
+	dependencies: [
+		"d3518208"
+	],
+	hide: true,
+	tasks: [{
+		uid: "62556d2e",
+		type: "kill",
+		entity: "tropicraft:tropicreeper",
+		value: 1L
+	}],
+	rewards: [{
+		uid: "2f33197f",
+		type: "ftbmoney:money",
+		ftb_money: 10L
+	},
+	{
+		uid: "1f68cd34",
+		type: "xp",
+		xp: 20
+	}]
+}

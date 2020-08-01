@@ -1,0 +1,40 @@
+{
+	title: "Basics",
+	x: -3.0d,
+	y: -4.5d,
+	dependencies: [
+		"3560edda"
+	],
+	hide: true,
+	tasks: [{
+		uid: "294fcea3",
+		type: "item",
+		items: [{
+			item: "minecraft:dirt"
+		}]
+	},
+	{
+		uid: "aa448a20",
+		type: "item",
+		items: [{
+			item: "minecraft:cobblestone"
+		}]
+	},
+	{
+		uid: "b1a60f20",
+		type: "item",
+		items: [{
+			item: "minecraft:sand"
+		}]
+	}],
+	rewards: [{
+		uid: "db673d7e",
+		type: "xp",
+		xp: 10
+	},
+	{
+		uid: "567cd9d7",
+		type: "ftbmoney:money",
+		ftb_money: 50L
+	}]
+}

@@ -1,0 +1,31 @@
+{
+	x: -18.0d,
+	y: 0.0d,
+	shape: "heart",
+	dependencies: [
+		"93e9ec2b"
+	],
+	hide: true,
+	tasks: [{
+		uid: "ca6b6e6a",
+		type: "item",
+		items: [{
+			id: "bountifulbaubles:shieldankh",
+			tag: {
+				HideFlags: 2
+			}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "02c4b8d2",
+		type: "xp",
+		xp: 10
+	},
+	{
+		uid: "affb7062",
+		type: "ftbmoney:money",
+		ftb_money: 50L
+	}]
+}

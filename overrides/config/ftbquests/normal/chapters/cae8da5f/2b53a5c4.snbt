@@ -1,0 +1,25 @@
+{
+	x: 10.5d,
+	y: -13.0d,
+	dependencies: [
+		"6c672091"
+	],
+	hide: true,
+	tasks: [{
+		uid: "13808201",
+		type: "item",
+		items: [{
+			item: "vampirism:item_garlic"
+		}]
+	}],
+	rewards: [{
+		uid: "2269925f",
+		type: "ftbmoney:money",
+		ftb_money: 10L
+	},
+	{
+		uid: "c037c00f",
+		type: "xp",
+		xp: 20
+	}]
+}

@@ -1,0 +1,20 @@
+{
+	x: -10.0d,
+	y: 4.0d,
+	dependencies: [
+		"a33a168c"
+	],
+	hide: true,
+	tasks: [{
+		uid: "f3ad0c3f",
+		type: "item",
+		items: [{
+			item: "bountifulbaubles:potionrecall"
+		}]
+	}],
+	rewards: [{
+		uid: "6d6b0030",
+		type: "xp",
+		xp: 10
+	}]
+}

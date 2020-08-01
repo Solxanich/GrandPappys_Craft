@@ -1,0 +1,34 @@
+{
+	title: "The Holy Sword ",
+	x: -19.5d,
+	y: -4.0d,
+	shape: "heart",
+	dependencies: [
+		"2b3b5dbe"
+	],
+	hide: true,
+	tasks: [{
+		uid: "be88d63a",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				Parent: {
+					MAHOUTSUKAI_ATTACK_DAMAGE: 3.0f
+				}
+			},
+			id: "mahoutsukai:caliburn"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "6e37f883",
+		type: "ftbmoney:money",
+		ftb_money: 10L
+	},
+	{
+		uid: "07067bb9",
+		type: "xp",
+		xp: 20
+	}]
+}

@@ -96,14 +96,26 @@ item.onItemFoodEaten = function(stack,world,player){
 	}
 }; item.register();
 
-var toy = VanillaFactory.createItem("everFeather");
-toy.rarity = "rare";
-toy.register();
+item = mods.contenttweaker.VanillaFactory.createItemFood("drillLicense",2);
+item.alwaysEdible = true;
+item.saturation = 2;
+item.onItemFoodEaten = function(stack,world,player){
+	if (!player.hasGameStage("envtech")) {
+		player.addGameStage("envtech");
+		player.sendChat("You (somehow) feel qualified to extract resources from below Bedrock!");
+	}
+}; item.register();
 
-toy = VanillaFactory.createItem("drillLicense");
-toy.rarity = "rare";
-toy.register();
+item = mods.contenttweaker.VanillaFactory.createItemFood("everFeather",2);
+item.alwaysEdible = true;
+item.saturation = 2;
+item.onItemFoodEaten = function(stack,world,player){
+	if (!player.hasGameStage("aether")) {
+		player.addGameStage("aether");
+		player.sendChat("You now believe there may exist a sky region where gravity behaves abnormally...");
+	}
+}; item.register();
 
-toy = VanillaFactory.createItem("VocationalToken");
+var toy = VanillaFactory.createItem("VocationalToken");
 toy.rarity = "rare";
 toy.register();

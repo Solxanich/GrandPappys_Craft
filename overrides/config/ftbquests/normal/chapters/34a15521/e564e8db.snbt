@@ -1,0 +1,25 @@
+{
+	x: -2.0d,
+	y: -1.0d,
+	dependencies: [
+		"1460db1b"
+	],
+	hide: true,
+	tasks: [{
+		uid: "309cce77",
+		type: "item",
+		items: [{
+			item: "defiledlands:hephaestite_block"
+		}]
+	}],
+	rewards: [{
+		uid: "acd39d1a",
+		type: "xp",
+		xp: 10
+	},
+	{
+		uid: "eb337908",
+		type: "ftbmoney:money",
+		ftb_money: 30L
+	}]
+}

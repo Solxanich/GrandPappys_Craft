@@ -1,0 +1,32 @@
+{
+	x: -0.5d,
+	y: 2.5d,
+	dependencies: [
+		"1e15d563"
+	],
+	hide: true,
+	tasks: [{
+		uid: "e8047b11",
+		type: "item",
+		items: [{
+			item: "evilcraft:dark_gem"
+		}]
+	},
+	{
+		uid: "779e0b66",
+		type: "item",
+		items: [{
+			item: "minecraft:apple"
+		}]
+	}],
+	rewards: [{
+		uid: "80dbf8ef",
+		type: "ftbmoney:money",
+		ftb_money: 50L
+	},
+	{
+		uid: "cd4f952d",
+		type: "xp",
+		xp: 20
+	}]
+}

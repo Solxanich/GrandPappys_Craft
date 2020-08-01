@@ -1,0 +1,30 @@
+{
+	x: 4.5d,
+	y: -3.0d,
+	dependencies: [
+		"ada18353"
+	],
+	hide: true,
+	tasks: [{
+		uid: "b4f54843",
+		type: "item",
+		items: [{
+			id: "patchouli:guide_book",
+			tag: {
+				"patchouli:book": "bewitchment:book_of_shadows"
+			}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "4a34fac9",
+		type: "ftbmoney:money",
+		ftb_money: 50L
+	},
+	{
+		uid: "5d725896",
+		type: "xp",
+		xp: 20
+	}]
+}

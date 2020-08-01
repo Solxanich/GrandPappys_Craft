@@ -1,0 +1,29 @@
+{
+	x: 3.5d,
+	y: -3.0d,
+	shape: "pentagon",
+	dependencies: [
+		"5f4765ac"
+	],
+	tasks: [{
+		uid: "9707757d",
+		type: "stat",
+		stat: "stat.waystones:waystonesActivated",
+		value: 3
+	}],
+	rewards: [{
+		uid: "b17cfb40",
+		type: "ftbmoney:money",
+		ftb_money: 400L
+	},
+	{
+		uid: "6c18508c",
+		type: "item",
+		item: "waystones:waystone"
+	},
+	{
+		uid: "8b8be848",
+		type: "xp",
+		xp: 20
+	}]
+}

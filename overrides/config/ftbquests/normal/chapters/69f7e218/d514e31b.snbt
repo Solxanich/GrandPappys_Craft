@@ -1,0 +1,19 @@
+{
+	x: 3.0d,
+	y: -4.0d,
+	dependencies: [
+		"553d6fc4"
+	],
+	tasks: [{
+		uid: "079771fb",
+		type: "item",
+		items: [{
+			item: "lordcraft:dust_magic"
+		}]
+	}],
+	rewards: [{
+		uid: "3bb74670",
+		type: "xp",
+		xp: 10
+	}]
+}

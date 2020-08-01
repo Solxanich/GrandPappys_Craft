@@ -1,0 +1,25 @@
+{
+	x: 3.5d,
+	y: -12.0d,
+	dependencies: [
+		"be67ccab"
+	],
+	hide: true,
+	tasks: [{
+		uid: "c549064a",
+		type: "item",
+		items: [{
+			item: "academy:tutorial"
+		}]
+	}],
+	rewards: [{
+		uid: "9bc596cf",
+		type: "ftbmoney:money",
+		ftb_money: 10L
+	},
+	{
+		uid: "aceffd6b",
+		type: "xp",
+		xp: 20
+	}]
+}

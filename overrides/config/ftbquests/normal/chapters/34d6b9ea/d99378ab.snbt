@@ -1,0 +1,30 @@
+{
+	title: "Did I hear Oil?",
+	x: 0.0d,
+	y: -2.5d,
+	dependencies: [
+		"7ccd06e5"
+	],
+	hide: true,
+	tasks: [{
+		uid: "cc78ec26",
+		type: "item",
+		items: [{
+			id: "immersivepetroleum:schematic",
+			tag: {
+				multiblock: "IP:Pumpjack"
+			}
+		}],
+		ignore_damage: true
+	}],
+	rewards: [{
+		uid: "f7344597",
+		type: "ftbmoney:money",
+		ftb_money: 50L
+	},
+	{
+		uid: "890f6b1f",
+		type: "xp",
+		xp: 100
+	}]
+}

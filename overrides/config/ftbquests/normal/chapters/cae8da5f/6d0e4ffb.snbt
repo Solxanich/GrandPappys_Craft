@@ -1,0 +1,48 @@
+{
+	x: -8.5d,
+	y: -8.0d,
+	dependencies: [
+		"4f41e070"
+	],
+	hide: true,
+	tasks: [{
+		uid: "407eb94c",
+		type: "item",
+		items: [{
+			item: "tropicraft:chair"
+		}]
+	},
+	{
+		uid: "02b84612",
+		type: "item",
+		items: [{
+			id: "tropicraft:cocktail",
+			tag: {
+				Ingredients: [{
+					IngredientID: 9b
+				},
+				{
+					IngredientID: 11b
+				}],
+				Color: 15724527,
+				DrinkID: 6b
+			}
+		}],
+		ignore_nbt: 1b
+	},
+	{
+		uid: "e8f4b8dd",
+		type: "checkmark",
+		title: "Watch sunset in vacation chair with drink"
+	}],
+	rewards: [{
+		uid: "5e42abe5",
+		type: "ftbmoney:money",
+		ftb_money: 10L
+	},
+	{
+		uid: "c259f5ec",
+		type: "xp",
+		xp: 20
+	}]
+}

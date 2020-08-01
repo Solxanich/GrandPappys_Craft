@@ -1,0 +1,19 @@
+{
+	x: 2.0d,
+	y: -2.5d,
+	dependencies: [
+		"553d6fc4"
+	],
+	tasks: [{
+		uid: "3165a956",
+		type: "item",
+		items: [{
+			item: "lordcraft:shard_magic"
+		}]
+	}],
+	rewards: [{
+		uid: "9174ac92",
+		type: "xp",
+		xp: 20
+	}]
+}

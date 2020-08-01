@@ -1,0 +1,26 @@
+{
+	x: 8.0d,
+	y: 4.0d,
+	dependencies: [
+		"37afc4e6"
+	],
+	hide: true,
+	tasks: [{
+		uid: "6b8a8f20",
+		type: "item",
+		items: [{
+			item: "thebetweenlands:sap_ball"
+		}],
+		count: 10L
+	}],
+	rewards: [{
+		uid: "87549349",
+		type: "ftbmoney:money",
+		ftb_money: 10L
+	},
+	{
+		uid: "1abfbfb5",
+		type: "xp",
+		xp: 20
+	}]
+}

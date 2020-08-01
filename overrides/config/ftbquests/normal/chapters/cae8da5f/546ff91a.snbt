@@ -1,0 +1,39 @@
+{
+	x: -5.5d,
+	y: -4.0d,
+	dependencies: [
+		"4f41e070"
+	],
+	hide: true,
+	tasks: [{
+		uid: "47281f52",
+		type: "item",
+		items: [{
+			item: "bibliocraft:bookcase"
+		}]
+	},
+	{
+		uid: "c0028477",
+		type: "item",
+		items: [{
+			item: "bibliocraft:desk"
+		}]
+	},
+	{
+		uid: "8fa6a127",
+		type: "item",
+		items: [{
+			item: "bibliocraft:seat"
+		}]
+	}],
+	rewards: [{
+		uid: "cf28e403",
+		type: "ftbmoney:money",
+		ftb_money: 10L
+	},
+	{
+		uid: "69fa49ac",
+		type: "xp",
+		xp: 20
+	}]
+}

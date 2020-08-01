@@ -1,0 +1,39 @@
+{
+	title: "Planet Glacidus?",
+	x: -1.0d,
+	y: 5.5d,
+	dependencies: [
+		"ef78404a"
+	],
+	hide: true,
+	tasks: [{
+		uid: "f021ed4a",
+		type: "item",
+		items: [{
+			item: "minecraft:packed_ice"
+		}],
+		count: 30L
+	},
+	{
+		uid: "41a1f13f",
+		type: "item",
+		items: [{
+			item: "minecraft:glowstone"
+		}]
+	},
+	{
+		uid: "78677393",
+		type: "checkmark",
+		title: "Built Portal according to https://www.curseforge.com/minecraft/mc-mods/glacidus"
+	}],
+	rewards: [{
+		uid: "dc2a3c20",
+		type: "ftbmoney:money",
+		ftb_money: 10L
+	},
+	{
+		uid: "f4f95c42",
+		type: "xp",
+		xp: 20
+	}]
+}

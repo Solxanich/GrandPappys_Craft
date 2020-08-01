@@ -1,0 +1,26 @@
+{
+	x: 12.0d,
+	y: -1.5d,
+	dependencies: [
+		"3b9f4d7f"
+	],
+	hide: true,
+	tasks: [{
+		uid: "1b489e8a",
+		type: "item",
+		items: [{
+			item: "goodnightsleep:candy_ore"
+		}],
+		count: 10L
+	}],
+	rewards: [{
+		uid: "943bad69",
+		type: "ftbmoney:money",
+		ftb_money: 10L
+	},
+	{
+		uid: "ad443f17",
+		type: "xp",
+		xp: 20
+	}]
+}

@@ -1,0 +1,38 @@
+{
+	x: -5.0d,
+	y: -16.5d,
+	dependencies: [
+		"5f5f29d3"
+	],
+	hide: true,
+	tasks: [{
+		uid: "2c799d76",
+		type: "item",
+		items: [{
+			item: "atum:khnumite_block"
+		}],
+		count: 2L
+	},
+	{
+		uid: "43d4e9aa",
+		type: "item",
+		items: [{
+			item: "atum:khnumite_face"
+		}]
+	},
+	{
+		uid: "af188b45",
+		type: "checkmark",
+		title: "Build a StoneGuard (stack with face on top)"
+	}],
+	rewards: [{
+		uid: "acb8b3d1",
+		type: "ftbmoney:money",
+		ftb_money: 10L
+	},
+	{
+		uid: "184a3290",
+		type: "xp",
+		xp: 20
+	}]
+}

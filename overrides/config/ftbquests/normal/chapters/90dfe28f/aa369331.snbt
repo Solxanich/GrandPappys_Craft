@@ -1,0 +1,52 @@
+{
+	title: "Getting Started",
+	x: 0.5d,
+	y: 0.0d,
+	dependencies: [
+		"da99a1fc",
+		"a2d0b3be"
+	],
+	hide: true,
+	tasks: [{
+		uid: "2ec81b83",
+		type: "item",
+		items: [{
+			item: "contenttweaker:data_pin"
+		}]
+	},
+	{
+		uid: "eb661ca6",
+		type: "item",
+		items: [{
+			item: "contenttweaker:power_pin"
+		}]
+	},
+	{
+		uid: "52c43aef",
+		type: "item",
+		items: [{
+			item: "minecraft:lever"
+		}]
+	}],
+	rewards: [{
+		uid: "9a575d4d",
+		type: "ftbmoney:money",
+		ftb_money: 250L
+	},
+	{
+		uid: "5084a933",
+		type: "item",
+		item: "minecraft:stained_hardened_clay 1 3",
+		count: 4
+	},
+	{
+		uid: "3a97ea9e",
+		type: "item",
+		item: "enderstorage:ender_storage"
+	},
+	{
+		uid: "8017ad69",
+		type: "xp",
+		xp: 50
+	}]
+}

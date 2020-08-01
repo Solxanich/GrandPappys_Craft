@@ -1,0 +1,30 @@
+{
+	x: -7.5d,
+	y: -4.5d,
+	dependencies: [
+		"51d2896a"
+	],
+	tasks: [{
+		uid: "651d5fd2",
+		type: "item",
+		items: [{
+			item: "notreepunching:knife/flint"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "cd235c6c",
+		type: "item",
+		items: [{
+			item: "notreepunching:axe/flint"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "ab5d1292",
+		type: "xp",
+		xp: 10
+	}]
+}

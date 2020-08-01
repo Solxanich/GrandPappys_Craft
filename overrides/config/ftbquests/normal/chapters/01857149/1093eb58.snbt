@@ -1,0 +1,19 @@
+{
+	x: -15.5d,
+	y: -4.5d,
+	dependencies: [
+		"41c69d2f"
+	],
+	hide: true,
+	tasks: [{
+		uid: "ea20828a",
+		type: "kill",
+		entity: "netherex:ghast_queen",
+		value: 1L
+	}],
+	rewards: [{
+		uid: "a75648bb",
+		type: "xp",
+		xp: 100
+	}]
+}

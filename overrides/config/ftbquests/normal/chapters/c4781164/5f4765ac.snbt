@@ -1,0 +1,30 @@
+{
+	x: 1.5d,
+	y: -1.0d,
+	dependencies: [
+		"43db5979",
+		"bce30e95"
+	],
+	tasks: [{
+		uid: "05698caa",
+		type: "item",
+		items: [{
+			item: "antiqueatlas:empty_antique_atlas"
+		}]
+	}],
+	rewards: [{
+		uid: "47609b56",
+		type: "ftbmoney:money",
+		ftb_money: 250L
+	},
+	{
+		uid: "56da4b3c",
+		type: "xp",
+		xp: 50
+	},
+	{
+		uid: "1eb8ea95",
+		type: "item",
+		item: "antiqueatlas:empty_antique_atlas"
+	}]
+}

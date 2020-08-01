@@ -1,0 +1,35 @@
+{
+	x: 13.5d,
+	y: -13.0d,
+	description: "Trade in Vampire Blood with Hunters to level",
+	dependencies: [
+		"2b53a5c4"
+	],
+	hide: true,
+	tasks: [{
+		uid: "78175963",
+		type: "item",
+		items: [{
+			item: "vampirism:stake"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "be6824ed",
+		type: "item",
+		items: [{
+			item: "vampirism:vampire_blood_bottle"
+		}]
+	}],
+	rewards: [{
+		uid: "f89e530f",
+		type: "ftbmoney:money",
+		ftb_money: 10L
+	},
+	{
+		uid: "5de127e4",
+		type: "xp",
+		xp: 20
+	}]
+}

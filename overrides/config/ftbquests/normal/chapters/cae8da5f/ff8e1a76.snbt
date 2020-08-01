@@ -1,0 +1,26 @@
+{
+	x: 9.0d,
+	y: 10.0d,
+	dependencies: [
+		"2ad7afb5"
+	],
+	hide: true,
+	tasks: [{
+		uid: "093827e4",
+		type: "item",
+		items: [{
+			item: "thebetweenlands:octine_ore"
+		}],
+		count: 10L
+	}],
+	rewards: [{
+		uid: "1f97b54a",
+		type: "ftbmoney:money",
+		ftb_money: 10L
+	},
+	{
+		uid: "e492cc8d",
+		type: "xp",
+		xp: 20
+	}]
+}

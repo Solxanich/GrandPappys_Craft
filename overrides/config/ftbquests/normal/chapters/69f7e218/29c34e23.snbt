@@ -1,0 +1,22 @@
+{
+	x: -7.0d,
+	y: 0.0d,
+	dependencies: [
+		"56c65b9d"
+	],
+	hide: true,
+	tasks: [{
+		uid: "563b22fc",
+		type: "item",
+		items: [{
+			item: "bountifulbaubles:trinketluckyhorseshoe"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "ea57464c",
+		type: "xp",
+		xp: 10
+	}]
+}

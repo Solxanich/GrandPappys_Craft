@@ -1,0 +1,25 @@
+{
+	x: -1.0d,
+	y: -6.5d,
+	dependencies: [
+		"be0405f1"
+	],
+	hide: true,
+	tasks: [{
+		uid: "aacbf779",
+		type: "item",
+		items: [{
+			item: "mcwbridges:rope_oak_bridge"
+		}]
+	}],
+	rewards: [{
+		uid: "7962f8f8",
+		type: "ftbmoney:money",
+		ftb_money: 10L
+	},
+	{
+		uid: "19eaf96e",
+		type: "xp",
+		xp: 20
+	}]
+}

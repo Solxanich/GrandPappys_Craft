@@ -1,0 +1,16 @@
+{
+	x: -4.0d,
+	y: 0.0d,
+	tasks: [{
+		uid: "d2daebcc",
+		type: "stat",
+		title: "Well That Was Unexpected....",
+		stat: "stat.deaths",
+		value: 1
+	},
+	{
+		uid: "e61adfb9",
+		type: "checkmark",
+		title: "The parachute was a lie, eh?"
+	}]
+}

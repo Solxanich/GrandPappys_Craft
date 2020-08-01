@@ -1,0 +1,26 @@
+{
+	x: 4.5d,
+	y: 2.0d,
+	dependencies: [
+		"0078528e"
+	],
+	hide: true,
+	tasks: [{
+		uid: "9b870eff",
+		type: "item",
+		items: [{
+			item: "minecraft:quartz"
+		}],
+		count: 64L
+	}],
+	rewards: [{
+		uid: "28d1bf06",
+		type: "ftbmoney:money",
+		ftb_money: 25L
+	},
+	{
+		uid: "9b8db30c",
+		type: "xp",
+		xp: 20
+	}]
+}

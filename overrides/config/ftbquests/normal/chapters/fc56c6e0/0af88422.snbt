@@ -1,0 +1,21 @@
+{
+	x: 0.0d,
+	y: 0.0d,
+	dependencies: [
+		"da762326"
+	],
+	hide: true,
+	dependency_requirement: "one_completed",
+	tasks: [{
+		uid: "9c5378dc",
+		type: "item",
+		items: [{
+			item: "contenttweaker:ascendedmilk"
+		}]
+	}],
+	rewards: [{
+		uid: "4e7f852e",
+		type: "ftbmoney:money",
+		ftb_money: 100L
+	}]
+}

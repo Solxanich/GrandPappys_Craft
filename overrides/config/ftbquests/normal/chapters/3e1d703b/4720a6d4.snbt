@@ -1,0 +1,26 @@
+{
+	x: 3.0d,
+	y: -7.0d,
+	dependencies: [
+		"bca57f7f"
+	],
+	hide: true,
+	tasks: [{
+		uid: "82f68ac8",
+		type: "item",
+		items: [{
+			item: "iceandfire:dragonsteel_fire_ingot"
+		}],
+		count: 8L
+	}],
+	rewards: [{
+		uid: "a1d36fc7",
+		type: "xp",
+		xp: 100
+	},
+	{
+		uid: "bf3fda36",
+		type: "ftbmoney:money",
+		ftb_money: 250L
+	}]
+}

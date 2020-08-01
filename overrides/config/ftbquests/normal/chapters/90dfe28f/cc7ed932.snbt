@@ -1,0 +1,58 @@
+{
+	title: "Pixelmon?",
+	icon: "pixelmon:poke_ball",
+	x: -1.5d,
+	y: -1.0d,
+	dependencies: [
+		"aa369331"
+	],
+	hide: true,
+	tasks: [{
+		uid: "a4308ebb",
+		type: "item",
+		items: [{
+			item: "minecraft:gold_block"
+		}],
+		count: 4L
+	},
+	{
+		uid: "7f812e50",
+		type: "item",
+		items: [{
+			item: "minecraft:iron_block"
+		}],
+		count: 2L
+	},
+	{
+		uid: "0662bffc",
+		type: "item",
+		items: [{
+			item: "minecraft:packed_ice"
+		}]
+	},
+	{
+		uid: "e3d96adc",
+		type: "item",
+		items: [{
+			item: "minecraft:redstone_block"
+		}],
+		count: 2L
+	},
+	{
+		uid: "9949c057",
+		type: "item",
+		items: [{
+			item: "contenttweaker:pixelmoncartridge"
+		}]
+	}],
+	rewards: [{
+		uid: "17aa5a6d",
+		type: "ftbmoney:money",
+		ftb_money: 100L
+	},
+	{
+		uid: "c1f0fbbc",
+		type: "toast",
+		title: "Magikarp Vs. Sea Serpent. On now!"
+	}]
+}

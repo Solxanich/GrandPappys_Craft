@@ -1,0 +1,54 @@
+{
+	x: -5.0d,
+	y: -3.0d,
+	dependencies: [
+		"e916fd70",
+		"eea0294f"
+	],
+	tasks: [{
+		uid: "3cfb93b0",
+		type: "item",
+		items: [{
+			item: "minecraft:stone_axe"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "2b9d61b3",
+		type: "item",
+		items: [{
+			item: "minecraft:stone_pickaxe"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "fda1ad13",
+		type: "item",
+		items: [{
+			item: "minecraft:stone_sword"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "bba7fa2f",
+		type: "item",
+		items: [{
+			item: "minecraft:stone_hoe"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "82939fa9",
+		type: "ftbmoney:money",
+		ftb_money: 100L
+	},
+	{
+		uid: "415d9aef",
+		type: "xp",
+		xp: 20
+	}]
+}

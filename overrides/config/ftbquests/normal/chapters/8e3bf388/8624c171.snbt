@@ -1,0 +1,25 @@
+{
+	x: 0.5d,
+	y: -1.0d,
+	dependencies: [
+		"b4bf6d61"
+	],
+	hide: true,
+	tasks: [{
+		uid: "5cd92fd4",
+		type: "item",
+		items: [{
+			item: "chickens:liquid_egg 1 1"
+		}]
+	}],
+	rewards: [{
+		uid: "78d32aa9",
+		type: "ftbmoney:money",
+		ftb_money: 25L
+	},
+	{
+		uid: "954eb8df",
+		type: "xp",
+		xp: 20
+	}]
+}

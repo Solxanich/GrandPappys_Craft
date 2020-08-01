@@ -1,0 +1,19 @@
+{
+	title: "Perfect! Now let's talk about getting you back home.",
+	x: 4.5d,
+	y: 0.0d,
+	text: [
+		"You will need:",
+		"              1. Satellite Transceiver",
+		"              2. A cellphone"
+	],
+	dependencies: [
+		"f1ba687c"
+	],
+	hide: true,
+	tasks: [{
+		uid: "6ddcc0ff",
+		type: "checkmark",
+		title: "Understood"
+	}]
+}

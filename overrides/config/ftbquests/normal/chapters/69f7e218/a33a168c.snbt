@@ -1,0 +1,20 @@
+{
+	x: -7.5d,
+	y: 6.0d,
+	dependencies: [
+		"b0f86722"
+	],
+	hide: true,
+	tasks: [{
+		uid: "582f4393",
+		type: "item",
+		items: [{
+			item: "minecraft:brewing_stand"
+		}]
+	}],
+	rewards: [{
+		uid: "62901b19",
+		type: "xp",
+		xp: 10
+	}]
+}

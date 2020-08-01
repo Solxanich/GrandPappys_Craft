@@ -1,0 +1,33 @@
+{
+	title: "Become a Vampire?",
+	x: 11.5d,
+	y: -8.0d,
+	description: "Consume blood.",
+	dependencies: [
+		"86298386"
+	],
+	hide: true,
+	tasks: [{
+		uid: "a3f36dea",
+		type: "item",
+		items: [{
+			item: "vampirism:vampire_fang"
+		}]
+	},
+	{
+		uid: "4471ffa6",
+		type: "advancement",
+		advancement: "vampirism:vampire/become_vampire",
+		criterion: ""
+	}],
+	rewards: [{
+		uid: "8cb3370a",
+		type: "ftbmoney:money",
+		ftb_money: 10L
+	},
+	{
+		uid: "ac14637d",
+		type: "xp",
+		xp: 20
+	}]
+}

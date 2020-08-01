@@ -1,0 +1,34 @@
+{
+	title: "It's Time to Pick a Class -> Use Skill book",
+	icon: "harvestcraft:garliccoinitem",
+	x: -4.0d,
+	y: -9.0d,
+	shape: "diamond",
+	description: "Can also use CTRL+B",
+	dependencies: [
+		"c8abb68a",
+		"3a6b83a2"
+	],
+	hide: true,
+	tasks: [{
+		uid: "a2d8ab51",
+		type: "xp",
+		value: 5L,
+		points: false
+	}],
+	rewards: [{
+		uid: "773be5e0",
+		type: "item",
+		item: "harvestcraft:onionhamburgeritem"
+	},
+	{
+		uid: "af5acab6",
+		type: "ftbmoney:money",
+		ftb_money: 200L
+	},
+	{
+		uid: "4e41da43",
+		type: "xp_levels",
+		xp_levels: 5
+	}]
+}

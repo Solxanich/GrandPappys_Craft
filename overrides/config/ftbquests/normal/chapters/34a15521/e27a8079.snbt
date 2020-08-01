@@ -1,0 +1,27 @@
+{
+	x: -2.0d,
+	y: 4.0d,
+	dependencies: [
+		"f472f67f"
+	],
+	hide: true,
+	tasks: [{
+		uid: "6444cf5b",
+		type: "item",
+		items: [{
+			item: "defiledlands:calling_stone"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "29328e05",
+		type: "xp",
+		xp: 10
+	},
+	{
+		uid: "85e05724",
+		type: "ftbmoney:money",
+		ftb_money: 20L
+	}]
+}

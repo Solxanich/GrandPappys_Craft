@@ -1,0 +1,26 @@
+{
+	x: 1.5d,
+	y: -3.0d,
+	dependencies: [
+		"bce30e95"
+	],
+	tasks: [{
+		uid: "b53ac206",
+		type: "item",
+		items: [{
+			item: "thermalfoundation:tome_lexicon"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "4d0e85ac",
+		type: "ftbmoney:money",
+		ftb_money: 50L
+	},
+	{
+		uid: "b9f59e61",
+		type: "xp",
+		xp: 20
+	}]
+}

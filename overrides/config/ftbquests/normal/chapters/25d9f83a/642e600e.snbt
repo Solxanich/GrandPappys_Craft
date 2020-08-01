@@ -1,0 +1,21 @@
+{
+	x: 4.0d,
+	y: -2.0d,
+	dependencies: [
+		"e14345d8"
+	],
+	hide: true,
+	tasks: [{
+		uid: "3e9e2287",
+		type: "item",
+		items: [{
+			item: "immersiveengineering:treated_wood"
+		}],
+		count: 32L
+	}],
+	rewards: [{
+		uid: "5753c471",
+		type: "xp",
+		xp: 10
+	}]
+}

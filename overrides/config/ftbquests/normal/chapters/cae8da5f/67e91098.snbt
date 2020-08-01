@@ -1,0 +1,23 @@
+{
+	x: 3.5d,
+	y: 7.5d,
+	dependencies: [
+		"b6a785fa"
+	],
+	hide: true,
+	tasks: [{
+		uid: "8c37fcf0",
+		type: "fluid",
+		fluid: "glacium"
+	}],
+	rewards: [{
+		uid: "db8f6487",
+		type: "ftbmoney:money",
+		ftb_money: 10L
+	},
+	{
+		uid: "9e9bc250",
+		type: "xp",
+		xp: 20
+	}]
+}

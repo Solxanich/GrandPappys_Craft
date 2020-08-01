@@ -1,0 +1,54 @@
+{
+	x: -11.0d,
+	y: -16.5d,
+	dependencies: [
+		"5f5f29d3"
+	],
+	hide: true,
+	tasks: [{
+		uid: "706963c4",
+		type: "item",
+		items: [{
+			item: "atum:anubiss_wrath"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "95ccb589",
+		type: "item",
+		items: [{
+			item: "atum:isis_healing"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "920d8603",
+		type: "item",
+		items: [{
+			item: "atum:horuss_ascension"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "43a18c94",
+		type: "item",
+		items: [{
+			item: "atum:horuss_soaring"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "2eeb2782",
+		type: "ftbmoney:money",
+		ftb_money: 10L
+	},
+	{
+		uid: "841ae0ea",
+		type: "xp",
+		xp: 20
+	}]
+}

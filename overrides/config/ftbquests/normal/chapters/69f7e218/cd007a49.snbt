@@ -1,0 +1,19 @@
+{
+	x: -3.5d,
+	y: -9.5d,
+	description: "In the future, psimetal may be a part of main progression",
+	dependencies: [
+		"37ad78d0"
+	],
+	hide: true,
+	tasks: [{
+		uid: "7e7f8a0f",
+		type: "checkmark",
+		title: "You are PSI-Ready. Give it a try, maybe?"
+	}],
+	rewards: [{
+		uid: "9178bafe",
+		type: "item",
+		item: "psi:material 1 1"
+	}]
+}

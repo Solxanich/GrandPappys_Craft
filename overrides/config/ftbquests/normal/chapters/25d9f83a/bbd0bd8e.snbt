@@ -1,0 +1,28 @@
+{
+	x: 6.0d,
+	y: 6.5d,
+	dependencies: [
+		"a0adfb21",
+		"fe634e35"
+	],
+	hide: true,
+	tasks: [{
+		uid: "e8e1161a",
+		type: "item",
+		items: [{
+			item: "immersiveengineering:connector"
+		}]
+	},
+	{
+		uid: "5e032f27",
+		type: "item",
+		items: [{
+			item: "immersiveengineering:connector 1 1"
+		}]
+	}],
+	rewards: [{
+		uid: "82d2036c",
+		type: "xp",
+		xp: 20
+	}]
+}

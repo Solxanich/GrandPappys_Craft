@@ -1,0 +1,27 @@
+{
+	x: -8.0d,
+	y: 7.5d,
+	dependencies: [
+		"7d13169c"
+	],
+	hide: true,
+	tasks: [{
+		uid: "7ceaea7b",
+		type: "item",
+		items: [{
+			item: "lucraftcore:injection"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "8f9bed27",
+		type: "ftbmoney:money",
+		ftb_money: 10L
+	},
+	{
+		uid: "8f9255e9",
+		type: "xp",
+		xp: 20
+	}]
+}

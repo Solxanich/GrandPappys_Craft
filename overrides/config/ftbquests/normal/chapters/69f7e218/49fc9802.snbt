@@ -1,0 +1,36 @@
+{
+	x: 6.0d,
+	y: -1.0d,
+	dependencies: [
+		"cc85b211"
+	],
+	tasks: [{
+		uid: "01841e39",
+		type: "item",
+		items: [{
+			item: "lordcraft:translocator_pb"
+		}]
+	},
+	{
+		uid: "866ba1c8",
+		type: "item",
+		items: [{
+			item: "lordcraft:translocatorb"
+		}]
+	},
+	{
+		uid: "d691685a",
+		type: "checkmark",
+		title: "Use the Translocation matrix to Get Transmutaiton"
+	}],
+	rewards: [{
+		uid: "52610d14",
+		type: "ftbmoney:money",
+		ftb_money: 100L
+	},
+	{
+		uid: "24a6cb87",
+		type: "xp",
+		xp: 50
+	}]
+}

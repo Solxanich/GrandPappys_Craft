@@ -1,0 +1,19 @@
+{
+	x: -14.0d,
+	y: -7.0d,
+	tasks: [{
+		uid: "488e3787",
+		type: "checkmark",
+		title: "Click the checkmark"
+	}],
+	rewards: [{
+		uid: "82a419fb",
+		type: "ftbmoney:money",
+		ftb_money: 100L
+	},
+	{
+		uid: "4001ab4e",
+		type: "item",
+		item: "minecraft:diamond"
+	}]
+}

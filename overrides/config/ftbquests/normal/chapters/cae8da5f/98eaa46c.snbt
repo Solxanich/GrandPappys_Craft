@@ -1,0 +1,54 @@
+{
+	x: -10.0d,
+	y: -18.5d,
+	dependencies: [
+		"5f5f29d3"
+	],
+	hide: true,
+	tasks: [{
+		uid: "3629f8af",
+		type: "item",
+		items: [{
+			item: "atum:nuits_vanishing"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "2f225d26",
+		type: "item",
+		items: [{
+			item: "atum:nuits_duality"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "60f546d0",
+		type: "item",
+		items: [{
+			item: "atum:nuits_ire"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "e5c1429f",
+		type: "item",
+		items: [{
+			item: "atum:nuits_quarter"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "d9a55596",
+		type: "ftbmoney:money",
+		ftb_money: 10L
+	},
+	{
+		uid: "6f74d9f1",
+		type: "xp",
+		xp: 20
+	}]
+}

@@ -1,0 +1,49 @@
+{
+	x: 10.0d,
+	y: -3.0d,
+	dependencies: [
+		"838f5adc"
+	],
+	hide: true,
+	tasks: [{
+		uid: "ac73dc73",
+		type: "item",
+		items: [{
+			id: "immersiveengineering:conveyor",
+			tag: {
+				conveyorType: "immersiveengineering:conveyor"
+			}
+		}]
+	},
+	{
+		uid: "768929fd",
+		type: "item",
+		items: [{
+			item: "immersiveengineering:metal_device1 1 6"
+		}]
+	},
+	{
+		uid: "620921f1",
+		type: "item",
+		items: [{
+			item: "immersiveengineering:wooden_device0 1 3"
+		}]
+	},
+	{
+		uid: "436d4628",
+		type: "item",
+		items: [{
+			item: "immersiveengineering:wooden_device0 1 7"
+		}]
+	}],
+	rewards: [{
+		uid: "1d1b6ca9",
+		type: "ftbmoney:money",
+		ftb_money: 100L
+	},
+	{
+		uid: "d23edb5c",
+		type: "xp",
+		xp: 50
+	}]
+}

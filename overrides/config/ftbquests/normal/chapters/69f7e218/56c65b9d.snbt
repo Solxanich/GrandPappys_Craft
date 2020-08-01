@@ -1,0 +1,26 @@
+{
+	x: -10.0d,
+	y: 0.0d,
+	dependencies: [
+		"46410a85"
+	],
+	hide: true,
+	tasks: [{
+		uid: "e7af04d0",
+		type: "item",
+		items: [{
+			item: "bountifulbaubles:spectralsilt"
+		}],
+		count: 8L
+	}],
+	rewards: [{
+		uid: "fd06455a",
+		type: "xp",
+		xp: 10
+	},
+	{
+		uid: "86237aed",
+		type: "ftbmoney:money",
+		ftb_money: 25L
+	}]
+}

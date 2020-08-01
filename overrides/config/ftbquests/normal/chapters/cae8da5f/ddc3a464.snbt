@@ -1,0 +1,25 @@
+{
+	x: -5.5d,
+	y: 7.5d,
+	dependencies: [
+		"6578eea5"
+	],
+	hide: true,
+	tasks: [{
+		uid: "40147247",
+		type: "item",
+		items: [{
+			item: "heroesexpansion:kryptonite"
+		}]
+	}],
+	rewards: [{
+		uid: "c94ec382",
+		type: "ftbmoney:money",
+		ftb_money: 10L
+	},
+	{
+		uid: "c94ef8d7",
+		type: "xp",
+		xp: 20
+	}]
+}

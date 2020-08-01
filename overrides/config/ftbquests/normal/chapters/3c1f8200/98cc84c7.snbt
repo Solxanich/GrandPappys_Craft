@@ -1,0 +1,61 @@
+{
+	x: 2.0d,
+	y: -2.0d,
+	dependencies: [
+		"07d3b2b2"
+	],
+	tasks: [{
+		uid: "f528baed",
+		type: "item",
+		items: [{
+			item: "thaumcraft:void_seed"
+		}]
+	},
+	{
+		uid: "770280fa",
+		type: "item",
+		items: [{
+			item: "dynamictreestc:silverwoodseed"
+		}]
+	},
+	{
+		uid: "7464cff7",
+		type: "item",
+		items: [{
+			id: "thaumicaugmentation:rift_seed",
+			tag: {
+				riftSize: 10
+			}
+		}],
+		ignore_nbt: 1b
+	},
+	{
+		uid: "af9e7ed1",
+		type: "item",
+		items: [{
+			id: "thaumicaugmentation:rift_seed",
+			tag: {
+				flux: 100
+			},
+			Damage: 1s
+		}],
+		ignore_nbt: 1b
+	},
+	{
+		uid: "924bb35d",
+		type: "item",
+		items: [{
+			item: "dynamictreestc:greatwoodseed"
+		}]
+	}],
+	rewards: [{
+		uid: "47ac9bd6",
+		type: "ftbmoney:money",
+		ftb_money: 250L
+	},
+	{
+		uid: "3ff442bf",
+		type: "xp",
+		xp: 100
+	}]
+}

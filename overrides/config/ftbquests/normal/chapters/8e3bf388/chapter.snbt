@@ -1,0 +1,7 @@
+{
+	title: "A Simple Life",
+	icon: "minecraft:cooked_chicken",
+	always_invisible: false,
+	group: 0,
+	default_quest_shape: ""
+}

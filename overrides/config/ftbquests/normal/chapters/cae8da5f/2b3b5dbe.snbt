@@ -1,0 +1,40 @@
+{
+	x: -17.5d,
+	y: -4.0d,
+	dependencies: [
+		"b5736b75"
+	],
+	hide: true,
+	tasks: [{
+		uid: "c18216a9",
+		type: "item",
+		items: [{
+			item: "minecraft:diamond_sword"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "ff99aa91",
+		type: "item",
+		items: [{
+			id: "minecraft:enchanted_book",
+			tag: {
+				StoredEnchantments: [{
+					lvl: 5s,
+					id: 17
+				}]
+			}
+		}]
+	}],
+	rewards: [{
+		uid: "ce4d3fdf",
+		type: "ftbmoney:money",
+		ftb_money: 10L
+	},
+	{
+		uid: "f56bc7bf",
+		type: "xp",
+		xp: 20
+	}]
+}

@@ -1,0 +1,19 @@
+{
+	x: -15.5d,
+	y: -12.0d,
+	dependencies: [
+		"41c69d2f"
+	],
+	hide: true,
+	tasks: [{
+		uid: "708d53ca",
+		type: "kill",
+		entity: "aether:cockatrice",
+		value: 1L
+	}],
+	rewards: [{
+		uid: "8212cfa3",
+		type: "xp",
+		xp: 100
+	}]
+}

@@ -1,0 +1,30 @@
+{
+	x: -3.0d,
+	y: 7.5d,
+	dependencies: [
+		"ddc3a464"
+	],
+	hide: true,
+	tasks: [{
+		uid: "b5727795",
+		type: "item",
+		items: [{
+			id: "lucraftcore:injection",
+			tag: {
+				Injection: "heroesexpansion:kryptonian"
+			}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "273ee2ee",
+		type: "ftbmoney:money",
+		ftb_money: 10L
+	},
+	{
+		uid: "5cf1dc84",
+		type: "xp",
+		xp: 20
+	}]
+}

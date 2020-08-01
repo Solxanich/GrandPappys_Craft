@@ -1,0 +1,40 @@
+{
+	title: "Siphons",
+	x: 6.0d,
+	y: -4.0d,
+	dependencies: [
+		"553d6fc4"
+	],
+	tasks: [{
+		uid: "286ff7dc",
+		type: "item",
+		items: [{
+			item: "lordcraft:earth_siphon"
+		},
+		{
+			item: "lordcraft:fire_siphon"
+		},
+		{
+			item: "lordcraft:water_siphon"
+		},
+		{
+			item: "lordcraft:light_siphon"
+		},
+		{
+			item: "lordcraft:air_siphon"
+		},
+		{
+			item: "lordcraft:dark_siphon"
+		}]
+	}],
+	rewards: [{
+		uid: "77bd0521",
+		type: "ftbmoney:money",
+		ftb_money: 50L
+	},
+	{
+		uid: "8db6e847",
+		type: "xp",
+		xp: 20
+	}]
+}

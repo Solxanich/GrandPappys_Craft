@@ -1,0 +1,28 @@
+{
+	x: 0.0d,
+	y: -5.5d,
+	dependencies: [
+		"be0405f1"
+	],
+	hide: true,
+	tasks: [{
+		uid: "f26f0319",
+		type: "item",
+		items: [{
+			id: "storagedrawers:basicdrawers",
+			tag: {
+				material: "oak"
+			}
+		}]
+	}],
+	rewards: [{
+		uid: "8110bfa7",
+		type: "ftbmoney:money",
+		ftb_money: 10L
+	},
+	{
+		uid: "69a0bde5",
+		type: "xp",
+		xp: 20
+	}]
+}

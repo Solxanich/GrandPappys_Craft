@@ -1,0 +1,19 @@
+{
+	x: 4.5d,
+	y: -5.0d,
+	dependencies: [
+		"553d6fc4"
+	],
+	tasks: [{
+		uid: "edce7534",
+		type: "item",
+		items: [{
+			item: "lordcraft:mana_batteryb"
+		}]
+	}],
+	rewards: [{
+		uid: "5a677a11",
+		type: "xp",
+		xp: 20
+	}]
+}

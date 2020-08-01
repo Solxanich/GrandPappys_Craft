@@ -1,0 +1,19 @@
+{
+	x: -20.0d,
+	y: -8.5d,
+	dependencies: [
+		"41c69d2f"
+	],
+	hide: true,
+	tasks: [{
+		uid: "e5348fbb",
+		type: "kill",
+		entity: "minecraft:villager_golem",
+		value: 1L
+	}],
+	rewards: [{
+		uid: "465af00b",
+		type: "xp",
+		xp: 100
+	}]
+}

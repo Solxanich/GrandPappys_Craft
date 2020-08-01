@@ -1,0 +1,32 @@
+{
+	x: -15.5d,
+	y: -6.0d,
+	dependencies: [
+		"b5736b75"
+	],
+	hide: true,
+	tasks: [{
+		uid: "c3325971",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				Parent: {
+					MAHOUTSUKAI_CASTER_UUIDLeast: 0L,
+					MAHOUTSUKAI_CASTER_NAME: "",
+					MAHOUTSUKAI_CASTER_UUIDMost: 0L
+				}
+			},
+			id: "mahoutsukai:scroll_cup_of_heaven"
+		}]
+	}],
+	rewards: [{
+		uid: "97ee9f60",
+		type: "ftbmoney:money",
+		ftb_money: 10L
+	},
+	{
+		uid: "0b2494e1",
+		type: "xp",
+		xp: 20
+	}]
+}

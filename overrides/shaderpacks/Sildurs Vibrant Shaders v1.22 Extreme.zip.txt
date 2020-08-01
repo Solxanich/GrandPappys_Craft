@@ -1,0 +1,5 @@
+#Thu Jul 23 13:14:18 MDT 2020
+cloud_height=176.0
+Fog=false
+shadowDistance=90.0
+Underwater_Fog=false

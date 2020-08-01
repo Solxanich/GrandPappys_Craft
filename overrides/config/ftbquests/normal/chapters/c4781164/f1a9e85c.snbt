@@ -1,0 +1,26 @@
+{
+	title: "Lets Start Growing!",
+	x: -5.0d,
+	y: -6.0d,
+	dependencies: [
+		"48441e29",
+		"e916fd70"
+	],
+	tasks: [{
+		uid: "dd1f01e8",
+		type: "item",
+		items: [{
+			item: "minecraft:wheat_seeds"
+		}]
+	}],
+	rewards: [{
+		uid: "a91e72fc",
+		type: "xp",
+		xp: 10
+	},
+	{
+		uid: "26c3aa44",
+		type: "ftbmoney:money",
+		ftb_money: 50L
+	}]
+}

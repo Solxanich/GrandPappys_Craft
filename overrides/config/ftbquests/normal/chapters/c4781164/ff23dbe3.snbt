@@ -1,0 +1,24 @@
+{
+	title: "Temperature Control",
+	x: 9.0d,
+	y: -4.5d,
+	tasks: [{
+		uid: "51718340",
+		type: "item",
+		items: [{
+			item: "armorunder:auto_chestplate_liner"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "25663008",
+		type: "ftbmoney:money",
+		ftb_money: 20L
+	},
+	{
+		uid: "6d04d4d5",
+		type: "xp",
+		xp: 20
+	}]
+}

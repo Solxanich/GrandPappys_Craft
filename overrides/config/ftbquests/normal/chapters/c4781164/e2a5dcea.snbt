@@ -1,0 +1,45 @@
+{
+	x: -3.0d,
+	y: -1.0d,
+	dependencies: [
+		"48441e29",
+		"bce30e95"
+	],
+	tasks: [{
+		uid: "4d082d4e",
+		type: "item",
+		items: [{
+			item: "minecraft:iron_pickaxe"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "66f30dfc",
+		type: "item",
+		items: [{
+			item: "minecraft:iron_axe"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "d433b216",
+		type: "item",
+		items: [{
+			item: "mujmajnkraftsbettersurvival:itemironbattleaxe"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "f420624e",
+		type: "ftbmoney:money",
+		ftb_money: 150L
+	},
+	{
+		uid: "89deeb06",
+		type: "xp",
+		xp: 50
+	}]
+}

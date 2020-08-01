@@ -1,0 +1,19 @@
+{
+	x: -10.5d,
+	y: -12.0d,
+	dependencies: [
+		"41c69d2f"
+	],
+	hide: true,
+	tasks: [{
+		uid: "b10f2bc9",
+		type: "kill",
+		entity: "iceandfire:if_hydra",
+		value: 1L
+	}],
+	rewards: [{
+		uid: "ff0a5d01",
+		type: "xp",
+		xp: 100
+	}]
+}

@@ -1,0 +1,25 @@
+{
+	x: 16.0d,
+	y: -13.0d,
+	dependencies: [
+		"66809de0"
+	],
+	hide: true,
+	tasks: [{
+		uid: "15404205",
+		type: "item",
+		items: [{
+			item: "vampirism:blood_potion_table"
+		}]
+	}],
+	rewards: [{
+		uid: "678f1c71",
+		type: "ftbmoney:money",
+		ftb_money: 10L
+	},
+	{
+		uid: "68d11e28",
+		type: "xp",
+		xp: 20
+	}]
+}

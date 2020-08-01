@@ -1,0 +1,24 @@
+{
+	x: -1.0d,
+	y: -7.5d,
+	dependencies: [
+		"f42a1c63"
+	],
+	tasks: [{
+		uid: "17170e07",
+		type: "item",
+		items: [{
+			item: "minecraft:glass_bottle"
+		}]
+	}],
+	rewards: [{
+		uid: "be13e8cc",
+		type: "ftbmoney:money",
+		ftb_money: 200L
+	},
+	{
+		uid: "239beb11",
+		type: "xp",
+		xp: 20
+	}]
+}

@@ -1,0 +1,26 @@
+{
+	x: -5.0d,
+	y: 4.0d,
+	dependencies: [
+		"dff49c28"
+	],
+	hide: true,
+	tasks: [{
+		uid: "f52d1d0e",
+		type: "item",
+		items: [{
+			item: "minecraft:blaze_rod"
+		}],
+		count: 4L
+	}],
+	rewards: [{
+		uid: "8526d910",
+		type: "xp",
+		xp: 10
+	},
+	{
+		uid: "16d2e97d",
+		type: "ftbmoney:money",
+		ftb_money: 25L
+	}]
+}

@@ -1,0 +1,26 @@
+{
+	x: 8.0d,
+	y: 2.0d,
+	dependencies: [
+		"66c7cfb5",
+		"fe634e35"
+	],
+	hide: true,
+	tasks: [{
+		uid: "6a9f1d20",
+		type: "item",
+		items: [{
+			id: "immersivepetroleum:schematic",
+			tag: {
+				multiblock: "IE:Crusher"
+			}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 2b
+	}],
+	rewards: [{
+		uid: "f604fa30",
+		type: "xp",
+		xp: 20
+	}]
+}

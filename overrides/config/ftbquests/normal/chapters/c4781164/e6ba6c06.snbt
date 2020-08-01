@@ -1,0 +1,30 @@
+{
+	title: "Send Items to Friends ",
+	x: 11.0d,
+	y: -3.5d,
+	description: "Ender Mail",
+	tasks: [{
+		uid: "7b7225ef",
+		type: "item",
+		items: [{
+			item: "endermail:locker"
+		}]
+	},
+	{
+		uid: "6c486ef2",
+		type: "item",
+		items: [{
+			item: "endermail:stamp"
+		}]
+	}],
+	rewards: [{
+		uid: "5535acbe",
+		type: "ftbmoney:money",
+		ftb_money: 20L
+	},
+	{
+		uid: "6efbab64",
+		type: "xp",
+		xp: 20
+	}]
+}

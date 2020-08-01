@@ -1,0 +1,19 @@
+{
+	x: -15.5d,
+	y: -2.0d,
+	dependencies: [
+		"41c69d2f"
+	],
+	hide: true,
+	tasks: [{
+		uid: "de054369",
+		type: "kill",
+		entity: "aoa3:green_guardian",
+		value: 1L
+	}],
+	rewards: [{
+		uid: "641c82bd",
+		type: "xp",
+		xp: 100
+	}]
+}

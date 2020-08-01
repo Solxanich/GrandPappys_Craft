@@ -1,0 +1,26 @@
+{
+	title: "Best Power Upgrades",
+	x: -2.5d,
+	y: 4.5d,
+	dependencies: [
+		"3f7baece"
+	],
+	hide: true,
+	tasks: [{
+		uid: "04bc792f",
+		type: "item",
+		items: [{
+			item: "environmentaltech:solar_cell_litherite"
+		}]
+	}],
+	rewards: [{
+		uid: "90c0bf8e",
+		type: "ftbmoney:money",
+		ftb_money: 50L
+	},
+	{
+		uid: "044a5eb5",
+		type: "xp",
+		xp: 100
+	}]
+}

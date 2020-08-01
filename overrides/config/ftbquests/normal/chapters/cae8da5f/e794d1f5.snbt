@@ -1,0 +1,54 @@
+{
+	x: -6.0d,
+	y: -18.5d,
+	dependencies: [
+		"5f5f29d3"
+	],
+	hide: true,
+	tasks: [{
+		uid: "e235325b",
+		type: "item",
+		items: [{
+			item: "atum:feet_of_ra"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "753eb07a",
+		type: "item",
+		items: [{
+			item: "atum:body_of_ra"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "1a742e27",
+		type: "item",
+		items: [{
+			item: "atum:legs_of_ra"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "be1a945a",
+		type: "item",
+		items: [{
+			item: "atum:halo_of_ra"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "261e4b5b",
+		type: "ftbmoney:money",
+		ftb_money: 10L
+	},
+	{
+		uid: "565ea94f",
+		type: "xp",
+		xp: 20
+	}]
+}

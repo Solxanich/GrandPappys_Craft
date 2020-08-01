@@ -1,0 +1,26 @@
+{
+	x: 9.5d,
+	y: -5.0d,
+	dependencies: [
+		"38efb4a7"
+	],
+	hide: true,
+	tasks: [{
+		uid: "e181e31a",
+		type: "item",
+		items: [{
+			item: "minecraft:redstone"
+		}],
+		count: 32L
+	}],
+	rewards: [{
+		uid: "49d61842",
+		type: "ftbmoney:money",
+		ftb_money: 25L
+	},
+	{
+		uid: "009639ab",
+		type: "xp",
+		xp: 20
+	}]
+}

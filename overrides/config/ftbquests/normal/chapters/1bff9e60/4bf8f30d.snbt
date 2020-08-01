@@ -1,0 +1,25 @@
+{
+	x: 0.5d,
+	y: -7.0d,
+	dependencies: [
+		"3948d99d"
+	],
+	hide: true,
+	tasks: [{
+		uid: "8f8f4670",
+		type: "item",
+		items: [{
+			item: "thaumcraft:arcane_workbench"
+		}]
+	}],
+	rewards: [{
+		uid: "02d18f3f",
+		type: "ftbmoney:money",
+		ftb_money: 50L
+	},
+	{
+		uid: "d42d7fe9",
+		type: "xp",
+		xp: 20
+	}]
+}

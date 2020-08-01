@@ -4,12 +4,12 @@ mouseSensitivity:0.5
 fov:0.0
 gamma:1.0
 saturation:0.0
-renderDistance:7
+renderDistance:8
 guiScale:3
 particles:0
 bobView:true
 anaglyph3d:false
-maxFps:260
+maxFps:121
 fboEnable:true
 difficulty:3
 fancyGraphics:true
@@ -26,8 +26,8 @@ chatLinksPrompt:true
 chatOpacity:1.0
 snooperEnabled:true
 fullscreen:false
-enableVsync:true
-useVbo:true
+enableVsync:false
+useVbo:false
 hideServerAddress:false
 advancedItemTooltips:true
 pauseOnLostFocus:true
@@ -39,7 +39,7 @@ chatHeightFocused:1.0
 chatHeightUnfocused:0.44366196
 chatScale:1.0
 chatWidth:1.0
-mipmapLevels:0
+mipmapLevels:4
 forceUnicodeFont:false
 reducedDebugInfo:false
 useNativeTransport:true
@@ -105,7 +105,7 @@ key_Open Menu:25:ALT
 key_Toggle Freeze Effect:0
 key_Enable/Disable:0
 key_Kill Particles:0
-key_Blacklist Block:0
+key_Blacklist Block:45:ALT
 key_keybinds.show_wounds:35
 key_key.ftbutilities.nbt:49:ALT
 key_key.ftbutilities.trash:0
@@ -125,6 +125,10 @@ key_key.summoning:0
 key_key.minions:19
 key_psimisc.keybind:0
 key_neat.keybind.toggle:0
+key_openblocks.keybind.drop_brick:48
+key_openblocks.keybind.vario_switch:47
+key_openblocks.keybind.vario_vol_up:0
+key_openblocks.keybind.vario_vol_down:0
 key_key.sendpokemon:15
 key_key.nextpokemon:208
 key_key.previouspokemon:200
@@ -152,7 +156,7 @@ key_key.xat.magnet_toggle_effect.desc:43
 key_key.xat.aux_key.desc:29
 key_keys.vampirism.action:19
 key_keys.vampirism.suck:47
-key_keys.vampirism.select_skills:27
+key_keys.vampirism.select_skills:44:SHIFT
 key_keys.vampirism.vision:36
 key_keys.vampirism.blood_potion_crafting:18:CONTROL
 key_keys.vampirism.action1:2:ALT
@@ -163,7 +167,6 @@ key_dshuds.keybind.ChunkBorders:67
 key_key.pickup.item:0
 key_key.dismount:42
 key_key.narrator:49:CONTROL
-key_key.unhook:45
 key_key.cofh.multimode:47
 key_key.jei.toggleOverlay:24:CONTROL
 key_key.jei.focusSearch:33:CONTROL
@@ -232,7 +235,6 @@ key_key.drawMahoujin:12
 key_key.changeMysticCode:26
 key_Mo' Bends Menu:34:ALT
 key_Refresh Animations:68
-key_key.toggle.schemui:22
 key_key.toolbelt.open:19
 key_key.toolbelt.cycle.left:0
 key_key.toolbelt.cycle.right:0

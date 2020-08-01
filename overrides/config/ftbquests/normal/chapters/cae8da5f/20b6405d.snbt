@@ -1,0 +1,25 @@
+{
+	x: -8.0d,
+	y: 5.0d,
+	dependencies: [
+		"6578eea5"
+	],
+	hide: true,
+	tasks: [{
+		uid: "67bf4173",
+		type: "item",
+		items: [{
+			item: "heroesexpansion:kree_flesh"
+		}]
+	}],
+	rewards: [{
+		uid: "2462411b",
+		type: "ftbmoney:money",
+		ftb_money: 10L
+	},
+	{
+		uid: "0ff901a0",
+		type: "xp",
+		xp: 20
+	}]
+}

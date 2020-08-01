@@ -1,0 +1,24 @@
+{
+	x: -3.0d,
+	y: 11.0d,
+	dependencies: [
+		"d547a893"
+	],
+	hide: true,
+	tasks: [{
+		uid: "6a5323b8",
+		type: "kill",
+		entity: "glacidus:merialces",
+		value: 1L
+	}],
+	rewards: [{
+		uid: "0b342dcd",
+		type: "ftbmoney:money",
+		ftb_money: 10L
+	},
+	{
+		uid: "7264d07e",
+		type: "xp",
+		xp: 20
+	}]
+}

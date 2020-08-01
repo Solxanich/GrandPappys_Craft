@@ -1,0 +1,25 @@
+{
+	x: -11.0d,
+	y: 0.0d,
+	dependencies: [
+		"f33bfbde"
+	],
+	hide: true,
+	tasks: [{
+		uid: "aeee0ed5",
+		type: "item",
+		items: [{
+			item: "soulus:bone_chunk_scale"
+		}]
+	}],
+	rewards: [{
+		uid: "fbdccd8b",
+		type: "ftbmoney:money",
+		ftb_money: 10L
+	},
+	{
+		uid: "bd0bee60",
+		type: "xp",
+		xp: 20
+	}]
+}

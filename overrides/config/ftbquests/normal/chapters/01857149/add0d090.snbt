@@ -1,0 +1,19 @@
+{
+	x: -12.5d,
+	y: -12.0d,
+	dependencies: [
+		"41c69d2f"
+	],
+	hide: true,
+	tasks: [{
+		uid: "398fdd02",
+		type: "kill",
+		entity: "iceandfire:seaserpent",
+		value: 1L
+	}],
+	rewards: [{
+		uid: "7aa5b426",
+		type: "xp",
+		xp: 100
+	}]
+}

@@ -1,0 +1,32 @@
+{
+	x: -3.0d,
+	y: -1.0d,
+	dependencies: [
+		"caf94381"
+	],
+	hide: true,
+	tasks: [{
+		uid: "94d3e22a",
+		type: "item",
+		items: [{
+			item: "thermalfoundation:material 1 167"
+		}]
+	},
+	{
+		uid: "568612b0",
+		type: "item",
+		items: [{
+			item: "thermalfoundation:material 1 165"
+		}]
+	}],
+	rewards: [{
+		uid: "c7af53b5",
+		type: "ftbmoney:money",
+		ftb_money: 10L
+	},
+	{
+		uid: "d2f70160",
+		type: "xp",
+		xp: 20
+	}]
+}

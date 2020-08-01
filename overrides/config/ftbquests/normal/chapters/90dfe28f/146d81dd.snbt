@@ -1,0 +1,57 @@
+{
+	title: "Digimob?",
+	x: 2.5d,
+	y: -1.0d,
+	dependencies: [
+		"aa369331"
+	],
+	hide: true,
+	tasks: [{
+		uid: "05c76918",
+		type: "item",
+		items: [{
+			item: "minecraft:gold_block"
+		}],
+		count: 4L
+	},
+	{
+		uid: "96e62e28",
+		type: "item",
+		items: [{
+			item: "minecraft:iron_block"
+		}],
+		count: 2L
+	},
+	{
+		uid: "c5b37768",
+		type: "item",
+		items: [{
+			item: "minecraft:redstone_block"
+		}],
+		count: 2L
+	},
+	{
+		uid: "2923c80e",
+		type: "item",
+		items: [{
+			item: "minecraft:packed_ice"
+		}]
+	},
+	{
+		uid: "32c206a7",
+		type: "item",
+		items: [{
+			item: "contenttweaker:digimoncartridge"
+		}]
+	}],
+	rewards: [{
+		uid: "f5f770e9",
+		type: "ftbmoney:money",
+		ftb_money: 250L
+	},
+	{
+		uid: "cb5629aa",
+		type: "toast",
+		title: "Digimon. Digital Monsters. Digimon are the champions."
+	}]
+}

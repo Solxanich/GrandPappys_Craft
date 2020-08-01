@@ -1,0 +1,19 @@
+{
+	x: -15.5d,
+	y: -7.0d,
+	dependencies: [
+		"41c69d2f"
+	],
+	hide: true,
+	tasks: [{
+		uid: "864b28fc",
+		type: "kill",
+		entity: "primitivemobs:trollager",
+		value: 1L
+	}],
+	rewards: [{
+		uid: "50248692",
+		type: "xp",
+		xp: 100
+	}]
+}

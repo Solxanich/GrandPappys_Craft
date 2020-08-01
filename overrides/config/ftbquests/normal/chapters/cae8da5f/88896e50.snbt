@@ -1,0 +1,26 @@
+{
+	x: 18.5d,
+	y: -13.0d,
+	dependencies: [
+		"930ef3a4",
+		"a33300d4"
+	],
+	hide: true,
+	tasks: [{
+		uid: "bcce6d21",
+		type: "item",
+		items: [{
+			item: "vampirism:hunter_table"
+		}]
+	}],
+	rewards: [{
+		uid: "31f57b9c",
+		type: "ftbmoney:money",
+		ftb_money: 10L
+	},
+	{
+		uid: "cf30cec4",
+		type: "xp",
+		xp: 20
+	}]
+}

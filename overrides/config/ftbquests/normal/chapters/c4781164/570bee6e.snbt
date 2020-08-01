@@ -1,0 +1,43 @@
+{
+	x: 3.5d,
+	y: -7.5d,
+	shape: "diamond",
+	dependencies: [
+		"e5ba94c6",
+		"d8eb4725"
+	],
+	tasks: [{
+		uid: "0588727a",
+		type: "item",
+		items: [{
+			id: "forge:bucketfilled",
+			tag: {
+				FluidName: "purified_water",
+				Amount: 1000
+			}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "0fbc23f3",
+		type: "ftbmoney:money",
+		ftb_money: 400L
+	},
+	{
+		uid: "c178a5b2",
+		type: "item",
+		item: {
+			id: "forge:bucketfilled",
+			tag: {
+				FluidName: "purified_water",
+				Amount: 1000
+			}
+		}
+	},
+	{
+		uid: "623b7073",
+		type: "xp",
+		xp: 10
+	}]
+}

@@ -1,0 +1,25 @@
+{
+	x: 10.0d,
+	y: -1.0d,
+	dependencies: [
+		"9e93d127"
+	],
+	hide: true,
+	tasks: [{
+		uid: "a26199ac",
+		type: "item",
+		items: [{
+			item: "lordcraft:soul_crystal"
+		}]
+	}],
+	rewards: [{
+		uid: "275c568e",
+		type: "item",
+		item: "lordcraft:crystal_basic_lightningb"
+	},
+	{
+		uid: "fc6ece9b",
+		type: "xp",
+		xp: 20
+	}]
+}

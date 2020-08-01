@@ -1,0 +1,26 @@
+{
+	x: 7.5d,
+	y: -5.0d,
+	dependencies: [
+		"719708d7"
+	],
+	hide: true,
+	tasks: [{
+		uid: "820201d8",
+		type: "item",
+		items: [{
+			item: "minecraft:coal"
+		}],
+		count: 32L
+	}],
+	rewards: [{
+		uid: "0f8e6efa",
+		type: "xp_levels",
+		xp_levels: 3
+	},
+	{
+		uid: "1af80071",
+		type: "ftbmoney:money",
+		ftb_money: 25L
+	}]
+}

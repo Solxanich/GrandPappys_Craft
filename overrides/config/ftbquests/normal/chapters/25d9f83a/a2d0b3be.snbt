@@ -1,0 +1,21 @@
+{
+	x: 8.0d,
+	y: 6.5d,
+	dependencies: [
+		"b8e4dec0",
+		"bbd0bd8e"
+	],
+	hide: true,
+	tasks: [{
+		uid: "adc5277a",
+		type: "item",
+		items: [{
+			item: "immersiveengineering:metal_device0"
+		}]
+	}],
+	rewards: [{
+		uid: "2806d556",
+		type: "xp",
+		xp: 50
+	}]
+}

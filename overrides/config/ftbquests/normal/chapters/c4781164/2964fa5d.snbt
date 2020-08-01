@@ -1,0 +1,24 @@
+{
+	x: 9.0d,
+	y: -2.0d,
+	tasks: [{
+		uid: "7cf28b5b",
+		type: "checkmark",
+		title: "Find Baily - The kingdom's guild quest giver"
+	},
+	{
+		uid: "bc8dc5f7",
+		type: "checkmark",
+		title: "Accept some bounties from the village's request board"
+	}],
+	rewards: [{
+		uid: "90a1cab1",
+		type: "ftbmoney:money",
+		ftb_money: 20L
+	},
+	{
+		uid: "54978265",
+		type: "xp",
+		xp: 20
+	}]
+}

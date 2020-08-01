@@ -1,0 +1,25 @@
+{
+	x: -10.5d,
+	y: -12.5d,
+	dependencies: [
+		"d3518208"
+	],
+	hide: true,
+	tasks: [{
+		uid: "069ca567",
+		type: "item",
+		items: [{
+			item: "tropicraft:zircon"
+		}]
+	}],
+	rewards: [{
+		uid: "95994214",
+		type: "ftbmoney:money",
+		ftb_money: 10L
+	},
+	{
+		uid: "1e7cc113",
+		type: "xp",
+		xp: 20
+	}]
+}

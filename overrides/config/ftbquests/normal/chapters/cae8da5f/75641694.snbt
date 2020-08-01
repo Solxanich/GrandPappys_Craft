@@ -1,0 +1,30 @@
+{
+	x: -8.5d,
+	y: 0.0d,
+	dependencies: [
+		"4f41e070"
+	],
+	hide: true,
+	tasks: [{
+		uid: "7af99439",
+		type: "item",
+		items: [{
+			id: "patchouli:guide_book",
+			tag: {
+				"patchouli:book": "soulus:soulus"
+			}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "c10e2831",
+		type: "ftbmoney:money",
+		ftb_money: 10L
+	},
+	{
+		uid: "919cdee2",
+		type: "xp",
+		xp: 20
+	}]
+}

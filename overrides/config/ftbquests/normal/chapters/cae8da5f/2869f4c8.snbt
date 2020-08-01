@@ -1,0 +1,32 @@
+{
+	title: "The grail",
+	x: -15.5d,
+	y: -8.0d,
+	text: [
+		"You can right click an empty circle with empty hand to place most recent"
+	],
+	dependencies: [
+		"0e1a557a"
+	],
+	hide: true,
+	tasks: [{
+		uid: "aedb99ca",
+		type: "checkmark",
+		title: "Create a trapazoid of summoning circles to make a grail"
+	},
+	{
+		uid: "8197966a",
+		type: "checkmark",
+		title: "Add effect circles inside the trapezoid to create localized effects (try poison)"
+	}],
+	rewards: [{
+		uid: "03835049",
+		type: "ftbmoney:money",
+		ftb_money: 10L
+	},
+	{
+		uid: "1f4010f4",
+		type: "xp",
+		xp: 20
+	}]
+}

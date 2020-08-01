@@ -1,0 +1,25 @@
+{
+	x: -1.0d,
+	y: -1.5d,
+	dependencies: [
+		"be0405f1"
+	],
+	hide: true,
+	tasks: [{
+		uid: "cf79a4bd",
+		type: "item",
+		items: [{
+			item: "armorplus:workbench"
+		}]
+	}],
+	rewards: [{
+		uid: "ef4c4755",
+		type: "ftbmoney:money",
+		ftb_money: 10L
+	},
+	{
+		uid: "1fb2c03d",
+		type: "xp",
+		xp: 20
+	}]
+}

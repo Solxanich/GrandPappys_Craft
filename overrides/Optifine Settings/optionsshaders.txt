@@ -1,9 +1,9 @@
-#Sun Jun 14 13:59:35 MDT 2020
+#Mon Jul 27 15:01:41 MDT 2020
 shaderPack=Sildurs Vibrant Shaders v1.22 Extreme.zip
 antialiasingLevel=0
 normalMapEnabled=true
 specularMapEnabled=true
-renderResMul=0.70710677
+renderResMul=1.0
 shadowResMul=1.0
 handDepthMul=0.125
 cloudShadow=false

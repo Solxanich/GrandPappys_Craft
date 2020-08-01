@@ -1,0 +1,20 @@
+{
+	title: "Pixelmon!",
+	x: -3.5d,
+	y: -2.0d,
+	dependencies: [
+		"cc7ed932"
+	],
+	hide: true,
+	tasks: [{
+		uid: "d8513b35",
+		type: "gamestage",
+		icon: "contenttweaker:pixelmoncartridge",
+		stage: "pixelmon"
+	}],
+	rewards: [{
+		uid: "2e3bf597",
+		type: "xp",
+		xp: 50
+	}]
+}

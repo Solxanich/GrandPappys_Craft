@@ -1,0 +1,29 @@
+{
+	title: "Alarm Boundary",
+	x: -15.5d,
+	y: -4.0d,
+	dependencies: [
+		"8b65bcf8"
+	],
+	hide: true,
+	tasks: [{
+		uid: "2d4e8a61",
+		type: "checkmark",
+		title: "Press M to draw a blood circle within 5 seconds of injury"
+	},
+	{
+		uid: "2e97d96d",
+		type: "checkmark",
+		title: "Add the catalysts by right clicking spell circle. "
+	}],
+	rewards: [{
+		uid: "3e4c4c10",
+		type: "ftbmoney:money",
+		ftb_money: 10L
+	},
+	{
+		uid: "996f703e",
+		type: "xp",
+		xp: 20
+	}]
+}

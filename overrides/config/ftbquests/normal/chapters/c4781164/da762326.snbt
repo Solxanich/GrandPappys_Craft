@@ -1,0 +1,38 @@
+{
+	title: "Bard",
+	x: 9.0d,
+	y: -6.0d,
+	shape: "square",
+	text: [
+		"Your goal: To see the many different worlds and creatures, so you can make songs about them",
+		"Your tools: Dragons, fancy tools, new dimensions"
+	],
+	dependencies: [
+		"dff49c28"
+	],
+	hide: true,
+	tasks: [{
+		uid: "cdd48cb6",
+		type: "item",
+		items: [{
+			item: "contenttweaker:vocationaltoken"
+		}],
+		consume_items: true
+	}],
+	rewards: [{
+		uid: "c6e51034",
+		type: "gamestage",
+		title: "Warrior",
+		team_reward: true,
+		auto: "disabled",
+		stage: "warrior"
+	},
+	{
+		uid: "3a3f4fb7",
+		type: "gamestage",
+		title: "Bard",
+		team_reward: true,
+		auto: "disabled",
+		stage: "bard"
+	}]
+}

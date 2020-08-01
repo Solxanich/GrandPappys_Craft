@@ -1,0 +1,52 @@
+{
+	x: 8.0d,
+	y: -3.0d,
+	dependencies: [
+		"3ecd56a5"
+	],
+	tasks: [{
+		uid: "6d23fb33",
+		type: "item",
+		items: [{
+			item: "harvestcraft:blackberryseeditem"
+		}]
+	},
+	{
+		uid: "16f60103",
+		type: "item",
+		items: [{
+			item: "harvestcraft:blueberryseeditem"
+		}]
+	},
+	{
+		uid: "c08b7dc6",
+		type: "item",
+		items: [{
+			item: "harvestcraft:candleberryseeditem"
+		}]
+	},
+	{
+		uid: "9dddf114",
+		type: "item",
+		items: [{
+			item: "harvestcraft:raspberryseeditem"
+		}]
+	},
+	{
+		uid: "3a13a5e1",
+		type: "item",
+		items: [{
+			item: "harvestcraft:strawberryseeditem"
+		}]
+	}],
+	rewards: [{
+		uid: "23a5d7a6",
+		type: "ftbmoney:money",
+		ftb_money: 50L
+	},
+	{
+		uid: "b1cf0324",
+		type: "xp",
+		xp: 20
+	}]
+}

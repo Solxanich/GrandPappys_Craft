@@ -1,0 +1,21 @@
+{
+	x: 6.5d,
+	y: -2.0d,
+	tasks: [{
+		uid: "adf06b37",
+		type: "item",
+		items: [{
+			item: "minecraft:anvil"
+		}]
+	}],
+	rewards: [{
+		uid: "2df4898d",
+		type: "ftbmoney:money",
+		ftb_money: 20L
+	},
+	{
+		uid: "e22df51a",
+		type: "xp",
+		xp: 20
+	}]
+}

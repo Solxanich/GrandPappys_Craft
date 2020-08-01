@@ -1,0 +1,26 @@
+{
+	x: 14.5d,
+	y: 6.0d,
+	dependencies: [
+		"7f7015a4"
+	],
+	hide: true,
+	tasks: [{
+		uid: "544ebdec",
+		type: "item",
+		items: [{
+			item: "goodnightsleep:negatite_ore"
+		}],
+		count: 10L
+	}],
+	rewards: [{
+		uid: "63189341",
+		type: "ftbmoney:money",
+		ftb_money: 10L
+	},
+	{
+		uid: "d9226489",
+		type: "xp",
+		xp: 20
+	}]
+}

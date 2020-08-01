@@ -1,0 +1,38 @@
+{
+	x: 8.0d,
+	y: 3.0d,
+	dependencies: [
+		"3ecd56a5"
+	],
+	tasks: [{
+		uid: "f51f6427",
+		type: "item",
+		items: [{
+			item: "harvestcraft:sunflowerseedsitem"
+		}]
+	},
+	{
+		uid: "25e9f2ac",
+		type: "item",
+		items: [{
+			item: "harvestcraft:agaveseeditem"
+		}]
+	},
+	{
+		uid: "bcd0d6ec",
+		type: "item",
+		items: [{
+			item: "harvestcraft:kenafseeditem"
+		}]
+	}],
+	rewards: [{
+		uid: "1eadcf05",
+		type: "ftbmoney:money",
+		ftb_money: 30L
+	},
+	{
+		uid: "a5d20126",
+		type: "xp",
+		xp: 20
+	}]
+}

@@ -1,0 +1,29 @@
+{
+	title: "Dreaming in a Dream",
+	x: 18.0d,
+	y: 1.5d,
+	description: "The Emergency Exit...",
+	dependencies: [
+		"7f7015a4",
+		"3b9f4d7f"
+	],
+	hide: true,
+	dependency_requirement: "one_completed",
+	tasks: [{
+		uid: "a9259e4a",
+		type: "item",
+		items: [{
+			item: "minecraft:bed"
+		}]
+	}],
+	rewards: [{
+		uid: "65c4974a",
+		type: "ftbmoney:money",
+		ftb_money: 10L
+	},
+	{
+		uid: "d89569e6",
+		type: "xp",
+		xp: 20
+	}]
+}

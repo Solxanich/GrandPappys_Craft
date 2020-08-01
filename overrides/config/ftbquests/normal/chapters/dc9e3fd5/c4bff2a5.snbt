@@ -1,0 +1,20 @@
+{
+	x: -14.0d,
+	y: -4.5d,
+	tasks: [{
+		uid: "88d642d1",
+		type: "stat",
+		stat: "stat.sneakTime",
+		value: 1000000
+	}],
+	rewards: [{
+		uid: "376b8b8e",
+		type: "xp",
+		xp: 2000
+	},
+	{
+		uid: "048ccd4e",
+		type: "ftbmoney:money",
+		ftb_money: 1250L
+	}]
+}

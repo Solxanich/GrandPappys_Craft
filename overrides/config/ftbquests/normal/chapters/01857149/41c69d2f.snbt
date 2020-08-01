@@ -1,0 +1,26 @@
+{
+	x: -12.5d,
+	y: -15.5d,
+	dependencies: [
+		"da762326",
+		"e1a15b55"
+	],
+	hide: true,
+	dependency_requirement: "one_completed",
+	tasks: [{
+		uid: "ca78a0e6",
+		type: "kill",
+		entity: "minecraft:zombie",
+		value: 1L
+	}],
+	rewards: [{
+		uid: "11e13ab0",
+		type: "item",
+		item: "spartanweaponry:spear_diamond"
+	},
+	{
+		uid: "c7b51de8",
+		type: "ftbmoney:money",
+		ftb_money: 1L
+	}]
+}

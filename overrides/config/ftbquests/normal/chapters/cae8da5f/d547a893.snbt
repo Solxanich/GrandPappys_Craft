@@ -1,0 +1,32 @@
+{
+	x: -1.0d,
+	y: 9.5d,
+	dependencies: [
+		"bc76d799"
+	],
+	hide: true,
+	tasks: [{
+		uid: "be9737a6",
+		type: "item",
+		items: [{
+			item: "glacidus:crysium"
+		}]
+	},
+	{
+		uid: "c4226a0a",
+		type: "item",
+		items: [{
+			item: "glacidus:eukeite"
+		}]
+	}],
+	rewards: [{
+		uid: "e72cfc97",
+		type: "ftbmoney:money",
+		ftb_money: 10L
+	},
+	{
+		uid: "56e7be0c",
+		type: "xp",
+		xp: 20
+	}]
+}

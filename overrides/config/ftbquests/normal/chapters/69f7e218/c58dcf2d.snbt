@@ -1,0 +1,20 @@
+{
+	x: -3.5d,
+	y: -4.5d,
+	dependencies: [
+		"9ddb36dc"
+	],
+	hide: true,
+	tasks: [{
+		uid: "41ed8ea7",
+		type: "item",
+		items: [{
+			item: "psi:material"
+		}]
+	}],
+	rewards: [{
+		uid: "ea30b827",
+		type: "xp",
+		xp: 10
+	}]
+}

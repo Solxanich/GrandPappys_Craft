@@ -1,0 +1,21 @@
+{
+	title: "Gamemode Not Supported?!?",
+	x: 0.5d,
+	y: 2.0d,
+	dependencies: [
+		"aa369331"
+	],
+	hide: true,
+	tasks: [{
+		uid: "e1a4368c",
+		type: "item",
+		items: [{
+			item: "contenttweaker:terrariacartridge"
+		}]
+	}],
+	rewards: [{
+		uid: "f73cb62f",
+		type: "toast",
+		title: "Planned Mod: Terraria Craft"
+	}]
+}

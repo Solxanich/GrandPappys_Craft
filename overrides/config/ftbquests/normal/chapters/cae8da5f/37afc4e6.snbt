@@ -1,0 +1,23 @@
+{
+	x: 6.0d,
+	y: 6.0d,
+	dependencies: [
+		"e74c5b85"
+	],
+	hide: true,
+	tasks: [{
+		uid: "c2ce3073",
+		type: "dimension",
+		dim: 20
+	}],
+	rewards: [{
+		uid: "ef9fbd5f",
+		type: "ftbmoney:money",
+		ftb_money: 10L
+	},
+	{
+		uid: "71d8fb09",
+		type: "xp",
+		xp: 20
+	}]
+}

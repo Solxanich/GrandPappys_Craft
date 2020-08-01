@@ -4,7 +4,9 @@ import crafttweaker.entity.IEntityLivingBase;
 import crafttweaker.entity.IEntity;
 import mods.zenstages.ZenStager;
 import mods.zenstages.Stage;
-
+import crafttweaker.entity.IEntityDefinition;
+import crafttweaker.command.ICommandSender;
+import crafttweaker.event.IEventCancelable;
 
 events.onPlayerChangedDimension(function(event as crafttweaker.event.PlayerChangedDimensionEvent){
     if (event.from==56) { event.player.addGameStage("Overworld"); }
@@ -47,14 +49,23 @@ events.onPlayerItemPickup(function(event as crafttweaker.event.PlayerItemPickupE
 	if (!event.player.hasGameStage("Digimon") & event.stackCopy.name=="tile.digidirt"){event.player.addGameStage("Digimon"); event.player.give(<digimobs:storymode>);event.player.sendChat("Installed.");}
 });	
 
-events.onPlayerCrafted(function(event as crafttweaker.event.PlayerCraftedEvent){
-	if (event.output.displayName == "Deep Drilling License" & !event.player.hasGameStage("envtech")) {
-		event.player.sendChat("You (somehow) feel qualified to extract resources from below Bedrock!");
-		event.player.addGameStage("envtech");
+events.onPlayerAttackEntity(function(event as crafttweaker.event.PlayerAttackEntityEvent){
+	
+	if(event.player.name=="LMM_EntityLittleMaidAvatar"){
+		if (true){
+			event.canceled=true;
+			event.cancel();
+		}
 	}
-	if (event.output.displayName == "Ever Falling Feather" & !event.player.hasGameStage("aether")) {
-		event.player.sendChat("You now believe there may exist a sky region where gravity behaves abnormally...");
-		event.player.addGameStage("aether");
+});
+
+events.onEntityLivingHurt(function(event as crafttweaker.event.EntityLivingHurtEvent){
+	var dispNm = event.entity.displayName.split("_",2)[0];
+	if(dispNm=="LMM"){
+		if (true){
+			event.canceled=true;
+			event.cancel();
+		}
 	}
 });
 

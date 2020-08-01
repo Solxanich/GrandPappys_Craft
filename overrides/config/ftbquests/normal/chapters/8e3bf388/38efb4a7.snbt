@@ -1,0 +1,26 @@
+{
+	x: 9.0d,
+	y: -4.5d,
+	dependencies: [
+		"e82d2830"
+	],
+	hide: true,
+	tasks: [{
+		uid: "143e6b4c",
+		type: "item",
+		items: [{
+			item: "hatchery:speed_upgrade 1 2"
+		}],
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "5507f991",
+		type: "ftbmoney:money",
+		ftb_money: 25L
+	},
+	{
+		uid: "2436571d",
+		type: "xp",
+		xp: 20
+	}]
+}

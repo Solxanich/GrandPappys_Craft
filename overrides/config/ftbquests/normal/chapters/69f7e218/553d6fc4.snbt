@@ -1,0 +1,24 @@
+{
+	x: 4.5d,
+	y: -2.5d,
+	dependencies: [
+		"7900d3b4"
+	],
+	tasks: [{
+		uid: "d0bfb939",
+		type: "item",
+		items: [{
+			item: "lordcraft:cyclicforgeb"
+		}]
+	}],
+	rewards: [{
+		uid: "4e6a0313",
+		type: "ftbmoney:money",
+		ftb_money: 50L
+	},
+	{
+		uid: "1846b84f",
+		type: "xp",
+		xp: 20
+	}]
+}

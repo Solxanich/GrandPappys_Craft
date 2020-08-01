@@ -1,0 +1,27 @@
+{
+	x: 1.5d,
+	y: -7.5d,
+	shape: "square",
+	dependencies: [
+		"f42a1c63",
+		"760c91a6"
+	],
+	tasks: [{
+		uid: "6540efb3",
+		type: "item",
+		items: [{
+			item: "toughasnails:purified_water_bottle"
+		}],
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "afd23e84",
+		type: "xp",
+		xp: 50
+	},
+	{
+		uid: "fbdffc7a",
+		type: "ftbmoney:money",
+		ftb_money: 200L
+	}]
+}

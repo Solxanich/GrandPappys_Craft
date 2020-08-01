@@ -1,0 +1,32 @@
+{
+	x: 7.5d,
+	y: 0.0d,
+	dependencies: [
+		"d9b293be"
+	],
+	hide: true,
+	tasks: [{
+		uid: "99fd772e",
+		type: "item",
+		items: [{
+			item: "goodnightsleep:despair_mushroom"
+		}]
+	},
+	{
+		uid: "c0777174",
+		type: "item",
+		items: [{
+			item: "goodnightsleep:hope_mushroom"
+		}]
+	}],
+	rewards: [{
+		uid: "78187b2b",
+		type: "ftbmoney:money",
+		ftb_money: 10L
+	},
+	{
+		uid: "876798f3",
+		type: "xp",
+		xp: 20
+	}]
+}

@@ -1,0 +1,27 @@
+{
+	x: -5.0d,
+	y: 10.5d,
+	dependencies: [
+		"633656fe"
+	],
+	hide: true,
+	tasks: [{
+		uid: "73dc359e",
+		type: "item",
+		items: [{
+			item: "heroesexpansion:mjolnir"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "448adce7",
+		type: "ftbmoney:money",
+		ftb_money: 10L
+	},
+	{
+		uid: "4377c9a0",
+		type: "xp",
+		xp: 20
+	}]
+}

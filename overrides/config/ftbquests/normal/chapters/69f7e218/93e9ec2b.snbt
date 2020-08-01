@@ -1,0 +1,25 @@
+{
+	x: -15.5d,
+	y: 0.0d,
+	dependencies: [
+		"95a71bfa"
+	],
+	hide: true,
+	tasks: [{
+		uid: "91028239",
+		type: "item",
+		items: [{
+			id: "bountifulbaubles:shieldobsidian",
+			tag: {
+				HideFlags: 2
+			}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "0c57d816",
+		type: "xp",
+		xp: 10
+	}]
+}

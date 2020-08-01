@@ -1,0 +1,27 @@
+{
+	x: -9.5d,
+	y: 9.0d,
+	dependencies: [
+		"6578eea5"
+	],
+	hide: true,
+	tasks: [{
+		uid: "ca9d8686",
+		type: "item",
+		items: [{
+			item: "heroesexpansion:vibranium_shield"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "2d4dd538",
+		type: "ftbmoney:money",
+		ftb_money: 10L
+	},
+	{
+		uid: "7d94e77e",
+		type: "xp",
+		xp: 20
+	}]
+}

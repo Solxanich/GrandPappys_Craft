@@ -1,0 +1,73 @@
+{
+	x: -2.0d,
+	y: -2.0d,
+	dependencies: [
+		"07d3b2b2"
+	],
+	tasks: [{
+		uid: "9ddfe2f3",
+		type: "item",
+		items: [{
+			item: "bewitchment:cypressseed"
+		}]
+	},
+	{
+		uid: "a8c33f79",
+		type: "item",
+		items: [{
+			item: "bewitchment:dragonsbloodseed"
+		}]
+	},
+	{
+		uid: "fc049333",
+		type: "item",
+		items: [{
+			item: "bewitchment:aconitum_seeds"
+		}]
+	},
+	{
+		uid: "c975e592",
+		type: "item",
+		items: [{
+			item: "bewitchment:belladonna_seeds"
+		}]
+	},
+	{
+		uid: "75dc96bb",
+		type: "item",
+		items: [{
+			item: "bewitchment:garlic_seeds"
+		}]
+	},
+	{
+		uid: "f6f1752b",
+		type: "item",
+		items: [{
+			item: "bewitchment:hellebore_seeds"
+		}]
+	},
+	{
+		uid: "16a1cfff",
+		type: "item",
+		items: [{
+			item: "bewitchment:white_sage_seeds"
+		}]
+	},
+	{
+		uid: "1506843d",
+		type: "item",
+		items: [{
+			item: "bewitchment:wormwood_seeds"
+		}]
+	}],
+	rewards: [{
+		uid: "0031dff5",
+		type: "ftbmoney:money",
+		ftb_money: 100L
+	},
+	{
+		uid: "964763b5",
+		type: "xp",
+		xp: 50
+	}]
+}

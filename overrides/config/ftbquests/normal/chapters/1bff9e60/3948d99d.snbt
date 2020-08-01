@@ -1,0 +1,25 @@
+{
+	x: 0.5d,
+	y: -4.5d,
+	dependencies: [
+		"c85da30b"
+	],
+	hide: true,
+	tasks: [{
+		uid: "f2c2ab36",
+		type: "item",
+		items: [{
+			item: "thaumcraft:salis_mundus"
+		}]
+	}],
+	rewards: [{
+		uid: "a46ef6be",
+		type: "ftbmoney:money",
+		ftb_money: 50L
+	},
+	{
+		uid: "be7691a5",
+		type: "xp",
+		xp: 20
+	}]
+}

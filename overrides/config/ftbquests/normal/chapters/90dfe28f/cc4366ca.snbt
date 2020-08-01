@@ -1,0 +1,20 @@
+{
+	title: "Digimob!",
+	x: 4.5d,
+	y: -2.0d,
+	dependencies: [
+		"146d81dd"
+	],
+	hide: true,
+	tasks: [{
+		uid: "e21fc789",
+		type: "gamestage",
+		icon: "contenttweaker:digimoncartridge",
+		stage: "digimon"
+	}],
+	rewards: [{
+		uid: "406559f1",
+		type: "xp",
+		xp: 50
+	}]
+}

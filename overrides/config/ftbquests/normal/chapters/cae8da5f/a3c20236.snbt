@@ -1,0 +1,27 @@
+{
+	x: 1.0d,
+	y: -4.0d,
+	dependencies: [
+		"be0405f1"
+	],
+	hide: true,
+	tasks: [{
+		uid: "d2d6e9d6",
+		type: "item",
+		items: [{
+			item: "improvedbackpacks:backpack"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "79fa08d7",
+		type: "ftbmoney:money",
+		ftb_money: 10L
+	},
+	{
+		uid: "0289a5ae",
+		type: "xp",
+		xp: 20
+	}]
+}

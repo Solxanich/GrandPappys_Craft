@@ -1,0 +1,25 @@
+{
+	x: -14.0d,
+	y: 1.5d,
+	tasks: [{
+		uid: "bc5465f9",
+		type: "stat",
+		stat: "stat.deaths",
+		value: 25
+	},
+	{
+		uid: "300585b3",
+		type: "checkmark",
+		title: "I need help!"
+	}],
+	rewards: [{
+		uid: "e21f1966",
+		type: "xp",
+		xp: 500
+	},
+	{
+		uid: "3ad37143",
+		type: "ftbmoney:money",
+		ftb_money: 1250L
+	}]
+}
