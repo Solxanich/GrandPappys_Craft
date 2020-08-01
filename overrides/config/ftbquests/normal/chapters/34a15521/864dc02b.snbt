@@ -1,0 +1,23 @@
+{
+	x: 2.0d,
+	y: 6.0d,
+	dependencies: [
+		"1ed97342"
+	],
+	tasks: [{
+		uid: "acbf6bc0",
+		type: "kill",
+		entity: "defiledlands:the_mourner",
+		value: 1L
+	}],
+	rewards: [{
+		uid: "76b25b28",
+		type: "ftbmoney:money",
+		ftb_money: 80L
+	},
+	{
+		uid: "eb65413a",
+		type: "xp",
+		xp: 100
+	}]
+}

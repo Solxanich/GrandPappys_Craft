@@ -1,0 +1,25 @@
+{
+	x: -12.5d,
+	y: 3.0d,
+	dependencies: [
+		"f33bfbde"
+	],
+	hide: true,
+	tasks: [{
+		uid: "4f3e069e",
+		type: "item",
+		items: [{
+			item: "soulus:bone_ender"
+		}]
+	}],
+	rewards: [{
+		uid: "45f90f31",
+		type: "ftbmoney:money",
+		ftb_money: 10L
+	},
+	{
+		uid: "3b734d0f",
+		type: "xp",
+		xp: 20
+	}]
+}

@@ -1,0 +1,21 @@
+{
+	x: 11.0d,
+	y: -10.0d,
+	description: "Shareable knowledge",
+	dependencies: [
+		"da99a1fc"
+	],
+	hide: true,
+	tasks: [{
+		uid: "7d3d9e2d",
+		type: "item",
+		items: [{
+			item: "contenttweaker:engineersdiagram"
+		}]
+	}],
+	rewards: [{
+		uid: "4fa93ca4",
+		type: "xp",
+		xp: 10
+	}]
+}

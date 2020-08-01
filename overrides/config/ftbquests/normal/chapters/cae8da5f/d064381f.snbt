@@ -1,0 +1,24 @@
+{
+	x: 12.0d,
+	y: 4.5d,
+	dependencies: [
+		"7f7015a4"
+	],
+	hide: true,
+	tasks: [{
+		uid: "6e7ec3fb",
+		type: "kill",
+		entity: "goodnightsleep:herobrine",
+		value: 1L
+	}],
+	rewards: [{
+		uid: "889029c2",
+		type: "ftbmoney:money",
+		ftb_money: 10L
+	},
+	{
+		uid: "90672294",
+		type: "xp",
+		xp: 20
+	}]
+}

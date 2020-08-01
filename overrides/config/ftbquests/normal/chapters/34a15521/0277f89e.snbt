@@ -1,0 +1,26 @@
+{
+	x: 2.0d,
+	y: 8.0d,
+	dependencies: [
+		"864dc02b"
+	],
+	hide: true,
+	tasks: [{
+		uid: "a41f3063",
+		type: "item",
+		items: [{
+			item: "defiledlands:essence_mourner"
+		}],
+		count: 32L
+	}],
+	rewards: [{
+		uid: "4431376e",
+		type: "xp",
+		xp: 100
+	},
+	{
+		uid: "ce078e7c",
+		type: "ftbmoney:money",
+		ftb_money: 25L
+	}]
+}

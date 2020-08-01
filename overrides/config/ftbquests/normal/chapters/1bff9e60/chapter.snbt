@@ -1,0 +1,7 @@
+{
+	title: "Tainted",
+	icon: "thaumcraft:taint_geyser",
+	always_invisible: false,
+	group: 0,
+	default_quest_shape: ""
+}

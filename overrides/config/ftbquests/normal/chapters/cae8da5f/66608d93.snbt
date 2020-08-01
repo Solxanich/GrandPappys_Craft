@@ -1,0 +1,46 @@
+{
+	x: 13.0d,
+	y: 10.0d,
+	dependencies: [
+		"ff8e1a76"
+	],
+	hide: true,
+	tasks: [{
+		uid: "22f28048",
+		type: "item",
+		items: [{
+			item: "thebetweenlands:crimson_middle_gem"
+		}]
+	},
+	{
+		uid: "7cc39f7f",
+		type: "item",
+		items: [{
+			item: "thebetweenlands:aqua_middle_gem"
+		}]
+	},
+	{
+		uid: "95c9af67",
+		type: "item",
+		items: [{
+			item: "thebetweenlands:green_middle_gem"
+		}]
+	},
+	{
+		uid: "824a6c57",
+		type: "item",
+		items: [{
+			item: "thebetweenlands:items_misc 1 19"
+		}]
+	}],
+	rewards: [{
+		uid: "c5178fb7",
+		type: "ftbmoney:money",
+		ftb_money: 10L
+	},
+	{
+		uid: "188fc389",
+		type: "xp",
+		xp: 20
+	}]
+}

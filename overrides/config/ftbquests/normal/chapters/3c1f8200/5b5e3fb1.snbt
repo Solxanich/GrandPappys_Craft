@@ -1,0 +1,52 @@
+{
+	x: 4.0d,
+	y: 5.0d,
+	dependencies: [
+		"07d3b2b2"
+	],
+	tasks: [{
+		uid: "06d1a0a2",
+		type: "item",
+		items: [{
+			item: "dynamictrees:acaciaseed"
+		}]
+	},
+	{
+		uid: "56bfb411",
+		type: "item",
+		items: [{
+			item: "dynamictrees:cactusseed"
+		}]
+	},
+	{
+		uid: "a6ef14b0",
+		type: "item",
+		items: [{
+			item: "dynamictrees:oakseed"
+		}]
+	},
+	{
+		uid: "060cbefd",
+		type: "item",
+		items: [{
+			item: "dynamictrees:darkoakseed"
+		}]
+	},
+	{
+		uid: "737e8422",
+		type: "item",
+		items: [{
+			item: "dynamictrees:birchseed"
+		}]
+	}],
+	rewards: [{
+		uid: "0c325fb1",
+		type: "ftbmoney:money",
+		ftb_money: 50L
+	},
+	{
+		uid: "aef3a98b",
+		type: "xp",
+		xp: 20
+	}]
+}

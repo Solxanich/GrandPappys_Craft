@@ -1,0 +1,39 @@
+{
+	x: -2.0d,
+	y: -2.5d,
+	dependencies: [
+		"be0405f1"
+	],
+	hide: true,
+	tasks: [{
+		uid: "353d966c",
+		type: "item",
+		items: [{
+			item: "thermalfoundation:material 1 2052"
+		}]
+	},
+	{
+		uid: "3f7916ac",
+		type: "item",
+		items: [{
+			item: "thermalfoundation:material 1 2048"
+		}]
+	},
+	{
+		uid: "5c0857bb",
+		type: "item",
+		items: [{
+			item: "thermalfoundation:material 1 2050"
+		}]
+	}],
+	rewards: [{
+		uid: "f51b07ad",
+		type: "ftbmoney:money",
+		ftb_money: 10L
+	},
+	{
+		uid: "b24c0405",
+		type: "xp",
+		xp: 20
+	}]
+}

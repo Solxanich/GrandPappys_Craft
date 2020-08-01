@@ -1,0 +1,25 @@
+{
+	x: 1.5d,
+	y: -4.5d,
+	dependencies: [
+		"bce30e95"
+	],
+	tasks: [{
+		uid: "fc8fc2bd",
+		type: "item",
+		items: [{
+			item: "minecraft:bucket"
+		}],
+		count: 2L
+	}],
+	rewards: [{
+		uid: "1d457839",
+		type: "xp",
+		xp: 20
+	},
+	{
+		uid: "4378ff35",
+		type: "ftbmoney:money",
+		ftb_money: 150L
+	}]
+}

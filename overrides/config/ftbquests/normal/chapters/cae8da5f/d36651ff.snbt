@@ -1,0 +1,25 @@
+{
+	x: 16.0d,
+	y: -6.0d,
+	dependencies: [
+		"b093be12"
+	],
+	hide: true,
+	tasks: [{
+		uid: "ac32ccbb",
+		type: "item",
+		items: [{
+			item: "vampirism:human_heart"
+		}]
+	}],
+	rewards: [{
+		uid: "d441a849",
+		type: "ftbmoney:money",
+		ftb_money: 10L
+	},
+	{
+		uid: "4d183716",
+		type: "xp",
+		xp: 20
+	}]
+}

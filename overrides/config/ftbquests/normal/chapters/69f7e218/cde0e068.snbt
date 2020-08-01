@@ -1,0 +1,22 @@
+{
+	x: -10.0d,
+	y: -3.0d,
+	dependencies: [
+		"56c65b9d"
+	],
+	hide: true,
+	tasks: [{
+		uid: "326bc7fe",
+		type: "item",
+		items: [{
+			item: "bountifulbaubles:amuletcross"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "fb5e039f",
+		type: "xp",
+		xp: 10
+	}]
+}

@@ -1,0 +1,24 @@
+{
+	x: 17.0d,
+	y: -1.5d,
+	dependencies: [
+		"3b9f4d7f"
+	],
+	hide: true,
+	tasks: [{
+		uid: "9dd22e49",
+		type: "kill",
+		entity: "goodnightsleep:baby_creeper",
+		value: 1L
+	}],
+	rewards: [{
+		uid: "de3b3d2d",
+		type: "ftbmoney:money",
+		ftb_money: 10L
+	},
+	{
+		uid: "4801f9ff",
+		type: "xp",
+		xp: 20
+	}]
+}

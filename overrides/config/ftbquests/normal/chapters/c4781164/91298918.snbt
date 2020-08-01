@@ -1,0 +1,34 @@
+{
+	title: "Basic Fuel",
+	x: -1.0d,
+	y: -4.5d,
+	dependencies: [
+		"f42a1c63"
+	],
+	tasks: [{
+		uid: "514fbef1",
+		type: "item",
+		items: [{
+			item: "minecraft:coal"
+		}],
+		count: 8L
+	},
+	{
+		uid: "6c55afbc",
+		type: "item",
+		items: [{
+			item: "minecraft:coal 1 1"
+		}],
+		count: 24L
+	}],
+	rewards: [{
+		uid: "f88c4a4c",
+		type: "xp",
+		xp: 20
+	},
+	{
+		uid: "b4a465ab",
+		type: "ftbmoney:money",
+		ftb_money: 150L
+	}]
+}

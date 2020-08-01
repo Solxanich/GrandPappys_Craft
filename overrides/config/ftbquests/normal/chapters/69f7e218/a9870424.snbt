@@ -1,0 +1,25 @@
+{
+	x: -12.5d,
+	y: 6.0d,
+	dependencies: [
+		"a33a168c"
+	],
+	hide: true,
+	tasks: [{
+		uid: "e1e6c10e",
+		type: "item",
+		items: [{
+			item: "bountifulbaubles:potionwormhole"
+		}]
+	}],
+	rewards: [{
+		uid: "87740485",
+		type: "xp",
+		xp: 10
+	},
+	{
+		uid: "fd636079",
+		type: "xp",
+		xp: 10
+	}]
+}

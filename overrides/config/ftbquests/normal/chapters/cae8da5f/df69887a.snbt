@@ -1,0 +1,39 @@
+{
+	x: -11.0d,
+	y: 10.5d,
+	dependencies: [
+		"cf4f1857"
+	],
+	hide: true,
+	tasks: [{
+		uid: "a2a3b749",
+		type: "item",
+		items: [{
+			item: "heroesexpansion:captain_america_shield"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "fc95777b",
+		type: "item",
+		items: [{
+			id: "lucraftcore:injection",
+			tag: {
+				Injection: "heroesexpansion:super_soldier"
+			}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "5e9e4f89",
+		type: "ftbmoney:money",
+		ftb_money: 10L
+	},
+	{
+		uid: "0aec58ee",
+		type: "xp",
+		xp: 20
+	}]
+}

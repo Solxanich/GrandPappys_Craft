@@ -1,0 +1,96 @@
+{
+	x: 0.5d,
+	y: -2.0d,
+	dependencies: [
+		"084e79d9"
+	],
+	hide: true,
+	tasks: [{
+		uid: "c8462e1a",
+		type: "item",
+		items: [{
+			id: "thaumcraft:crystal_essence",
+			tag: {
+				Aspects: [{
+					amount: 1,
+					key: "aer"
+				}]
+			}
+		}]
+	},
+	{
+		uid: "761633f9",
+		type: "item",
+		items: [{
+			id: "thaumcraft:crystal_essence",
+			tag: {
+				Aspects: [{
+					amount: 1,
+					key: "aqua"
+				}]
+			}
+		}]
+	},
+	{
+		uid: "8fccea06",
+		type: "item",
+		items: [{
+			id: "thaumcraft:crystal_essence",
+			tag: {
+				Aspects: [{
+					amount: 1,
+					key: "terra"
+				}]
+			}
+		}]
+	},
+	{
+		uid: "0c78da1a",
+		type: "item",
+		items: [{
+			id: "thaumcraft:crystal_essence",
+			tag: {
+				Aspects: [{
+					amount: 1,
+					key: "ignis"
+				}]
+			}
+		}]
+	},
+	{
+		uid: "d23af6c9",
+		type: "item",
+		items: [{
+			id: "thaumcraft:crystal_essence",
+			tag: {
+				Aspects: [{
+					amount: 1,
+					key: "perditio"
+				}]
+			}
+		}]
+	},
+	{
+		uid: "7adb6c16",
+		type: "item",
+		items: [{
+			id: "thaumcraft:crystal_essence",
+			tag: {
+				Aspects: [{
+					amount: 1,
+					key: "ordo"
+				}]
+			}
+		}]
+	}],
+	rewards: [{
+		uid: "a63070b2",
+		type: "ftbmoney:money",
+		ftb_money: 50L
+	},
+	{
+		uid: "156b27f5",
+		type: "xp",
+		xp: 20
+	}]
+}

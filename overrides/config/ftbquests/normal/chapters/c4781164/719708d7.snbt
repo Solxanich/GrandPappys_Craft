@@ -1,0 +1,38 @@
+{
+	title: "Farmer",
+	x: 9.0d,
+	y: -12.0d,
+	shape: "square",
+	text: [
+		"Your Goal: To rule the supply chain as the Resource Lord",
+		"Your tools: Technology, Pets, and Chickens"
+	],
+	dependencies: [
+		"dff49c28"
+	],
+	hide: true,
+	tasks: [{
+		uid: "ced8cc10",
+		type: "item",
+		items: [{
+			item: "contenttweaker:vocationaltoken"
+		}],
+		consume_items: true
+	}],
+	rewards: [{
+		uid: "bf24ce60",
+		type: "gamestage",
+		title: "Farmer",
+		team_reward: true,
+		auto: "disabled",
+		stage: "farmer"
+	},
+	{
+		uid: "aac92d62",
+		type: "gamestage",
+		title: "Tech",
+		team_reward: true,
+		auto: "disabled",
+		stage: "tech"
+	}]
+}

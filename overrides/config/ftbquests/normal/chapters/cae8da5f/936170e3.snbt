@@ -1,0 +1,25 @@
+{
+	x: -14.0d,
+	y: 0.0d,
+	dependencies: [
+		"f33bfbde"
+	],
+	hide: true,
+	tasks: [{
+		uid: "01e3295f",
+		type: "item",
+		items: [{
+			item: "soulus:bone_nether"
+		}]
+	}],
+	rewards: [{
+		uid: "8b2b0d87",
+		type: "ftbmoney:money",
+		ftb_money: 10L
+	},
+	{
+		uid: "7c5286a6",
+		type: "xp",
+		xp: 20
+	}]
+}

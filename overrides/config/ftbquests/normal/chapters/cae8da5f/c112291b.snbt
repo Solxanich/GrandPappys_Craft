@@ -1,0 +1,25 @@
+{
+	x: -12.5d,
+	y: -8.0d,
+	dependencies: [
+		"d3518208"
+	],
+	hide: true,
+	tasks: [{
+		uid: "5b313d77",
+		type: "kill",
+		disable_toast: true,
+		entity: "tropicraft:eih",
+		value: 1L
+	}],
+	rewards: [{
+		uid: "913f8aa1",
+		type: "ftbmoney:money",
+		ftb_money: 10L
+	},
+	{
+		uid: "04c59353",
+		type: "xp",
+		xp: 20
+	}]
+}

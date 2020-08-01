@@ -1,0 +1,25 @@
+{
+	x: 1.0d,
+	y: 11.0d,
+	dependencies: [
+		"d547a893"
+	],
+	hide: true,
+	tasks: [{
+		uid: "05cdee56",
+		type: "item",
+		items: [{
+			item: "glacidus:thawed_antinatric_stone"
+		}]
+	}],
+	rewards: [{
+		uid: "0e561b5a",
+		type: "ftbmoney:money",
+		ftb_money: 10L
+	},
+	{
+		uid: "f87256c3",
+		type: "xp",
+		xp: 20
+	}]
+}

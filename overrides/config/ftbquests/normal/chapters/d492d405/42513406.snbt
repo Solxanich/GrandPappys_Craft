@@ -1,0 +1,27 @@
+{
+	x: -5.0d,
+	y: -3.0d,
+	dependencies: [
+		"8e3c7d24"
+	],
+	hide: true,
+	tasks: [{
+		uid: "3b090975",
+		type: "item",
+		items: [{
+			item: "guideapi:bloodmagic-guide"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "55bb2186",
+		type: "ftbmoney:money",
+		ftb_money: 50L
+	},
+	{
+		uid: "49a572a7",
+		type: "xp",
+		xp: 20
+	}]
+}

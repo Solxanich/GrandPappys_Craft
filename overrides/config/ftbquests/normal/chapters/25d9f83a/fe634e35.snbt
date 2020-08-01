@@ -1,0 +1,29 @@
+{
+	x: 4.0d,
+	y: 4.0d,
+	dependencies: [
+		"49c38fe2"
+	],
+	hide: true,
+	tasks: [{
+		uid: "4efb3899",
+		type: "item",
+		items: [{
+			item: "immersiveengineering:metal"
+		}],
+		count: 10L
+	},
+	{
+		uid: "cbc4a8dc",
+		type: "item",
+		items: [{
+			item: "immersiveengineering:metal 1 1"
+		}],
+		count: 10L
+	}],
+	rewards: [{
+		uid: "d04f04e6",
+		type: "xp",
+		xp: 10
+	}]
+}

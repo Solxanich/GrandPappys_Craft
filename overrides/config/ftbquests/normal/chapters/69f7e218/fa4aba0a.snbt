@@ -1,0 +1,25 @@
+{
+	x: 6.0d,
+	y: 4.0d,
+	shape: "heart",
+	dependencies: [
+		"2bf0d4ea"
+	],
+	tasks: [{
+		uid: "ec681b43",
+		type: "item",
+		items: [{
+			item: "lordcraft:crystal_basic_air"
+		}]
+	}],
+	rewards: [{
+		uid: "03471473",
+		type: "ftbmoney:money",
+		ftb_money: 50L
+	},
+	{
+		uid: "3aa78966",
+		type: "xp",
+		xp: 10
+	}]
+}

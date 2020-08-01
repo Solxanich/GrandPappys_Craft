@@ -68,7 +68,7 @@ if(loadedMods.contains("mod_lavacow")){
 			"mod_lavacow:scarecrow","mod_lavacow:sludgejet","mod_lavacow:sludgelord","mod_lavacow:unburied",
 			"mod_lavacow:undeadswine","mod_lavacow:undertaker","mod_lavacow:vespa","mod_lavacow:vespacocoon",
 			"mod_lavacow:warsmallfireball","mod_lavacow:zombiefrozen","mod_lavacow:zombiemushroom",
-			"mod_lavacow:zombiepiranha","mod_lavacow:foglet","mod_lavacow:zombiepiranha"
+			"mod_lavacow:zombiepiranha","mod_lavacow:foglet"
 		]
 	};
 	for _stage, mobs in mobsMap {
@@ -435,6 +435,17 @@ if(loadedMods.contains("nex")){
 	}
 }
 
+if(loadedMods.contains("lmreengaged")){
+	mobsMap = {
+		stageEngg.stage: [
+			"lmreengaged:littlemaid"
+		]
+	};
+	for _stage, mobs in mobsMap {
+		ZenStager.getStage(_stage).addMobs(mobs);
+	}
+}
+
 if(loadedMods.contains("bewitchment")){
 	mobsMap = {
 		stageOverworld.stage: [
@@ -647,8 +658,7 @@ static stagedMods as string[][string] = {
 		"aquaculture",
 		"lycanitesmobs",
 		"netherex",
-		"variedcommodities",
-		"mob_grinding_utils",
+		"openblocks",
 		"thermalfoundation"
 	],
 	stageTech.stage:[
@@ -661,9 +671,7 @@ static stagedMods as string[][string] = {
 	],
 	stageDefault.stage : [
 		"harvestcraft",
-		"adhooks",
-		"totemic",
-		"xpbook"
+		"totemic"
 	],
 	stageDigimon.stage : [
 		"digimobs"
@@ -717,7 +725,8 @@ static stagedMods as string[][string] = {
 	],
 	stageEngg.stage: [
 		"atum",
-		"academy"
+		"academy",
+		"lmreengaged"
 	],
 	stageOutcast.stage: [
 		"vampirism",
@@ -753,17 +762,17 @@ static stagedCT as IIngredient[][string] = {
 		<contenttweaker:everfeather>
 	],
 	stageEngg.stage: [
-		<contenttweaker:drilllicense>
+		<contenttweaker:drilllicense>,
+		<contenttweaker:digimoncartridge>,
+		<contenttweaker:terrariacartridge>
 	],
 	stageFarmer.stage: [
 		<contenttweaker:mysticegg>
 	],
 	stageTech.stage: [
-		<contenttweaker:pixelmoncartridge>,
-		<contenttweaker:digimoncartridge>,
-		<contenttweaker:terrariacartridge>,
 		<contenttweaker:power_pin>,
-		<contenttweaker:data_pin>
+		<contenttweaker:data_pin>,
+		<contenttweaker:pixelmoncartridge>
 	],
 	stageOutcast.stage: [
 		<contenttweaker:taintedmilk>,

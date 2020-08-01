@@ -1,0 +1,25 @@
+{
+	x: 6.0d,
+	y: -6.0d,
+	dependencies: [
+		"bf40ca98"
+	],
+	hide: true,
+	tasks: [{
+		uid: "bc983dc9",
+		type: "item",
+		items: [{
+			item: "hatchery:fertilizer_mixer"
+		}]
+	}],
+	rewards: [{
+		uid: "fbbdf709",
+		type: "ftbmoney:money",
+		ftb_money: 25L
+	},
+	{
+		uid: "7bee8a5a",
+		type: "xp",
+		xp: 20
+	}]
+}

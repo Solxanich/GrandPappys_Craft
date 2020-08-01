@@ -1,0 +1,21 @@
+{
+	x: 11.0d,
+	y: -12.0d,
+	description: "Shareable Knowledge",
+	dependencies: [
+		"719708d7"
+	],
+	hide: true,
+	tasks: [{
+		uid: "686e3c51",
+		type: "item",
+		items: [{
+			item: "contenttweaker:farmermarket"
+		}]
+	}],
+	rewards: [{
+		uid: "32d0f5fd",
+		type: "xp",
+		xp: 10
+	}]
+}

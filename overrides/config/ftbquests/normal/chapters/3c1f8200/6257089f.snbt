@@ -1,0 +1,73 @@
+{
+	x: 11.0d,
+	y: 0.0d,
+	dependencies: [
+		"3ecd56a5"
+	],
+	tasks: [{
+		uid: "82d63792",
+		type: "item",
+		items: [{
+			item: "harvestcraft:turnipseeditem"
+		}]
+	},
+	{
+		uid: "62286322",
+		type: "item",
+		items: [{
+			item: "harvestcraft:rhubarbseeditem"
+		}]
+	},
+	{
+		uid: "36ba9818",
+		type: "item",
+		items: [{
+			item: "harvestcraft:celeryseeditem"
+		}]
+	},
+	{
+		uid: "765ee736",
+		type: "item",
+		items: [{
+			item: "harvestcraft:garlicseeditem"
+		}]
+	},
+	{
+		uid: "14c9e177",
+		type: "item",
+		items: [{
+			item: "harvestcraft:gingerseeditem"
+		}]
+	},
+	{
+		uid: "b8c03b59",
+		type: "item",
+		items: [{
+			item: "harvestcraft:spiceleafseeditem"
+		}]
+	},
+	{
+		uid: "03b82ea1",
+		type: "item",
+		items: [{
+			item: "harvestcraft:teaseeditem"
+		}]
+	},
+	{
+		uid: "a3559ced",
+		type: "item",
+		items: [{
+			item: "harvestcraft:coffeeseeditem"
+		}]
+	}],
+	rewards: [{
+		uid: "35073ebd",
+		type: "ftbmoney:money",
+		ftb_money: 100L
+	},
+	{
+		uid: "869f03c2",
+		type: "xp",
+		xp: 50
+	}]
+}

@@ -1,0 +1,29 @@
+{
+	x: 0.0d,
+	y: -4.0d,
+	description: "More content to be added....",
+	dependencies: [
+		"9b1cf613"
+	],
+	hide: true,
+	tasks: [{
+		uid: "ceb55db3",
+		type: "dimension",
+		dim: 3
+	},
+	{
+		uid: "dda7595f",
+		type: "checkmark",
+		title: "Explored And Had Fun..."
+	}],
+	rewards: [{
+		uid: "e756cd8e",
+		type: "ftbmoney:money",
+		ftb_money: 250L
+	},
+	{
+		uid: "1e65241a",
+		type: "xp",
+		xp: 100
+	}]
+}

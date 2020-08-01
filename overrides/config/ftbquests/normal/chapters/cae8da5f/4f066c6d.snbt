@@ -1,0 +1,26 @@
+{
+	title: "Automation of summoners?",
+	x: -16.5d,
+	y: 0.0d,
+	dependencies: [
+		"5c73bcbc"
+	],
+	hide: true,
+	tasks: [{
+		uid: "32fb6050",
+		type: "item",
+		items: [{
+			item: "soulus:soul_totem"
+		}]
+	}],
+	rewards: [{
+		uid: "483b6aaf",
+		type: "ftbmoney:money",
+		ftb_money: 10L
+	},
+	{
+		uid: "4bf1ba35",
+		type: "xp",
+		xp: 20
+	}]
+}

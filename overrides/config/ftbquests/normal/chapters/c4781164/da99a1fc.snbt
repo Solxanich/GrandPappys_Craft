@@ -1,0 +1,38 @@
+{
+	title: "Engineer",
+	x: 9.0d,
+	y: -10.0d,
+	shape: "square",
+	text: [
+		"Your Goal: To build the biggest and best machines possible",
+		"Your tools: Technology, minions, and the Earth"
+	],
+	dependencies: [
+		"dff49c28"
+	],
+	hide: true,
+	tasks: [{
+		uid: "06293a80",
+		type: "item",
+		items: [{
+			item: "contenttweaker:vocationaltoken"
+		}],
+		consume_items: true
+	}],
+	rewards: [{
+		uid: "b0a08fe2",
+		type: "gamestage",
+		title: "Tech",
+		team_reward: true,
+		auto: "disabled",
+		stage: "tech"
+	},
+	{
+		uid: "461d1f9f",
+		type: "gamestage",
+		title: "Engineering",
+		team_reward: true,
+		auto: "disabled",
+		stage: "engg"
+	}]
+}

@@ -1,0 +1,37 @@
+{
+	x: -0.5d,
+	y: 5.0d,
+	dependencies: [
+		"fa276645"
+	],
+	hide: true,
+	tasks: [{
+		uid: "9ac1f39b",
+		type: "item",
+		items: [{
+			item: "evilcraft:origins_of_darkness"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "72f98d71",
+		type: "checkmark",
+		title: "Feed Animal Dark Apple"
+	},
+	{
+		uid: "6402fdba",
+		type: "checkmark",
+		title: "Toss Book At Dead Animal Anomaly"
+	}],
+	rewards: [{
+		uid: "3e99970c",
+		type: "ftbmoney:money",
+		ftb_money: 50L
+	},
+	{
+		uid: "7a99b592",
+		type: "xp",
+		xp: 20
+	}]
+}

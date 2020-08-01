@@ -1,0 +1,23 @@
+{
+	title: "How to make a cellphone in the wild",
+	x: 4.5d,
+	y: 4.5d,
+	text: [
+		"Hmm. Let's see here... what does my guide say about making a cellphone in the wild?",
+		"Oh. There's the page. Looks like you will need the following:",
+		"      1) 1x Ice Dragon Heart - Circuit Clock",
+		"      2) 1x Arcane Ear - Audio Receiver",
+		"      3) 2x Sceptre of Thunder - Wire material",
+		"4) 1x Porygon Head - Microcontroller",
+		"5) 1x Refined Digizoid Metal - Phone Casing"
+	],
+	dependencies: [
+		"813f678e"
+	],
+	hide: true,
+	tasks: [{
+		uid: "19e692ef",
+		type: "checkmark",
+		title: "We will get the parts"
+	}]
+}

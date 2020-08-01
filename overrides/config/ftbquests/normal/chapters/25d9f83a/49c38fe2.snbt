@@ -1,0 +1,51 @@
+{
+	title: "Basic Mining Materials",
+	x: 2.0d,
+	y: 2.0d,
+	dependencies: [
+		"0bf4edf5"
+	],
+	hide: true,
+	tasks: [{
+		uid: "89b9a189",
+		type: "item",
+		items: [{
+			item: "immersiveengineering:ore"
+		}],
+		count: 10L
+	},
+	{
+		uid: "ef251bdb",
+		type: "item",
+		items: [{
+			item: "minecraft:iron_ore"
+		}],
+		count: 10L
+	},
+	{
+		uid: "251b7107",
+		type: "item",
+		items: [{
+			item: "immersiveengineering:ore 1 1"
+		}],
+		count: 10L
+	},
+	{
+		uid: "c67698d7",
+		type: "item",
+		items: [{
+			item: "minecraft:coal"
+		}],
+		count: 10L
+	}],
+	rewards: [{
+		uid: "904e60a9",
+		type: "ftbmoney:money",
+		ftb_money: 50L
+	},
+	{
+		uid: "e0d26303",
+		type: "xp",
+		xp: 20
+	}]
+}

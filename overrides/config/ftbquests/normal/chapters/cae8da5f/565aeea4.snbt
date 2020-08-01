@@ -1,0 +1,27 @@
+{
+	x: -1.0d,
+	y: 0.5d,
+	dependencies: [
+		"ef78404a"
+	],
+	hide: true,
+	tasks: [{
+		uid: "13fd9f4a",
+		type: "item",
+		items: [{
+			item: "petrock:petrockspawn"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "7475543d",
+		type: "ftbmoney:money",
+		ftb_money: 10L
+	},
+	{
+		uid: "8afb17ce",
+		type: "xp",
+		xp: 20
+	}]
+}

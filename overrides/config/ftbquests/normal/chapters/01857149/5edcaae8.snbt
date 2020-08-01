@@ -1,0 +1,19 @@
+{
+	x: -12.5d,
+	y: -7.0d,
+	dependencies: [
+		"41c69d2f"
+	],
+	hide: true,
+	tasks: [{
+		uid: "46cdb806",
+		type: "kill",
+		entity: "defiledlands:the_destroyer",
+		value: 1L
+	}],
+	rewards: [{
+		uid: "005fa33e",
+		type: "xp",
+		xp: 100
+	}]
+}

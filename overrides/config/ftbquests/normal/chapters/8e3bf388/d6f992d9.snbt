@@ -1,0 +1,26 @@
+{
+	x: 9.5d,
+	y: -4.0d,
+	dependencies: [
+		"38efb4a7"
+	],
+	hide: true,
+	tasks: [{
+		uid: "06ec20c2",
+		type: "item",
+		items: [{
+			item: "minecraft:dye 1 1"
+		}],
+		count: 32L
+	}],
+	rewards: [{
+		uid: "899b11a5",
+		type: "ftbmoney:money",
+		ftb_money: 25L
+	},
+	{
+		uid: "d9413815",
+		type: "xp",
+		xp: 20
+	}]
+}

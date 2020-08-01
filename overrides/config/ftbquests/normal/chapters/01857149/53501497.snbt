@@ -1,0 +1,19 @@
+{
+	x: -18.0d,
+	y: -9.5d,
+	dependencies: [
+		"41c69d2f"
+	],
+	hide: true,
+	tasks: [{
+		uid: "ef0d75bc",
+		type: "kill",
+		entity: "minecraft:illusion_illager",
+		value: 1L
+	}],
+	rewards: [{
+		uid: "32d663df",
+		type: "xp",
+		xp: 100
+	}]
+}

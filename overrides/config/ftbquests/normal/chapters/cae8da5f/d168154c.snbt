@@ -1,0 +1,27 @@
+{
+	x: -3.0d,
+	y: -4.0d,
+	dependencies: [
+		"be0405f1"
+	],
+	hide: true,
+	tasks: [{
+		uid: "0437fa65",
+		type: "item",
+		items: [{
+			item: "totemic:totem_whittling_knife"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "2e3a30e1",
+		type: "ftbmoney:money",
+		ftb_money: 10L
+	},
+	{
+		uid: "59234391",
+		type: "xp",
+		xp: 20
+	}]
+}

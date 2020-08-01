@@ -1,0 +1,41 @@
+{
+	title: "Automated Mining?",
+	x: 10.0d,
+	y: 6.5d,
+	shape: "heart",
+	dependencies: [
+		"6a949d56",
+		"a2d0b3be"
+	],
+	hide: true,
+	tasks: [{
+		uid: "c768be29",
+		type: "item",
+		items: [{
+			id: "immersivepetroleum:schematic",
+			tag: {
+				multiblock: "IE:ExcavatorDemo",
+				flip: 1b
+			}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 2b
+	},
+	{
+		uid: "1bd0ac45",
+		type: "item",
+		items: [{
+			item: "immersiveengineering:metal_device1 1 7"
+		}]
+	}],
+	rewards: [{
+		uid: "76215832",
+		type: "ftbmoney:money",
+		ftb_money: 100L
+	},
+	{
+		uid: "ba1d563f",
+		type: "xp",
+		xp: 50
+	}]
+}

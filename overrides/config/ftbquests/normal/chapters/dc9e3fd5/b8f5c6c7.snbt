@@ -1,0 +1,27 @@
+{
+	x: -17.5d,
+	y: -1.5d,
+	tasks: [{
+		uid: "62e5430f",
+		type: "stat",
+		title: "True Adventurer (100%)",
+		stat: "stat.waystones:waystonesActivated",
+		value: 100
+	}],
+	rewards: [{
+		uid: "8199392d",
+		type: "item",
+		item: "waystones:waystone",
+		count: 3
+	},
+	{
+		uid: "d7623ff9",
+		type: "xp",
+		xp: 1000
+	},
+	{
+		uid: "14ba9563",
+		type: "ftbmoney:money",
+		ftb_money: 1250L
+	}]
+}

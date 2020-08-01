@@ -1,0 +1,53 @@
+{
+	x: 4.5d,
+	y: -14.0d,
+	dependencies: [
+		"61b19710"
+	],
+	hide: true,
+	tasks: [{
+		uid: "c3ba1de5",
+		type: "item",
+		items: [{
+			item: "academy:terminal_installer"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "ddc80f4e",
+		type: "item",
+		items: [{
+			item: "academy:app_media_player"
+		}]
+	},
+	{
+		uid: "c9c1e17f",
+		type: "item",
+		items: [{
+			item: "academy:app_skill_tree"
+		}]
+	},
+	{
+		uid: "869ce961",
+		type: "item",
+		items: [{
+			item: "academy:app_freq_transmitter"
+		}]
+	}],
+	rewards: [{
+		uid: "b1e3a20d",
+		type: "toast",
+		title: "Quest Chain In Development"
+	},
+	{
+		uid: "afb9ad29",
+		type: "ftbmoney:money",
+		ftb_money: 10L
+	},
+	{
+		uid: "a43212ff",
+		type: "xp",
+		xp: 20
+	}]
+}

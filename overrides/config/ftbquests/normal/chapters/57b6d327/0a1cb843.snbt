@@ -1,0 +1,24 @@
+{
+	title: "How to make a satellite transceiver  in the wild",
+	x: 4.5d,
+	y: -4.5d,
+	text: [
+		"Well well well. This looks like it will be quite the doozy.",
+		"So the guide says you will need the following mats:",
+		"      1) 1x Ionite Crystal - Amplifying Reflector ",
+		"      2) 1x Mechanical Steel Pipe - Reflector Arm",
+		"      3) 1x Magician's Blood Orb - Reflective Dish Gloss",
+		"4) 1x Shyrestone Ingot - Cellphone Connector Pin",
+		"5) 1x Zanite Shield - Satellite Dish",
+		"6) 1x Witches' Stitching - Glue-like material"
+	],
+	dependencies: [
+		"813f678e"
+	],
+	hide: true,
+	tasks: [{
+		uid: "16d13d6b",
+		type: "checkmark",
+		title: "We will get the parts"
+	}]
+}

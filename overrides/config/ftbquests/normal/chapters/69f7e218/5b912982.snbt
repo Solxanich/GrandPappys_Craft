@@ -1,0 +1,29 @@
+{
+	x: -15.0d,
+	y: 4.0d,
+	shape: "heart",
+	dependencies: [
+		"9e0af848",
+		"a9870424"
+	],
+	hide: true,
+	tasks: [{
+		uid: "4c2b75fb",
+		type: "item",
+		items: [{
+			item: "bountifulbaubles:wormholemirror"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "3f78ae2d",
+		type: "xp",
+		xp: 10
+	},
+	{
+		uid: "6f090e7d",
+		type: "ftbmoney:money",
+		ftb_money: 50L
+	}]
+}

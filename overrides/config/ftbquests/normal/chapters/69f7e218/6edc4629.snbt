@@ -1,0 +1,20 @@
+{
+	x: 12.0d,
+	y: -1.0d,
+	dependencies: [
+		"58dcd473"
+	],
+	hide: true,
+	tasks: [{
+		uid: "700cf5fe",
+		type: "item",
+		items: [{
+			item: "contenttweaker:vocationaltoken"
+		}]
+	}],
+	rewards: [{
+		uid: "d8a2983c",
+		type: "xp",
+		xp: 100
+	}]
+}

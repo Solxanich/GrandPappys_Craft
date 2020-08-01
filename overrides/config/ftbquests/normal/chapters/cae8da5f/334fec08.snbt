@@ -1,0 +1,27 @@
+{
+	x: -10.5d,
+	y: 7.5d,
+	dependencies: [
+		"6578eea5"
+	],
+	hide: true,
+	tasks: [{
+		uid: "d11fd17c",
+		type: "item",
+		items: [{
+			item: "heroesexpansion:compound_bow"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "c86d4f24",
+		type: "ftbmoney:money",
+		ftb_money: 10L
+	},
+	{
+		uid: "0dfd5fd7",
+		type: "xp",
+		xp: 20
+	}]
+}

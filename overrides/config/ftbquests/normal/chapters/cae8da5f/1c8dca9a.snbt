@@ -1,0 +1,30 @@
+{
+	x: -8.0d,
+	y: 2.5d,
+	dependencies: [
+		"20b6405d"
+	],
+	hide: true,
+	tasks: [{
+		uid: "2ca84efe",
+		type: "item",
+		items: [{
+			id: "lucraftcore:injection",
+			tag: {
+				Injection: "heroesexpansion:kree_hybrid"
+			}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "00c3fac6",
+		type: "ftbmoney:money",
+		ftb_money: 10L
+	},
+	{
+		uid: "4932b2dc",
+		type: "xp",
+		xp: 20
+	}]
+}

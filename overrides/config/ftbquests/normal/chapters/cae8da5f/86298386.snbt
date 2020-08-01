@@ -1,0 +1,27 @@
+{
+	x: 7.5d,
+	y: -8.0d,
+	dependencies: [
+		"d9b293be"
+	],
+	hide: true,
+	tasks: [{
+		uid: "9fb96b48",
+		type: "item",
+		items: [{
+			item: "guideapi:vampirism-guide"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "8c0063d5",
+		type: "ftbmoney:money",
+		ftb_money: 10L
+	},
+	{
+		uid: "afe70722",
+		type: "xp",
+		xp: 20
+	}]
+}

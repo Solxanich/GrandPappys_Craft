@@ -1,0 +1,19 @@
+{
+	x: -18.0d,
+	y: -12.0d,
+	dependencies: [
+		"41c69d2f"
+	],
+	hide: true,
+	tasks: [{
+		uid: "38b53786",
+		type: "kill",
+		entity: "minecraft:wither",
+		value: 1L
+	}],
+	rewards: [{
+		uid: "30b56943",
+		type: "xp",
+		xp: 100
+	}]
+}

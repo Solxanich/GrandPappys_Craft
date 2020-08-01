@@ -1,0 +1,27 @@
+{
+	x: 1.0d,
+	y: 4.0d,
+	dependencies: [
+		"2b45a9f6"
+	],
+	hide: true,
+	tasks: [{
+		uid: "94518962",
+		type: "item",
+		items: [{
+			item: "minecraft:emerald"
+		}],
+		count: 32L,
+		consume_items: false
+	}],
+	rewards: [{
+		uid: "38b944bd",
+		type: "ftbmoney:money",
+		ftb_money: 25L
+	},
+	{
+		uid: "acf08fad",
+		type: "xp",
+		xp: 20
+	}]
+}

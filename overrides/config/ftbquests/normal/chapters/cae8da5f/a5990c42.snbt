@@ -1,0 +1,27 @@
+{
+	x: -13.0d,
+	y: 7.5d,
+	dependencies: [
+		"334fec08"
+	],
+	hide: true,
+	tasks: [{
+		uid: "cf94aa71",
+		type: "item",
+		items: [{
+			item: "heroesexpansion:green_arrow_chest"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "8c8b95f5",
+		type: "ftbmoney:money",
+		ftb_money: 10L
+	},
+	{
+		uid: "a1de2daf",
+		type: "xp",
+		xp: 20
+	}]
+}

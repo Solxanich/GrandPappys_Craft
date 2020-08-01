@@ -1,0 +1,22 @@
+{
+	x: -10.5d,
+	y: -1.5d,
+	can_repeat: true,
+	tasks: [{
+		uid: "e73a461f",
+		type: "xp",
+		value: 50L,
+		points: false
+	}],
+	rewards: [{
+		uid: "fc0b308a",
+		type: "ftbmoney:money",
+		ftb_money: 1250L
+	},
+	{
+		uid: "57f02252",
+		type: "xp_levels",
+		auto: "enabled",
+		xp_levels: 30
+	}]
+}

@@ -1,1 +1,3 @@
 wearablebackpacks:backpack
+immersiveengineering:conveyor
+pixelmon:healer

@@ -1,0 +1,30 @@
+{
+	x: -5.0d,
+	y: -7.5d,
+	dependencies: [
+		"f1a9e85c",
+		"3a6b83a2"
+	],
+	tasks: [{
+		uid: "48c31d3e",
+		type: "item",
+		items: [{
+			item: "minecraft:apple"
+		}]
+	},
+	{
+		uid: "400c7c3e",
+		type: "checkmark",
+		title: "Increase Health by Eating"
+	}],
+	rewards: [{
+		uid: "a76b3fa0",
+		type: "xp",
+		xp: 50
+	},
+	{
+		uid: "199ca610",
+		type: "ftbmoney:money",
+		ftb_money: 250L
+	}]
+}

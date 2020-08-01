@@ -1,0 +1,25 @@
+{
+	x: -8.0d,
+	y: 12.5d,
+	dependencies: [
+		"c0d0715b"
+	],
+	hide: true,
+	tasks: [{
+		uid: "186ee96c",
+		type: "item",
+		items: [{
+			item: "lucraftcore:ingot_vibranium"
+		}]
+	}],
+	rewards: [{
+		uid: "d0c66c44",
+		type: "ftbmoney:money",
+		ftb_money: 10L
+	},
+	{
+		uid: "4db18746",
+		type: "xp",
+		xp: 20
+	}]
+}

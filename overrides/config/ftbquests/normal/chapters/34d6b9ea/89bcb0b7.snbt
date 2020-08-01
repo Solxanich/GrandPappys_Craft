@@ -1,0 +1,20 @@
+{
+	x: -5.0d,
+	y: 6.5d,
+	dependencies: [
+		"ed0fdbd8"
+	],
+	hide: true,
+	tasks: [{
+		uid: "280b27fe",
+		type: "item",
+		items: [{
+			item: "environmentaltech:solar_cell_pladium"
+		}]
+	}],
+	rewards: [{
+		uid: "b0fa3244",
+		type: "xp",
+		xp: 250
+	}]
+}

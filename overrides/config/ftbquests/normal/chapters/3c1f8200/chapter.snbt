@@ -1,0 +1,7 @@
+{
+	title: "Farming For Hearts",
+	icon: "hatchery:fertilized_farmland",
+	always_invisible: false,
+	group: 0,
+	default_quest_shape: ""
+}

@@ -1,0 +1,46 @@
+{
+	title: "People's Army",
+	x: -17.5d,
+	y: -4.5d,
+	tasks: [{
+		uid: "9264f96d",
+		type: "stat",
+		stat: "stat.bountiesCompleted",
+		value: 1000
+	}],
+	rewards: [{
+		uid: "72dff3dd",
+		type: "item",
+		item: "minecraft:command_block"
+	},
+	{
+		uid: "d0618aab",
+		type: "item",
+		item: "iceandfire:dragonegg_green"
+	},
+	{
+		uid: "e027d04f",
+		type: "item",
+		item: "iceandfire:dragonegg_sapphire"
+	},
+	{
+		uid: "7c332ca8",
+		type: "item",
+		item: "iceandfire:dragonegg_gray"
+	},
+	{
+		uid: "d3c479ec",
+		type: "item",
+		item: "wolfarmor:diamond_wolf_armor"
+	},
+	{
+		uid: "de9414df",
+		type: "xp",
+		xp: 1000
+	},
+	{
+		uid: "aeaaa28b",
+		type: "ftbmoney:money",
+		ftb_money: 1250L
+	}]
+}

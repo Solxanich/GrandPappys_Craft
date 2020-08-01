@@ -1,0 +1,25 @@
+{
+	x: -18.0d,
+	y: 1.0d,
+	dependencies: [
+		"5c73bcbc"
+	],
+	hide: true,
+	tasks: [{
+		uid: "cfb6ef10",
+		type: "item",
+		items: [{
+			item: "soulus:soul_inquirer"
+		}]
+	}],
+	rewards: [{
+		uid: "56dcdb82",
+		type: "ftbmoney:money",
+		ftb_money: 10L
+	},
+	{
+		uid: "9d30e7d8",
+		type: "xp",
+		xp: 20
+	}]
+}

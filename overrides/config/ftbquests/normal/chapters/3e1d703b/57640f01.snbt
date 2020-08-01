@@ -1,0 +1,41 @@
+{
+	x: -2.5d,
+	y: -5.5d,
+	dependencies: [
+		"3fa1ce2f"
+	],
+	hide: true,
+	tasks: [{
+		uid: "7cae7c8c",
+		type: "item",
+		items: [{
+			item: "iceandfire:ice_dragon_heart"
+		}]
+	},
+	{
+		uid: "3ea3aade",
+		type: "item",
+		items: [{
+			item: "iceandfire:ice_dragon_blood"
+		}],
+		count: 6L
+	},
+	{
+		uid: "78303f18",
+		type: "item",
+		items: [{
+			item: "iceandfire:dragonscales_blue"
+		}],
+		count: 8L
+	}],
+	rewards: [{
+		uid: "2a14447f",
+		type: "ftbmoney:money",
+		ftb_money: 250L
+	},
+	{
+		uid: "e6deb94e",
+		type: "xp",
+		xp: 250
+	}]
+}

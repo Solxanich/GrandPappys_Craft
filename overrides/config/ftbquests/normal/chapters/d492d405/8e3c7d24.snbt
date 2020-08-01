@@ -1,0 +1,24 @@
+{
+	x: -3.0d,
+	y: -1.5d,
+	dependencies: [
+		"1e15d563"
+	],
+	hide: true,
+	tasks: [{
+		uid: "fd4ca6d9",
+		type: "kill",
+		entity: "minecraft:zombie_villager",
+		value: 1L
+	}],
+	rewards: [{
+		uid: "643586d8",
+		type: "ftbmoney:money",
+		ftb_money: 50L
+	},
+	{
+		uid: "0e53a674",
+		type: "xp",
+		xp: 20
+	}]
+}

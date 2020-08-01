@@ -1,0 +1,26 @@
+{
+	x: 2.0d,
+	y: 0.5d,
+	dependencies: [
+		"0fbd96cf"
+	],
+	hide: true,
+	tasks: [{
+		uid: "1d487e81",
+		type: "item",
+		items: [{
+			item: "iceandfire:sea_serpent_scales_green"
+		}],
+		count: 8L
+	}],
+	rewards: [{
+		uid: "eb04d7b8",
+		type: "ftbmoney:money",
+		ftb_money: 250L
+	},
+	{
+		uid: "3dc5475a",
+		type: "xp",
+		xp: 50
+	}]
+}

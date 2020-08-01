@@ -1,0 +1,19 @@
+{
+	x: -13.5d,
+	y: -12.0d,
+	dependencies: [
+		"41c69d2f"
+	],
+	hide: true,
+	tasks: [{
+		uid: "f340a26f",
+		type: "kill",
+		entity: "iceandfire:icedragon",
+		value: 1L
+	}],
+	rewards: [{
+		uid: "8f407485",
+		type: "xp",
+		xp: 100
+	}]
+}

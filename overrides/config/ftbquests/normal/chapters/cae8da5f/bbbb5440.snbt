@@ -1,0 +1,24 @@
+{
+	x: 15.0d,
+	y: 8.0d,
+	dependencies: [
+		"66608d93"
+	],
+	hide: true,
+	tasks: [{
+		uid: "6b070c4f",
+		type: "kill",
+		entity: "thebetweenlands:sludge_menace",
+		value: 1L
+	}],
+	rewards: [{
+		uid: "67a9c814",
+		type: "ftbmoney:money",
+		ftb_money: 10L
+	},
+	{
+		uid: "89b05875",
+		type: "xp",
+		xp: 20
+	}]
+}

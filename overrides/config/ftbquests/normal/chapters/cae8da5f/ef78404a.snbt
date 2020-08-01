@@ -1,0 +1,13 @@
+{
+	x: -1.0d,
+	y: 2.0d,
+	dependencies: [
+		"da762326"
+	],
+	hide: true,
+	tasks: [{
+		uid: "eaae83a5",
+		type: "checkmark",
+		title: "Bard Path"
+	}]
+}

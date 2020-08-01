@@ -1,0 +1,13 @@
+{
+	x: -1.0d,
+	y: -10.0d,
+	dependencies: [
+		"da99a1fc"
+	],
+	hide: true,
+	tasks: [{
+		uid: "9c3509c1",
+		type: "checkmark",
+		title: "Engineer Path"
+	}]
+}

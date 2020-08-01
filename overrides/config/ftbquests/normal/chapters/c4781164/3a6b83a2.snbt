@@ -1,0 +1,25 @@
+{
+	x: -3.0d,
+	y: -7.5d,
+	dependencies: [
+		"f1a9e85c"
+	],
+	tasks: [{
+		uid: "16cb2d2d",
+		type: "item",
+		items: [{
+			item: "minecraft:wheat"
+		}],
+		count: 3L
+	}],
+	rewards: [{
+		uid: "2e0c54cc",
+		type: "xp",
+		xp: 20
+	},
+	{
+		uid: "6932f675",
+		type: "ftbmoney:money",
+		ftb_money: 100L
+	}]
+}

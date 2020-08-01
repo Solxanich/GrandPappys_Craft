@@ -1,0 +1,24 @@
+{
+	x: 11.5d,
+	y: 12.0d,
+	dependencies: [
+		"66608d93"
+	],
+	hide: true,
+	tasks: [{
+		uid: "6c7766a6",
+		type: "kill",
+		entity: "thebetweenlands:fortress_boss",
+		value: 1L
+	}],
+	rewards: [{
+		uid: "e8e1d03a",
+		type: "ftbmoney:money",
+		ftb_money: 10L
+	},
+	{
+		uid: "d71860f4",
+		type: "xp",
+		xp: 20
+	}]
+}

@@ -1,0 +1,19 @@
+{
+	x: -7.5d,
+	y: -12.0d,
+	dependencies: [
+		"41c69d2f"
+	],
+	hide: true,
+	tasks: [{
+		uid: "a664f3e4",
+		type: "kill",
+		entity: "iceandfire:deathworm",
+		value: 1L
+	}],
+	rewards: [{
+		uid: "88c706fa",
+		type: "xp",
+		xp: 100
+	}]
+}

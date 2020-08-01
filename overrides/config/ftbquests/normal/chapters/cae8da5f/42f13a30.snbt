@@ -1,0 +1,25 @@
+{
+	x: -3.0d,
+	y: -7.0d,
+	dependencies: [
+		"f748f22d"
+	],
+	hide: true,
+	tasks: [{
+		uid: "c443146c",
+		type: "item",
+		items: [{
+			item: "lycanitesmobs:equipmentforge_master"
+		}]
+	}],
+	rewards: [{
+		uid: "f95c6aea",
+		type: "ftbmoney:money",
+		ftb_money: 10L
+	},
+	{
+		uid: "1ead30d0",
+		type: "xp",
+		xp: 20
+	}]
+}

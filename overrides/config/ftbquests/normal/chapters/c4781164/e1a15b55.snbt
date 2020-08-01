@@ -1,0 +1,38 @@
+{
+	title: "Outcast",
+	x: 9.0d,
+	y: -8.0d,
+	shape: "square",
+	text: [
+		"Your Goal: Use the power you acquire to get back into society",
+		"Your tools: Dragons, blood, and magic"
+	],
+	dependencies: [
+		"dff49c28"
+	],
+	hide: true,
+	tasks: [{
+		uid: "73811663",
+		type: "item",
+		items: [{
+			item: "contenttweaker:vocationaltoken"
+		}],
+		consume_items: true
+	}],
+	rewards: [{
+		uid: "c6c10096",
+		type: "gamestage",
+		title: "Warrior",
+		team_reward: true,
+		auto: "disabled",
+		stage: "warrior"
+	},
+	{
+		uid: "3c6e8f4a",
+		type: "gamestage",
+		title: "Outcast",
+		team_reward: true,
+		auto: "disabled",
+		stage: "outcast"
+	}]
+}

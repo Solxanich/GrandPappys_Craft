@@ -1,0 +1,29 @@
+{
+	x: 2.0d,
+	y: 0.0d,
+	dependencies: [
+		"0bf4edf5"
+	],
+	hide: true,
+	tasks: [{
+		uid: "0a51506b",
+		type: "item",
+		items: [{
+			item: "minecraft:clay_ball"
+		}],
+		count: 108L
+	},
+	{
+		uid: "c8e958cb",
+		type: "item",
+		items: [{
+			item: "minecraft:netherbrick"
+		}],
+		count: 36L
+	}],
+	rewards: [{
+		uid: "b73a4034",
+		type: "xp",
+		xp: 20
+	}]
+}

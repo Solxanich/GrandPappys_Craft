@@ -1,0 +1,40 @@
+{
+	x: -5.5d,
+	y: -12.0d,
+	dependencies: [
+		"be67ccab"
+	],
+	hide: true,
+	tasks: [{
+		uid: "c530fd2b",
+		type: "item",
+		items: [{
+			item: "atum:scarab"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "1a24c3f7",
+		type: "item",
+		items: [{
+			item: "minecraft:sandstone"
+		}],
+		count: 49L
+	},
+	{
+		uid: "ff5b48ee",
+		type: "checkmark",
+		title: "1: 5x5 solid. 2: 5x5 ring water in center 3x3. 3: 2 block tall pillars on corners"
+	}],
+	rewards: [{
+		uid: "06aa384e",
+		type: "ftbmoney:money",
+		ftb_money: 10L
+	},
+	{
+		uid: "6bdde207",
+		type: "xp",
+		xp: 20
+	}]
+}

@@ -1,0 +1,19 @@
+{
+	x: -11.5d,
+	y: -12.0d,
+	dependencies: [
+		"41c69d2f"
+	],
+	hide: true,
+	tasks: [{
+		uid: "1b2fe399",
+		type: "kill",
+		entity: "aoa3:cyclops",
+		value: 1L
+	}],
+	rewards: [{
+		uid: "298c668e",
+		type: "xp",
+		xp: 100
+	}]
+}

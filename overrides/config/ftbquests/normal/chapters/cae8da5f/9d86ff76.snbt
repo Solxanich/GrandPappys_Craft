@@ -1,0 +1,31 @@
+{
+	x: -9.5d,
+	y: -4.0d,
+	dependencies: [
+		"4f41e070"
+	],
+	hide: true,
+	tasks: [{
+		uid: "6067f98f",
+		type: "item",
+		items: [{
+			item: "mahoutsukai:guidebook"
+		}]
+	}],
+	rewards: [{
+		uid: "fe414571",
+		type: "gamestage",
+		auto: "no_toast",
+		stage: "mahoutsukai_all"
+	},
+	{
+		uid: "981ca525",
+		type: "ftbmoney:money",
+		ftb_money: 10L
+	},
+	{
+		uid: "4c0bd46e",
+		type: "xp",
+		xp: 20
+	}]
+}

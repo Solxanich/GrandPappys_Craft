@@ -1,0 +1,45 @@
+{
+	x: -9.5d,
+	y: -14.0d,
+	dependencies: [
+		"5f5f29d3"
+	],
+	hide: true,
+	tasks: [{
+		uid: "0225c9b1",
+		type: "item",
+		items: [{
+			item: "atum:tefnuts_rain"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "e782eb94",
+		type: "item",
+		items: [{
+			item: "atum:shus_swiftness"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "e7f398c3",
+		type: "item",
+		items: [{
+			item: "atum:anputs_hunger"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "c909f2f6",
+		type: "ftbmoney:money",
+		ftb_money: 10L
+	},
+	{
+		uid: "29a1f3c3",
+		type: "xp",
+		xp: 20
+	}]
+}

@@ -1,0 +1,25 @@
+{
+	x: 2.0d,
+	y: -1.5d,
+	dependencies: [
+		"1e15d563"
+	],
+	hide: true,
+	tasks: [{
+		uid: "1f69c2a3",
+		type: "item",
+		items: [{
+			item: "bewitchment:opal"
+		}]
+	}],
+	rewards: [{
+		uid: "d502ba63",
+		type: "ftbmoney:money",
+		ftb_money: 50L
+	},
+	{
+		uid: "40a5f7ed",
+		type: "xp",
+		xp: 20
+	}]
+}

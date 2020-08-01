@@ -1,0 +1,61 @@
+{
+	x: 2.0d,
+	y: 0.0d,
+	dependencies: [
+		"29575706"
+	],
+	tasks: [{
+		uid: "47400868",
+		type: "item",
+		items: [{
+			id: "lordcraft:knowledge_book",
+			tag: {
+				tile_unlocked_17: 0b,
+				tile_unlocked_16: 0b,
+				tile_unlocked_19: 0b,
+				tile_unlocked_18: 0b,
+				tile_unlocked_31: 0b,
+				tile_unlocked_30: 0b,
+				tile_unlocked_11: 0b,
+				tile_unlocked_33: 0b,
+				tile_unlocked_10: 0b,
+				tile_unlocked_32: 0b,
+				tile_unlocked_13: 0b,
+				tile_unlocked_35: 0b,
+				tile_unlocked_12: 0b,
+				tile_unlocked_34: 0b,
+				tile_unlocked_15: 0b,
+				tile_unlocked_14: 0b,
+				tile_unlocked_8: 0b,
+				tile_unlocked_7: 0b,
+				tile_unlocked_9: 0b,
+				tile_unlocked_4: 0b,
+				tile_unlocked_3: 0b,
+				tile_unlocked_6: 0b,
+				tile_unlocked_5: 0b,
+				tile_unlocked_0: 0b,
+				tile_unlocked_28: 0b,
+				tile_unlocked_27: 0b,
+				tile_unlocked_2: 0b,
+				tile_unlocked_1: 0b,
+				tile_unlocked_29: 0b,
+				tile_unlocked_20: 0b,
+				tile_unlocked_22: 0b,
+				tile_unlocked_21: 0b,
+				tile_unlocked_24: 0b,
+				tile_unlocked_23: 0b,
+				tile_unlocked_26: 0b,
+				research_prog: -1,
+				tile_unlocked_25: 0b,
+				research_ord: -1
+			}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "399fac73",
+		type: "xp",
+		xp: 20
+	}]
+}

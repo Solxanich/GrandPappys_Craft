@@ -1,0 +1,26 @@
+{
+	x: 16.0d,
+	y: -10.5d,
+	description: "Press SHIFT+Z to open Skill Menu",
+	dependencies: [
+		"66809de0",
+		"b093be12"
+	],
+	hide: true,
+	dependency_requirement: "one_completed",
+	tasks: [{
+		uid: "841ad345",
+		type: "checkmark",
+		title: "Assign your Vampirism Skills"
+	}],
+	rewards: [{
+		uid: "87b7ff78",
+		type: "ftbmoney:money",
+		ftb_money: 10L
+	},
+	{
+		uid: "04bf46dd",
+		type: "xp",
+		xp: 20
+	}]
+}

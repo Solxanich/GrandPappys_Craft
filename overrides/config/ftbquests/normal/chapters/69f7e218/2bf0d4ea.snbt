@@ -1,0 +1,19 @@
+{
+	x: 4.5d,
+	y: 2.5d,
+	dependencies: [
+		"7900d3b4"
+	],
+	tasks: [{
+		uid: "f0a5debf",
+		type: "item",
+		items: [{
+			item: "lordcraft:arcanetableb"
+		}]
+	}],
+	rewards: [{
+		uid: "2c484b50",
+		type: "xp",
+		xp: 20
+	}]
+}

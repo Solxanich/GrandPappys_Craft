@@ -1,0 +1,42 @@
+{
+	title: "Now that I know you are alive and established...",
+	x: 1.5d,
+	y: 0.0d,
+	text: [
+		"Let's look at getting you setup with some adventuring items",
+		"Show me that you are ready to begin the path to getting home"
+	],
+	dependencies: [
+		"dff49c28",
+		"3560edda"
+	],
+	hide: true,
+	tasks: [{
+		uid: "cf892d4f",
+		type: "item",
+		items: [{
+			item: "minecraft:compass"
+		}]
+	},
+	{
+		uid: "59521da5",
+		type: "item",
+		items: [{
+			item: "minecraft:clock"
+		}]
+	},
+	{
+		uid: "1177b00c",
+		type: "item",
+		items: [{
+			item: "sereneseasons:season_clock"
+		}]
+	},
+	{
+		uid: "157af8db",
+		type: "item",
+		items: [{
+			item: "minecraft:diamond"
+		}]
+	}]
+}

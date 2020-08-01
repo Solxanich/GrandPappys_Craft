@@ -1,0 +1,22 @@
+{
+	x: -13.0d,
+	y: 0.0d,
+	dependencies: [
+		"56c65b9d"
+	],
+	hide: true,
+	tasks: [{
+		uid: "97167c66",
+		type: "item",
+		items: [{
+			item: "bountifulbaubles:trinketobsidianskull"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "b8dbb25b",
+		type: "xp",
+		xp: 10
+	}]
+}

@@ -1,0 +1,115 @@
+{
+	x: 0.0d,
+	y: -3.0d,
+	dependencies: [
+		"07d3b2b2"
+	],
+	tasks: [{
+		uid: "7f274c5a",
+		type: "item",
+		items: [{
+			item: "aoa3:bubble_berry_seeds"
+		}]
+	},
+	{
+		uid: "b08a575b",
+		type: "item",
+		items: [{
+			item: "aoa3:chilli_seeds"
+		}]
+	},
+	{
+		uid: "f1cc7b33",
+		type: "item",
+		items: [{
+			item: "aoa3:floracle_seeds"
+		}]
+	},
+	{
+		uid: "09aa1631",
+		type: "item",
+		items: [{
+			item: "aoa3:goldicap_seeds"
+		}]
+	},
+	{
+		uid: "6eeb0cc1",
+		type: "item",
+		items: [{
+			item: "aoa3:heart_fruit_seeds"
+		}]
+	},
+	{
+		uid: "c191bd89",
+		type: "item",
+		items: [{
+			item: "aoa3:holly_top_seeds"
+		}]
+	},
+	{
+		uid: "d08dcfaf",
+		type: "item",
+		items: [{
+			item: "aoa3:lunacrike_seeds"
+		}]
+	},
+	{
+		uid: "e9b72308",
+		type: "item",
+		items: [{
+			item: "aoa3:luna_globe_seeds"
+		}]
+	},
+	{
+		uid: "d83a604b",
+		type: "item",
+		items: [{
+			item: "aoa3:lunalon_seeds"
+		}]
+	},
+	{
+		uid: "a5afc853",
+		type: "item",
+		items: [{
+			item: "aoa3:magic_marang_seeds"
+		}]
+	},
+	{
+		uid: "cf942ce6",
+		type: "item",
+		items: [{
+			item: "aoa3:rosidon_seeds"
+		}]
+	},
+	{
+		uid: "0aca1f66",
+		type: "item",
+		items: [{
+			item: "aoa3:tea_seeds"
+		}]
+	},
+	{
+		uid: "b06aeb02",
+		type: "item",
+		items: [{
+			item: "aoa3:thorny_plant_seeds"
+		}]
+	},
+	{
+		uid: "8f8957e9",
+		type: "item",
+		items: [{
+			item: "aoa3:trilliad_seeds"
+		}]
+	}],
+	rewards: [{
+		uid: "c9cd0d4b",
+		type: "ftbmoney:money",
+		ftb_money: 100L
+	},
+	{
+		uid: "84c496a6",
+		type: "xp",
+		xp: 50
+	}]
+}

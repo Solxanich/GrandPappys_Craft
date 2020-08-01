@@ -1,0 +1,26 @@
+{
+	x: 11.5d,
+	y: 8.0d,
+	dependencies: [
+		"654f417b"
+	],
+	hide: true,
+	tasks: [{
+		uid: "8d5cd370",
+		type: "item",
+		items: [{
+			item: "thebetweenlands:syrmorite_ore"
+		}],
+		count: 10L
+	}],
+	rewards: [{
+		uid: "64bf0053",
+		type: "ftbmoney:money",
+		ftb_money: 10L
+	},
+	{
+		uid: "6fc53814",
+		type: "xp",
+		xp: 20
+	}]
+}

@@ -1,0 +1,25 @@
+{
+	x: 8.0d,
+	y: -1.0d,
+	dependencies: [
+		"49fc9802"
+	],
+	hide: true,
+	tasks: [{
+		uid: "6a0197fa",
+		type: "item",
+		items: [{
+			item: "lordcraft:transporterb"
+		}]
+	}],
+	rewards: [{
+		uid: "5d237837",
+		type: "xp",
+		xp: 50
+	},
+	{
+		uid: "62d96022",
+		type: "ftbmoney:money",
+		ftb_money: 250L
+	}]
+}

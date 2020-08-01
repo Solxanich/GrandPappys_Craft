@@ -1,0 +1,22 @@
+{
+	x: -0.5d,
+	y: 0.5d,
+	dependencies: [
+		"e1a15b55",
+		"da762326"
+	],
+	hide: true,
+	dependency_requirement: "one_completed",
+	tasks: [{
+		uid: "545f1736",
+		type: "item",
+		items: [{
+			item: "contenttweaker:bottlesteam"
+		}]
+	}],
+	rewards: [{
+		uid: "88bfe618",
+		type: "ftbmoney:money",
+		ftb_money: 100L
+	}]
+}

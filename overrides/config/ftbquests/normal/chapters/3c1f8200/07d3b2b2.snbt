@@ -1,0 +1,52 @@
+{
+	x: 0.0d,
+	y: 0.0d,
+	dependencies: [
+		"fd9cea39"
+	],
+	tasks: [{
+		uid: "6bb80d4a",
+		type: "item",
+		items: [{
+			item: "minecraft:pumpkin_seeds"
+		}]
+	},
+	{
+		uid: "24e9bf79",
+		type: "item",
+		items: [{
+			item: "minecraft:carrot"
+		}]
+	},
+	{
+		uid: "4af8f33b",
+		type: "item",
+		items: [{
+			item: "minecraft:potato"
+		}]
+	},
+	{
+		uid: "93da3ff9",
+		type: "item",
+		items: [{
+			item: "minecraft:melon_seeds"
+		}]
+	},
+	{
+		uid: "f8b96850",
+		type: "item",
+		items: [{
+			item: "minecraft:beetroot_seeds"
+		}]
+	},
+	{
+		uid: "dabfce87",
+		type: "checkmark",
+		title: "Bonemeal Doesn't work in Winter, FYI"
+	}],
+	rewards: [{
+		uid: "60439701",
+		type: "xp",
+		xp: 10
+	}]
+}

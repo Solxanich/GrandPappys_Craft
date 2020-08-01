@@ -1,0 +1,26 @@
+{
+	x: 3.5d,
+	y: 4.0d,
+	dependencies: [
+		"ef78404a"
+	],
+	hide: true,
+	tasks: [{
+		uid: "90ded370",
+		type: "item",
+		items: [{
+			item: "thebetweenlands:swamp_talisman"
+		}],
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "88b039b9",
+		type: "ftbmoney:money",
+		ftb_money: 10L
+	},
+	{
+		uid: "b743ba12",
+		type: "xp",
+		xp: 20
+	}]
+}

@@ -1,0 +1,26 @@
+{
+	x: 2.0d,
+	y: -3.0d,
+	dependencies: [
+		"08e5c483"
+	],
+	hide: true,
+	tasks: [{
+		uid: "f10003bf",
+		type: "item",
+		items: [{
+			item: "defiledlands:umbrium_ingot"
+		}],
+		count: 32L
+	}],
+	rewards: [{
+		uid: "a328eaa1",
+		type: "xp",
+		xp: 30
+	},
+	{
+		uid: "fafc639a",
+		type: "ftbmoney:money",
+		ftb_money: 100L
+	}]
+}

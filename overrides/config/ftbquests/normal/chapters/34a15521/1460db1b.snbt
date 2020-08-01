@@ -1,0 +1,36 @@
+{
+	x: 0.0d,
+	y: 0.5d,
+	dependencies: [
+		"e1a15b55",
+		"da762326"
+	],
+	hide: true,
+	dependency_requirement: "one_completed",
+	tasks: [{
+		uid: "9fe502d9",
+		type: "item",
+		items: [{
+			item: "defiledlands:dirt_defiled"
+		}],
+		consume_items: true
+	},
+	{
+		uid: "296d4b1c",
+		type: "item",
+		items: [{
+			item: "defiledlands:vilespine"
+		}],
+		consume_items: true
+	}],
+	rewards: [{
+		uid: "6b68b9fa",
+		type: "xp",
+		xp: 10
+	},
+	{
+		uid: "9ae0e5e7",
+		type: "ftbmoney:money",
+		ftb_money: 10L
+	}]
+}

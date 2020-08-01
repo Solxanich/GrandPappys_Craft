@@ -1,0 +1,26 @@
+{
+	x: 3.5d,
+	y: 9.5d,
+	dependencies: [
+		"67e91098"
+	],
+	hide: true,
+	tasks: [{
+		uid: "061885b8",
+		type: "item",
+		items: [{
+			item: "glacidus:glacidite_fragment"
+		}],
+		count: 5L
+	}],
+	rewards: [{
+		uid: "85dd7dbe",
+		type: "ftbmoney:money",
+		ftb_money: 10L
+	},
+	{
+		uid: "4b4759bc",
+		type: "xp",
+		xp: 20
+	}]
+}

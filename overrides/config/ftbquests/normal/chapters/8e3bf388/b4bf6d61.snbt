@@ -1,0 +1,27 @@
+{
+	title: "Chickens > Seeds",
+	x: 2.5d,
+	y: 0.0d,
+	dependencies: [
+		"719708d7"
+	],
+	hide: true,
+	dependency_requirement: "one_completed",
+	tasks: [{
+		uid: "fac1a646",
+		type: "item",
+		items: [{
+			item: "contenttweaker:mysticegg"
+		}]
+	}],
+	rewards: [{
+		uid: "b983f647",
+		type: "ftbmoney:money",
+		ftb_money: 25L
+	},
+	{
+		uid: "dd684867",
+		type: "xp",
+		xp: 50
+	}]
+}

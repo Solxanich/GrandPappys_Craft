@@ -1,0 +1,30 @@
+{
+	x: 1.5d,
+	y: -6.0d,
+	dependencies: [
+		"45478777",
+		"d8eb4725"
+	],
+	tasks: [{
+		uid: "23086e58",
+		type: "item",
+		items: [{
+			item: "toughasnails:rain_collector"
+		}]
+	}],
+	rewards: [{
+		uid: "34f1d654",
+		type: "item",
+		item: "toughasnails:rain_collector"
+	},
+	{
+		uid: "83e66c0c",
+		type: "ftbmoney:money",
+		ftb_money: 50L
+	},
+	{
+		uid: "c7634c60",
+		type: "xp",
+		xp: 10
+	}]
+}

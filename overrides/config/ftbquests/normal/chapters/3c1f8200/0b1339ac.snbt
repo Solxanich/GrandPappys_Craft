@@ -1,0 +1,25 @@
+{
+	x: -3.0d,
+	y: 0.0d,
+	dependencies: [
+		"07d3b2b2"
+	],
+	tasks: [{
+		uid: "3b7ee6a8",
+		type: "item",
+		items: [{
+			item: "immersiveengineering:seed"
+		}],
+		count: 10L
+	}],
+	rewards: [{
+		uid: "0e34c75c",
+		type: "ftbmoney:money",
+		ftb_money: 50L
+	},
+	{
+		uid: "57853c53",
+		type: "xp",
+		xp: 20
+	}]
+}

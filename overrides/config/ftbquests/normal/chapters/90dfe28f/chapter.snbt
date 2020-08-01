@@ -1,0 +1,7 @@
+{
+	title: "Solxan's Applets",
+	icon: "contenttweaker:data_pin",
+	always_invisible: false,
+	group: 0,
+	default_quest_shape: ""
+}

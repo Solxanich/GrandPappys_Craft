@@ -1,0 +1,50 @@
+{
+	title: "Ore Doubling!",
+	x: 10.0d,
+	y: 0.0d,
+	shape: "heart",
+	dependencies: [
+		"0003066d",
+		"a2d0b3be",
+		"d8d20bbd"
+	],
+	hide: true,
+	tasks: [{
+		uid: "f51b4e0a",
+		type: "item",
+		items: [{
+			item: "immersiveengineering:metal 1 18"
+		}]
+	},
+	{
+		uid: "0fb4683d",
+		type: "item",
+		items: [{
+			item: "immersiveengineering:metal 1 19"
+		}]
+	},
+	{
+		uid: "ccfc6509",
+		type: "item",
+		items: [{
+			item: "immersiveengineering:metal 1 9"
+		}]
+	},
+	{
+		uid: "1921c2ef",
+		type: "item",
+		items: [{
+			item: "immersiveengineering:metal 1 12"
+		}]
+	}],
+	rewards: [{
+		uid: "c20cc3af",
+		type: "ftbmoney:money",
+		ftb_money: 100L
+	},
+	{
+		uid: "0f5e8707",
+		type: "xp",
+		xp: 50
+	}]
+}

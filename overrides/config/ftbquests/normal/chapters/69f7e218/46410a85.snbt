@@ -1,0 +1,22 @@
+{
+	x: -7.5d,
+	y: 2.0d,
+	dependencies: [
+		"b0f86722"
+	],
+	hide: true,
+	tasks: [{
+		uid: "c1a77f50",
+		type: "item",
+		items: [{
+			item: "bountifulbaubles:disintegrationtablet"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "0db86ede",
+		type: "xp",
+		xp: 10
+	}]
+}

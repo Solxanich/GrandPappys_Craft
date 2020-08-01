@@ -1,0 +1,19 @@
+{
+	x: 0.0d,
+	y: -2.0d,
+	description: "Advent of Ascension Will take Over now...",
+	dependencies: [
+		"0af88422"
+	],
+	hide: true,
+	tasks: [{
+		uid: "9c14556e",
+		type: "checkmark",
+		title: "Press Delete To Continue Your Quest!"
+	}],
+	rewards: [{
+		uid: "dc9d2347",
+		type: "ftbmoney:money",
+		ftb_money: 100L
+	}]
+}

@@ -1,0 +1,23 @@
+{
+	x: -2.0d,
+	y: 6.0d,
+	dependencies: [
+		"e27a8079"
+	],
+	tasks: [{
+		uid: "e5a84988",
+		type: "kill",
+		entity: "defiledlands:the_destroyer",
+		value: 1L
+	}],
+	rewards: [{
+		uid: "9f2b4443",
+		type: "ftbmoney:money",
+		ftb_money: 80L
+	},
+	{
+		uid: "c468b358",
+		type: "xp",
+		xp: 100
+	}]
+}

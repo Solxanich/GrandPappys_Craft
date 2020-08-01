@@ -1,0 +1,24 @@
+{
+	x: 0.0d,
+	y: 0.0d,
+	dependencies: [
+		"dff49c28"
+	],
+	tasks: [{
+		uid: "b1b040ff",
+		type: "item",
+		items: [{
+			item: "lordcraft:crystal_basic_neutralb"
+		}]
+	}],
+	rewards: [{
+		uid: "885f33ce",
+		type: "ftbmoney:money",
+		ftb_money: 50L
+	},
+	{
+		uid: "99a6f234",
+		type: "xp",
+		xp: 50
+	}]
+}

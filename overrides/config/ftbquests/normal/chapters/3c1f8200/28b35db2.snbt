@@ -1,0 +1,24 @@
+{
+	x: 6.0d,
+	y: 3.0d,
+	dependencies: [
+		"5b5e3fb1"
+	],
+	tasks: [{
+		uid: "545d243c",
+		type: "item",
+		items: [{
+			item: "dynamictreesphc:papayaseed"
+		}]
+	}],
+	rewards: [{
+		uid: "53f1e4f4",
+		type: "ftbmoney:money",
+		ftb_money: 10L
+	},
+	{
+		uid: "8c0920a0",
+		type: "xp",
+		xp: 10
+	}]
+}

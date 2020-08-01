@@ -1,0 +1,23 @@
+{
+	x: -12.0d,
+	y: 2.0d,
+	dependencies: [
+		"5d23b7d3",
+		"56c65b9d"
+	],
+	hide: true,
+	tasks: [{
+		uid: "d5ff3b58",
+		type: "item",
+		items: [{
+			item: "bountifulbaubles:magicmirror"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "18ba6a14",
+		type: "xp",
+		xp: 10
+	}]
+}

@@ -1,0 +1,25 @@
+{
+	x: -8.0d,
+	y: 10.0d,
+	dependencies: [
+		"6578eea5"
+	],
+	hide: true,
+	tasks: [{
+		uid: "cee7d8db",
+		type: "item",
+		items: [{
+			item: "heroesexpansion:heart_shaped_herb"
+		}]
+	}],
+	rewards: [{
+		uid: "f016d4da",
+		type: "ftbmoney:money",
+		ftb_money: 10L
+	},
+	{
+		uid: "21552cd6",
+		type: "xp",
+		xp: 20
+	}]
+}

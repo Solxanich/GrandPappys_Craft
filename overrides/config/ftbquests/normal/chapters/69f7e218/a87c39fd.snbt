@@ -1,0 +1,25 @@
+{
+	x: 3.0d,
+	y: 4.0d,
+	shape: "heart",
+	dependencies: [
+		"2bf0d4ea"
+	],
+	tasks: [{
+		uid: "2b8227a2",
+		type: "item",
+		items: [{
+			item: "lordcraft:crystal_basic_water"
+		}]
+	}],
+	rewards: [{
+		uid: "d684555a",
+		type: "ftbmoney:money",
+		ftb_money: 50L
+	},
+	{
+		uid: "7f982014",
+		type: "xp",
+		xp: 10
+	}]
+}

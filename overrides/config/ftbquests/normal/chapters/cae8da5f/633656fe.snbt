@@ -1,0 +1,25 @@
+{
+	x: -6.5d,
+	y: 9.0d,
+	dependencies: [
+		"6578eea5"
+	],
+	hide: true,
+	tasks: [{
+		uid: "058fee4a",
+		type: "item",
+		items: [{
+			item: "lucraftcore:ingot_uru"
+		}]
+	}],
+	rewards: [{
+		uid: "ecf28e2b",
+		type: "ftbmoney:money",
+		ftb_money: 10L
+	},
+	{
+		uid: "87564330",
+		type: "xp",
+		xp: 20
+	}]
+}

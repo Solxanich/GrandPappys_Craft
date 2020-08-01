@@ -1,0 +1,27 @@
+{
+	x: 18.5d,
+	y: -8.0d,
+	description: "Vampire Leveling II",
+	dependencies: [
+		"d36651ff",
+		"8e0837e1"
+	],
+	hide: true,
+	tasks: [{
+		uid: "73d7a724",
+		type: "item",
+		items: [{
+			item: "vampirism:altar_infusion"
+		}]
+	}],
+	rewards: [{
+		uid: "5448e6a6",
+		type: "ftbmoney:money",
+		ftb_money: 10L
+	},
+	{
+		uid: "305373c5",
+		type: "xp",
+		xp: 20
+	}]
+}

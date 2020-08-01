@@ -1,0 +1,25 @@
+{
+	x: -2.0d,
+	y: -3.0d,
+	dependencies: [
+		"e564e8db"
+	],
+	hide: true,
+	tasks: [{
+		uid: "dc3c8305",
+		type: "item",
+		items: [{
+			item: "defiledlands:tenebra_sapling"
+		}]
+	}],
+	rewards: [{
+		uid: "290b20bd",
+		type: "ftbmoney:money",
+		ftb_money: 30L
+	},
+	{
+		uid: "eba87174",
+		type: "xp",
+		xp: 10
+	}]
+}

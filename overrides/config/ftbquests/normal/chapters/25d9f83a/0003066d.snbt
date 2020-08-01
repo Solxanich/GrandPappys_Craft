@@ -1,0 +1,51 @@
+{
+	x: 8.0d,
+	y: 0.0d,
+	dependencies: [
+		"838f5adc"
+	],
+	hide: true,
+	tasks: [{
+		uid: "02499fe9",
+		type: "item",
+		items: [{
+			id: "immersiveengineering:blueprint",
+			tag: {
+				blueprint: "components"
+			}
+		}],
+		ignore_damage: true
+	},
+	{
+		uid: "bffd99c5",
+		type: "item",
+		items: [{
+			id: "immersiveengineering:blueprint",
+			tag: {
+				blueprint: "molds"
+			}
+		}],
+		ignore_damage: true
+	},
+	{
+		uid: "da1765d2",
+		type: "item",
+		items: [{
+			id: "immersiveengineering:blueprint",
+			tag: {
+				blueprint: "electrode"
+			}
+		}],
+		ignore_damage: true
+	}],
+	rewards: [{
+		uid: "6762f770",
+		type: "ftbmoney:money",
+		ftb_money: 50L
+	},
+	{
+		uid: "b11d8949",
+		type: "xp",
+		xp: 50
+	}]
+}

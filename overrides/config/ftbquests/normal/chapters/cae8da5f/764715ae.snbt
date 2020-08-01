@@ -1,0 +1,25 @@
+{
+	x: -15.0d,
+	y: -10.0d,
+	dependencies: [
+		"d3518208"
+	],
+	hide: true,
+	tasks: [{
+		uid: "85b373de",
+		type: "item",
+		items: [{
+			item: "tropicraft:azurite"
+		}]
+	}],
+	rewards: [{
+		uid: "0d707251",
+		type: "ftbmoney:money",
+		ftb_money: 10L
+	},
+	{
+		uid: "eb077381",
+		type: "xp",
+		xp: 20
+	}]
+}

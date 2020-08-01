@@ -95,8 +95,6 @@ recipes.addShaped("custom17",<sereneseasons:greenhouse_glass>*4,
   [<ore:blockGlass>,<ore:plankWood>,<ore:blockGlass>],
   [<ore:dyeCyan>,<ore:blockGlass>,<ore:dyeCyan>]]);
   
-recipes.addShapeless("custom18",<realistictorches:torch_lit>,[<realistictorches:torch_unlit>,<minecraft:flint_and_steel>.anyDamage().transformDamage()]);
-
 recipes.addShapeless("custom19",<armorunder:flipflop_liner_material>,[<armorunder:warm_liner_material>,<armorunder:cool_liner_material>]);
   
 recipes.addShaped("custom20",<waystones:waystone>,

@@ -1,0 +1,27 @@
+{
+	x: -10.5d,
+	y: 1.5d,
+	dependencies: [
+		"75641694"
+	],
+	hide: true,
+	tasks: [{
+		uid: "95219ef1",
+		type: "item",
+		items: [{
+			item: "soulus:sledgehammer"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "00ab30b5",
+		type: "ftbmoney:money",
+		ftb_money: 10L
+	},
+	{
+		uid: "100102ba",
+		type: "xp",
+		xp: 20
+	}]
+}

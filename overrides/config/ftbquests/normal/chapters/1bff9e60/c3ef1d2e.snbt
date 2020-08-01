@@ -1,0 +1,28 @@
+{
+	x: 3.5d,
+	y: -7.0d,
+	dependencies: [
+		"bab3ab1b",
+		"4bf8f30d"
+	],
+	hide: true,
+	tasks: [{
+		uid: "662c590e",
+		type: "item",
+		items: [{
+			item: "thaumcraft:thaumometer"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "f358ed97",
+		type: "ftbmoney:money",
+		ftb_money: 50L
+	},
+	{
+		uid: "a09b764b",
+		type: "xp",
+		xp: 20
+	}]
+}

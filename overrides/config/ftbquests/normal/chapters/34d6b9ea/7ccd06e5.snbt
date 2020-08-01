@@ -1,0 +1,21 @@
+{
+	x: 0.0d,
+	y: 0.0d,
+	dependencies: [
+		"da99a1fc"
+	],
+	hide: true,
+	dependency_requirement: "one_completed",
+	tasks: [{
+		uid: "db8dc768",
+		type: "item",
+		items: [{
+			item: "contenttweaker:drilllicense"
+		}]
+	}],
+	rewards: [{
+		uid: "9a03f9fc",
+		type: "ftbmoney:money",
+		ftb_money: 100L
+	}]
+}

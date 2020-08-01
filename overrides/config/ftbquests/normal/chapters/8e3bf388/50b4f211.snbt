@@ -1,0 +1,25 @@
+{
+	x: 6.5d,
+	y: -3.0d,
+	dependencies: [
+		"0e8e1f59"
+	],
+	hide: true,
+	tasks: [{
+		uid: "969342da",
+		type: "item",
+		items: [{
+			item: "chickens:henhouse"
+		}]
+	}],
+	rewards: [{
+		uid: "9b109f54",
+		type: "ftbmoney:money",
+		ftb_money: 25L
+	},
+	{
+		uid: "08fa3839",
+		type: "xp",
+		xp: 20
+	}]
+}

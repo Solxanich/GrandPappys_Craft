@@ -1,0 +1,26 @@
+{
+	x: 16.0d,
+	y: -8.0d,
+	description: "Vampire Leveling I",
+	dependencies: [
+		"b093be12"
+	],
+	hide: true,
+	tasks: [{
+		uid: "2c7d43af",
+		type: "item",
+		items: [{
+			item: "vampirism:altar_inspiration"
+		}]
+	}],
+	rewards: [{
+		uid: "89a71d89",
+		type: "ftbmoney:money",
+		ftb_money: 10L
+	},
+	{
+		uid: "5de058af",
+		type: "xp",
+		xp: 20
+	}]
+}

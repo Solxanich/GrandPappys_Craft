@@ -28,6 +28,9 @@ minecraft:luck_of_the_sea
 minecraft:lure
 minecraft:mending
 minecraft:vanishing_curse
+openblocks:explosive
+openblocks:last_stand
+openblocks:flim_flam
 aoa3:brace
 aoa3:intervention
 aoa3:archmage
@@ -41,11 +44,11 @@ aoa3:greed
 armorplus:furious
 armorplus:life_steal
 armorplus:enhanced
+toughasnails:warming
+toughasnails:cooling
 bewitchment:magic_protection
 bibliocraft:bibliocraft.deathcompassench
 bibliocraft:bibliocraft.readingench
-toughasnails:warming
-toughasnails:cooling
 corpsecomplex:soulbound
 defiledlands:sharpshooter
 defiledlands:economical

@@ -1,0 +1,30 @@
+{
+	title: "Tool Ingredients",
+	x: -7.5d,
+	y: -3.0d,
+	dependencies: [
+		"3560edda"
+	],
+	hide: true,
+	tasks: [{
+		uid: "574e3d91",
+		type: "item",
+		items: [{
+			item: "minecraft:stick"
+		}],
+		count: 5L
+	},
+	{
+		uid: "cec070ed",
+		type: "item",
+		items: [{
+			item: "notreepunching:flint_shard"
+		}],
+		count: 4L
+	}],
+	rewards: [{
+		uid: "2474772a",
+		type: "xp",
+		xp: 10
+	}]
+}

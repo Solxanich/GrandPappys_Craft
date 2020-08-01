@@ -1,0 +1,25 @@
+{
+	x: -15.5d,
+	y: 1.5d,
+	dependencies: [
+		"f33bfbde"
+	],
+	hide: true,
+	tasks: [{
+		uid: "4e1a7869",
+		type: "item",
+		items: [{
+			item: "soulus:ingot_endersteel"
+		}]
+	}],
+	rewards: [{
+		uid: "bebc38cb",
+		type: "ftbmoney:money",
+		ftb_money: 10L
+	},
+	{
+		uid: "72282baf",
+		type: "xp",
+		xp: 20
+	}]
+}

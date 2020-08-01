@@ -1,0 +1,25 @@
+{
+	x: -17.0d,
+	y: 4.0d,
+	dependencies: [
+		"5c73bcbc"
+	],
+	hide: true,
+	tasks: [{
+		uid: "3eeb1057",
+		type: "item",
+		items: [{
+			item: "soulus:skewer"
+		}]
+	}],
+	rewards: [{
+		uid: "746b83ec",
+		type: "ftbmoney:money",
+		ftb_money: 10L
+	},
+	{
+		uid: "00c5145d",
+		type: "xp",
+		xp: 20
+	}]
+}

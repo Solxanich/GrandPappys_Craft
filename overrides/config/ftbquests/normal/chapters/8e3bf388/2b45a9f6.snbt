@@ -1,0 +1,26 @@
+{
+	x: 0.0d,
+	y: 2.5d,
+	dependencies: [
+		"1379bcf0"
+	],
+	hide: true,
+	tasks: [{
+		uid: "c1051508",
+		type: "item",
+		items: [{
+			item: "minecraft:ender_pearl"
+		}],
+		count: 8L
+	}],
+	rewards: [{
+		uid: "d752fa7d",
+		type: "ftbmoney:money",
+		ftb_money: 25L
+	},
+	{
+		uid: "18c89faa",
+		type: "xp",
+		xp: 20
+	}]
+}

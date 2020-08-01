@@ -1,0 +1,36 @@
+{
+	title: "Become a Vampire Hunter?",
+	x: 9.5d,
+	y: -11.5d,
+	description: "Study vampires.",
+	text: [
+		"Use on a med chair (typically in village)"
+	],
+	dependencies: [
+		"86298386"
+	],
+	hide: true,
+	tasks: [{
+		uid: "79b3ce11",
+		type: "item",
+		items: [{
+			item: "vampirism:injection 1 1"
+		}]
+	},
+	{
+		uid: "bfaa707f",
+		type: "advancement",
+		advancement: "vampirism:hunter/become_hunter",
+		criterion: ""
+	}],
+	rewards: [{
+		uid: "947e909a",
+		type: "ftbmoney:money",
+		ftb_money: 10L
+	},
+	{
+		uid: "b09b9f9c",
+		type: "xp",
+		xp: 20
+	}]
+}

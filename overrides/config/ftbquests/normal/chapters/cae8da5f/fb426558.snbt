@@ -1,0 +1,26 @@
+{
+	title: "I QUIT!!!!!",
+	x: 9.5d,
+	y: -9.5d,
+	dependencies: [
+		"6c672091"
+	],
+	hide: true,
+	tasks: [{
+		uid: "11d15028",
+		type: "item",
+		items: [{
+			item: "vampirism:injection 1 2"
+		}]
+	}],
+	rewards: [{
+		uid: "c957dc37",
+		type: "ftbmoney:money",
+		ftb_money: 10L
+	},
+	{
+		uid: "9d7358b1",
+		type: "xp",
+		xp: 20
+	}]
+}

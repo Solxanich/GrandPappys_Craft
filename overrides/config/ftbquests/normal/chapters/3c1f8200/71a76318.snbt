@@ -1,0 +1,24 @@
+{
+	x: 4.0d,
+	y: 2.0d,
+	dependencies: [
+		"5b5e3fb1"
+	],
+	tasks: [{
+		uid: "ee4d9fc9",
+		type: "item",
+		items: [{
+			item: "dynamictreesphc:dateseed"
+		}]
+	}],
+	rewards: [{
+		uid: "f86e5884",
+		type: "ftbmoney:money",
+		ftb_money: 10L
+	},
+	{
+		uid: "59484366",
+		type: "xp",
+		xp: 10
+	}]
+}

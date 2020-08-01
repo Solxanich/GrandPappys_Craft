@@ -1,0 +1,39 @@
+{
+	x: 0.0d,
+	y: -2.5d,
+	dependencies: [
+		"be0405f1"
+	],
+	hide: true,
+	tasks: [{
+		uid: "52238d2a",
+		type: "item",
+		items: [{
+			item: "mob_grinding_utils:fan"
+		}]
+	},
+	{
+		uid: "0094832b",
+		type: "item",
+		items: [{
+			item: "mob_grinding_utils:absorption_hopper"
+		}]
+	},
+	{
+		uid: "a4748d4a",
+		type: "item",
+		items: [{
+			item: "mob_grinding_utils:spikes"
+		}]
+	}],
+	rewards: [{
+		uid: "5fe2cde8",
+		type: "ftbmoney:money",
+		ftb_money: 10L
+	},
+	{
+		uid: "d7bee2dd",
+		type: "xp",
+		xp: 20
+	}]
+}

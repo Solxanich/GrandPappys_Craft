@@ -1,0 +1,25 @@
+{
+	x: -2.0d,
+	y: 8.0d,
+	dependencies: [
+		"7527b34a"
+	],
+	tasks: [{
+		uid: "f83f92a9",
+		type: "item",
+		items: [{
+			item: "defiledlands:essence_destroyer"
+		}],
+		count: 32L
+	}],
+	rewards: [{
+		uid: "7ccb9367",
+		type: "xp",
+		xp: 100
+	},
+	{
+		uid: "a11b980a",
+		type: "ftbmoney:money",
+		ftb_money: 25L
+	}]
+}

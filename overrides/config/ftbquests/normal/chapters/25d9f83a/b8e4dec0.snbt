@@ -1,0 +1,40 @@
+{
+	x: 4.0d,
+	y: 8.5d,
+	dependencies: [
+		"b6bd9476"
+	],
+	hide: true,
+	tasks: [{
+		uid: "5c66845c",
+		type: "item",
+		items: [{
+			item: "immersiveengineering:material 1 12"
+		}],
+		count: 8L
+	},
+	{
+		uid: "8f5754b5",
+		type: "item",
+		items: [{
+			item: "immersiveengineering:wooden_device1 1 1"
+		}]
+	},
+	{
+		uid: "13f01595",
+		type: "item",
+		items: [{
+			item: "immersiveengineering:metal_device1 1 2"
+		}]
+	}],
+	rewards: [{
+		uid: "5c2db26e",
+		type: "ftbmoney:money",
+		ftb_money: 100L
+	},
+	{
+		uid: "eda0468b",
+		type: "xp",
+		xp: 50
+	}]
+}

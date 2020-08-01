@@ -1,0 +1,20 @@
+{
+	x: 4.5d,
+	y: 0.0d,
+	dependencies: [
+		"553d6fc4",
+		"2bf0d4ea"
+	],
+	tasks: [{
+		uid: "cf6ad414",
+		type: "item",
+		items: [{
+			item: "lordcraft:crystal_basic_lightning"
+		}]
+	}],
+	rewards: [{
+		uid: "8f8b7437",
+		type: "xp",
+		xp: 20
+	}]
+}

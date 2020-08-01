@@ -1,0 +1,26 @@
+{
+	x: -0.5d,
+	y: 0.0d,
+	dependencies: [
+		"e1a15b55"
+	],
+	hide: true,
+	dependency_requirement: "one_completed",
+	tasks: [{
+		uid: "79e141b5",
+		type: "item",
+		items: [{
+			item: "contenttweaker:demonicmilk"
+		}]
+	}],
+	rewards: [{
+		uid: "c32098b0",
+		type: "ftbmoney:money",
+		ftb_money: 50L
+	},
+	{
+		uid: "a86e55c8",
+		type: "xp",
+		xp: 20
+	}]
+}

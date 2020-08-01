@@ -1,0 +1,21 @@
+{
+	x: 11.0d,
+	y: -8.0d,
+	description: "Shareable Knowledge",
+	dependencies: [
+		"e1a15b55"
+	],
+	hide: true,
+	tasks: [{
+		uid: "c3d2354a",
+		type: "item",
+		items: [{
+			item: "contenttweaker:outcastredmp"
+		}]
+	}],
+	rewards: [{
+		uid: "fa4f2694",
+		type: "xp",
+		xp: 10
+	}]
+}

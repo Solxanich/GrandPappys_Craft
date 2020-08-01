@@ -1,0 +1,22 @@
+{
+	x: 4.5d,
+	y: -4.5d,
+	dependencies: [
+		"cc4366ca"
+	],
+	hide: true,
+	tasks: [{
+		uid: "e9c083d2",
+		type: "item",
+		items: [{
+			item: "digimobs:storymode"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "fdc3adf7",
+		type: "item",
+		item: "enderstorage:ender_storage"
+	}]
+}

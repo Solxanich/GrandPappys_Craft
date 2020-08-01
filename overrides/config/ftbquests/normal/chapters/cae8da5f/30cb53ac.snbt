@@ -1,0 +1,26 @@
+{
+	title: "Autocrafting?",
+	x: -15.5d,
+	y: 5.0d,
+	dependencies: [
+		"5c73bcbc"
+	],
+	hide: true,
+	tasks: [{
+		uid: "ed9e2798",
+		type: "item",
+		items: [{
+			item: "soulus:composer"
+		}]
+	}],
+	rewards: [{
+		uid: "923f9e8b",
+		type: "ftbmoney:money",
+		ftb_money: 10L
+	},
+	{
+		uid: "3423a5fe",
+		type: "xp",
+		xp: 20
+	}]
+}

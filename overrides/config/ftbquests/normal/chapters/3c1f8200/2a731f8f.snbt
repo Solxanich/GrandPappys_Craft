@@ -1,0 +1,80 @@
+{
+	x: 10.0d,
+	y: -2.0d,
+	dependencies: [
+		"3ecd56a5"
+	],
+	tasks: [{
+		uid: "adba859a",
+		type: "item",
+		items: [{
+			item: "harvestcraft:wintersquashseeditem"
+		}]
+	},
+	{
+		uid: "e98d6af5",
+		type: "item",
+		items: [{
+			item: "harvestcraft:zucchiniseeditem"
+		}]
+	},
+	{
+		uid: "02e1ca66",
+		type: "item",
+		items: [{
+			item: "harvestcraft:beetseeditem"
+		}]
+	},
+	{
+		uid: "5457c14f",
+		type: "item",
+		items: [{
+			item: "harvestcraft:onionseeditem"
+		}]
+	},
+	{
+		uid: "7ba5cc06",
+		type: "item",
+		items: [{
+			item: "harvestcraft:parsnipseeditem"
+		}]
+	},
+	{
+		uid: "a2feecf9",
+		type: "item",
+		items: [{
+			item: "harvestcraft:peanutseeditem"
+		}]
+	},
+	{
+		uid: "040c75c8",
+		type: "item",
+		items: [{
+			item: "harvestcraft:radishseeditem"
+		}]
+	},
+	{
+		uid: "d1288800",
+		type: "item",
+		items: [{
+			item: "harvestcraft:rutabagaseeditem"
+		}]
+	},
+	{
+		uid: "aa0bdec6",
+		type: "item",
+		items: [{
+			item: "harvestcraft:sweetpotatoseeditem"
+		}]
+	}],
+	rewards: [{
+		uid: "29d1dbb1",
+		type: "ftbmoney:money",
+		ftb_money: 100L
+	},
+	{
+		uid: "3b33b249",
+		type: "xp",
+		xp: 50
+	}]
+}

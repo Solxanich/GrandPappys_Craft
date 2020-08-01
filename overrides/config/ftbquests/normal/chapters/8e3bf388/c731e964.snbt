@@ -1,0 +1,27 @@
+{
+	x: -2.5d,
+	y: -3.0d,
+	dependencies: [
+		"101513ea",
+		"1d1a9701"
+	],
+	hide: true,
+	tasks: [{
+		uid: "c0d6b611",
+		type: "item",
+		items: [{
+			item: "morechickens:solidxp"
+		}],
+		count: 32L
+	}],
+	rewards: [{
+		uid: "b8892cbf",
+		type: "ftbmoney:money",
+		ftb_money: 25L
+	},
+	{
+		uid: "b9d9c702",
+		type: "xp",
+		xp: 20
+	}]
+}

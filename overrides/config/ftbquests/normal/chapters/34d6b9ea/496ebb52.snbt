@@ -1,0 +1,26 @@
+{
+	title: "Mining Below Bedrock",
+	x: 2.5d,
+	y: 4.5d,
+	dependencies: [
+		"3f7baece"
+	],
+	hide: true,
+	tasks: [{
+		uid: "f978324c",
+		type: "item",
+		items: [{
+			item: "environmentaltech:void_ore_miner_cont_1"
+		}]
+	}],
+	rewards: [{
+		uid: "c7289cd3",
+		type: "ftbmoney:money",
+		ftb_money: 50L
+	},
+	{
+		uid: "a44cf21e",
+		type: "xp",
+		xp: 100
+	}]
+}

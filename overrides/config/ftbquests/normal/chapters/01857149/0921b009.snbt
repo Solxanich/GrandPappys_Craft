@@ -1,0 +1,19 @@
+{
+	x: -15.5d,
+	y: -9.5d,
+	dependencies: [
+		"41c69d2f"
+	],
+	hide: true,
+	tasks: [{
+		uid: "b3f80c83",
+		type: "kill",
+		entity: "aether:necromancer",
+		value: 1L
+	}],
+	rewards: [{
+		uid: "0052edeb",
+		type: "xp",
+		xp: 100
+	}]
+}

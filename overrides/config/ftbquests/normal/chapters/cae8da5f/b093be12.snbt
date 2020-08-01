@@ -1,0 +1,27 @@
+{
+	x: 13.5d,
+	y: -8.0d,
+	description: "Press V to suck blood",
+	dependencies: [
+		"55012c8a"
+	],
+	hide: true,
+	tasks: [{
+		uid: "4a2f1af7",
+		type: "item",
+		items: [{
+			item: "vampirism:blood_bottle 1 9"
+		}],
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "e57fde7a",
+		type: "ftbmoney:money",
+		ftb_money: 10L
+	},
+	{
+		uid: "d4600ef4",
+		type: "xp",
+		xp: 20
+	}]
+}

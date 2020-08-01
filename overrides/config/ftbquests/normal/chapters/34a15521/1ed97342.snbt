@@ -1,0 +1,27 @@
+{
+	x: 2.0d,
+	y: 4.0d,
+	dependencies: [
+		"f472f67f"
+	],
+	hide: true,
+	tasks: [{
+		uid: "6f3bb566",
+		type: "item",
+		items: [{
+			item: "defiledlands:idol_sorrow"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "5b27d2a8",
+		type: "xp",
+		xp: 10
+	},
+	{
+		uid: "a805adca",
+		type: "ftbmoney:money",
+		ftb_money: 20L
+	}]
+}

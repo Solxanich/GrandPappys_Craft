@@ -1,0 +1,78 @@
+{
+	x: -0.5d,
+	y: -1.5d,
+	dependencies: [
+		"6948a705"
+	],
+	hide: true,
+	tasks: [{
+		uid: "928b690e",
+		type: "item",
+		items: [{
+			item: "minecraft:diamond_boots"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "37bc64ed",
+		type: "item",
+		items: [{
+			item: "minecraft:diamond_leggings"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "d04dc1d4",
+		type: "item",
+		items: [{
+			item: "minecraft:diamond_chestplate"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "9eecf5a9",
+		type: "item",
+		items: [{
+			item: "minecraft:diamond_helmet"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "4a67f97c",
+		type: "item",
+		items: [{
+			item: "minecraft:bow"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "4d0f4d51",
+		type: "item",
+		items: [{
+			item: "spartanweaponry:battleaxe_diamond"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "1bcfc37c",
+		type: "item",
+		item: "minecraft:diamond",
+		count: 25
+	},
+	{
+		uid: "3529f7ca",
+		type: "ftbmoney:money",
+		ftb_money: 100L
+	},
+	{
+		uid: "02921e24",
+		type: "xp",
+		xp: 100
+	}]
+}

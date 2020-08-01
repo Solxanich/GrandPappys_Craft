@@ -1,0 +1,26 @@
+{
+	title: "Tutorials",
+	x: -11.5d,
+	y: -4.0d,
+	dependencies: [
+		"9d86ff76"
+	],
+	hide: true,
+	tasks: [{
+		uid: "2bd84a7f",
+		type: "item",
+		items: [{
+			item: "mahoutsukai:hammer"
+		}]
+	}],
+	rewards: [{
+		uid: "d7b07b0c",
+		type: "ftbmoney:money",
+		ftb_money: 10L
+	},
+	{
+		uid: "8c93705c",
+		type: "xp",
+		xp: 20
+	}]
+}

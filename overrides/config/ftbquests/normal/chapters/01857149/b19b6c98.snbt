@@ -1,0 +1,19 @@
+{
+	x: -19.0d,
+	y: -12.0d,
+	dependencies: [
+		"41c69d2f"
+	],
+	hide: true,
+	tasks: [{
+		uid: "632bee3c",
+		type: "kill",
+		entity: "minecraft:ender_dragon",
+		value: 1L
+	}],
+	rewards: [{
+		uid: "bad0f039",
+		type: "xp",
+		xp: 100
+	}]
+}

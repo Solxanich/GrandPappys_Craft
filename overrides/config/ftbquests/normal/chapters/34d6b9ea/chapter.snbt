@@ -1,0 +1,7 @@
+{
+	title: "Drilling",
+	icon: "thermalfoundation:material 1 656",
+	always_invisible: false,
+	group: 0,
+	default_quest_shape: ""
+}
