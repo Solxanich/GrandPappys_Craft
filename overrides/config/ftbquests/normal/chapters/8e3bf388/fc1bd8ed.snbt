@@ -1,8 +1,10 @@
 {
 	x: 7.5d,
 	y: -5.0d,
+	hide_dependency_lines: true,
 	dependencies: [
-		"719708d7"
+		"719708d7",
+		"50b4f211"
 	],
 	hide: true,
 	tasks: [{

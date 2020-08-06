@@ -1,0 +1,28 @@
+{
+	title: "Archer",
+	x: 1.0d,
+	y: -12.5d,
+	dependencies: [
+		"db98eb0c"
+	],
+	hide: true,
+	tasks: [{
+		uid: "75984ef8",
+		type: "item",
+		items: [{
+			item: "minecraft:bow"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "b055d50b",
+		type: "xp",
+		xp: 10
+	},
+	{
+		uid: "3a3c757f",
+		type: "ftbmoney:money",
+		ftb_money: 10L
+	}]
+}

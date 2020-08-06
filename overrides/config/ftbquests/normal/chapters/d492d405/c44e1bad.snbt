@@ -1,0 +1,33 @@
+{
+	x: -20.0d,
+	y: -6.0d,
+	dependencies: [
+		"d054599a"
+	],
+	hide: true,
+	tasks: [{
+		uid: "c7fdbe66",
+		type: "item",
+		items: [{
+			item: "bloodmagic:demon_crucible"
+		}]
+	},
+	{
+		uid: "bc786ab1",
+		type: "item",
+		items: [{
+			item: "bloodmagic:monster_soul 1 3"
+		}],
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "a65c0eda",
+		type: "ftbmoney:money",
+		ftb_money: 10L
+	},
+	{
+		uid: "20ca3a7b",
+		type: "xp",
+		xp: 10
+	}]
+}

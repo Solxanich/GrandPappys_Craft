@@ -1,0 +1,33 @@
+{
+	title: "Blessed Ground",
+	x: 12.5d,
+	y: -12.0d,
+	dependencies: [
+		"7b6cd683"
+	],
+	hide: true,
+	tasks: [{
+		uid: "d6e6d74b",
+		type: "item",
+		items: [{
+			item: "bewitchment:white_sage"
+		}]
+	},
+	{
+		uid: "830b0a02",
+		type: "item",
+		items: [{
+			item: "bewitchment:salt"
+		}]
+	}],
+	rewards: [{
+		uid: "58920a56",
+		type: "ftbmoney:money",
+		ftb_money: 10L
+	},
+	{
+		uid: "070dc9ac",
+		type: "xp",
+		xp: 10
+	}]
+}

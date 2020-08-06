@@ -1,0 +1,29 @@
+{
+	x: -12.5d,
+	y: 1.5d,
+	dependencies: [
+		"f7fa84fd"
+	],
+	hide: true,
+	tasks: [{
+		uid: "ef1c882f",
+		type: "item",
+		items: [{
+			id: "bloodmagic:blood_orb",
+			tag: {
+				orb: "bloodmagic:magician"
+			}
+		}],
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "db0ef8a0",
+		type: "ftbmoney:money",
+		ftb_money: 10L
+	},
+	{
+		uid: "c77b0aa3",
+		type: "xp",
+		xp: 10
+	}]
+}

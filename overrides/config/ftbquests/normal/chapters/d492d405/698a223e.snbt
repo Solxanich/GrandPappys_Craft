@@ -1,0 +1,45 @@
+{
+	x: 14.5d,
+	y: -6.0d,
+	dependencies: [
+		"347b934d"
+	],
+	hide: true,
+	tasks: [{
+		uid: "b1196bf7",
+		type: "item",
+		items: [{
+			item: "bewitchment:focal_chalk"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "2df59e78",
+		type: "item",
+		items: [{
+			item: "bewitchment:fiery_chalk"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "bd488c81",
+		type: "item",
+		items: [{
+			item: "bewitchment:phasing_chalk"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "0a640759",
+		type: "ftbmoney:money",
+		ftb_money: 10L
+	},
+	{
+		uid: "b7236066",
+		type: "xp",
+		xp: 10
+	}]
+}

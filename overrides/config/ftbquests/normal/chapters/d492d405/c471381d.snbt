@@ -1,0 +1,52 @@
+{
+	title: "Wtich Clothes",
+	x: 11.0d,
+	y: -13.0d,
+	text: [
+		""
+	],
+	dependencies: [
+		"70806087"
+	],
+	hide: true,
+	tasks: [{
+		uid: "910ee84e",
+		type: "item",
+		items: [{
+			item: "bewitchment:witches_cowl"
+		},
+		{
+			item: "bewitchment:witches_hat"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "0c402b33",
+		type: "item",
+		items: [{
+			item: "bewitchment:witches_robes"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "21fb1176",
+		type: "item",
+		items: [{
+			item: "bewitchment:witches_pants"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "43e7a886",
+		type: "ftbmoney:money",
+		ftb_money: 10L
+	},
+	{
+		uid: "c1527535",
+		type: "xp",
+		xp: 10
+	}]
+}

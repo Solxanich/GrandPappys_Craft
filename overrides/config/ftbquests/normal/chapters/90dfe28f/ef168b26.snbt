@@ -1,0 +1,49 @@
+{
+	x: -6.5d,
+	y: -4.0d,
+	dependencies: [
+		"5ea70ec7"
+	],
+	hide: true,
+	tasks: [{
+		uid: "5c63ea14",
+		type: "item",
+		items: [{
+			item: "pixelmon:anvil"
+		}]
+	},
+	{
+		uid: "d0df3870",
+		type: "item",
+		items: [{
+			item: "pixelmon:fire_stone_hammer"
+		},
+		{
+			item: "pixelmon:thunder_stone_hammer"
+		},
+		{
+			item: "pixelmon:leaf_stone_hammer"
+		},
+		{
+			item: "pixelmon:sapphire_hammer"
+		},
+		{
+			item: "pixelmon:ruby_hammer"
+		},
+		{
+			item: "pixelmon:amethyst_hammer"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "1cc7222a",
+		type: "xp",
+		xp: 10
+	},
+	{
+		uid: "dd761170",
+		type: "ftbmoney:money",
+		ftb_money: 10L
+	}]
+}

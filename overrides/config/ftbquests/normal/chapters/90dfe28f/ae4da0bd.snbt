@@ -1,8 +1,9 @@
 {
-	x: 4.5d,
-	y: -4.5d,
+	title: "Harvest DigiDirt",
+	x: 7.0d,
+	y: -1.0d,
 	dependencies: [
-		"cc4366ca"
+		"aafa4782"
 	],
 	hide: true,
 	tasks: [{
@@ -17,6 +18,17 @@
 	rewards: [{
 		uid: "fdc3adf7",
 		type: "item",
+		team_reward: true,
 		item: "enderstorage:ender_storage"
+	},
+	{
+		uid: "e81dc205",
+		type: "xp",
+		xp: 10
+	},
+	{
+		uid: "f691c2f1",
+		type: "ftbmoney:money",
+		ftb_money: 10L
 	}]
 }

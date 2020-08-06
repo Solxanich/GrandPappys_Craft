@@ -114,9 +114,9 @@ evilcraft:paling
 mod_lavacow:corroded
 mod_lavacow:soiled
 lucraftcore:knock_out
+heroesexpansion:chitauri_virus
 heroesexpansion:kryptonite_poison
 heroesexpansion:frozen
-heroesexpansion:chitauri_virus
 mahoutsukai:borrowed_authority
 mahoutsukai:binding_eyes
 mahoutsukai:bound

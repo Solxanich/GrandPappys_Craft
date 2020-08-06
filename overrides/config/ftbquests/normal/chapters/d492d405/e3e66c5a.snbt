@@ -1,0 +1,25 @@
+{
+	x: 12.0d,
+	y: -2.0d,
+	dependencies: [
+		"347b934d"
+	],
+	hide: true,
+	tasks: [{
+		uid: "3259deae",
+		type: "item",
+		items: [{
+			item: "bewitchment:distillery"
+		}]
+	}],
+	rewards: [{
+		uid: "8e09e9b4",
+		type: "ftbmoney:money",
+		ftb_money: 10L
+	},
+	{
+		uid: "afb99aed",
+		type: "xp",
+		xp: 10
+	}]
+}

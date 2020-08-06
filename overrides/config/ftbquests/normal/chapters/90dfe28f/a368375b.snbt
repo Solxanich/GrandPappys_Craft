@@ -1,0 +1,39 @@
+{
+	x: -9.0d,
+	y: -5.5d,
+	dependencies: [
+		"ef168b26"
+	],
+	hide: true,
+	tasks: [{
+		uid: "bc722d38",
+		type: "item",
+		items: [{
+			item: "pixelmon:poke_ball_lid"
+		}]
+	},
+	{
+		uid: "85575ee7",
+		type: "item",
+		items: [{
+			item: "pixelmon:iron_base"
+		}]
+	},
+	{
+		uid: "abb3ed94",
+		type: "item",
+		items: [{
+			item: "pixelmon:poke_ball"
+		}]
+	}],
+	rewards: [{
+		uid: "6c2befcd",
+		type: "xp",
+		xp: 10
+	},
+	{
+		uid: "57bc45df",
+		type: "ftbmoney:money",
+		ftb_money: 10L
+	}]
+}

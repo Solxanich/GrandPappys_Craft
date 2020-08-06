@@ -1,0 +1,28 @@
+{
+	x: -7.5d,
+	y: -8.0d,
+	dependencies: [
+		"e0bc8640"
+	],
+	hide: true,
+	tasks: [{
+		uid: "a3aa9740",
+		type: "item",
+		items: [{
+			id: "bloodmagic:sentient_sword",
+			tag: {}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "eaef7229",
+		type: "ftbmoney:money",
+		ftb_money: 10L
+	},
+	{
+		uid: "483e5177",
+		type: "xp",
+		xp: 10
+	}]
+}

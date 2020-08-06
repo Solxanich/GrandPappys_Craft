@@ -1,0 +1,20 @@
+{
+	title: "Paintball Dimension? ",
+	x: 0.5d,
+	y: 4.0d,
+	description: "Gun Violence is a crime, and we advocate for appropriate gun restrictions. Play paintball instead!",
+	dependencies: [
+		"24d7a092"
+	],
+	hide: true,
+	tasks: [{
+		uid: "662059a0",
+		type: "dimension",
+		dim: 111
+	}],
+	rewards: [{
+		uid: "778555c5",
+		type: "xp",
+		xp: 50
+	}]
+}

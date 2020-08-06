@@ -1,0 +1,30 @@
+{
+	title: "Cook",
+	x: -2.0d,
+	y: -14.0d,
+	text: [
+		""
+	],
+	dependencies: [
+		"db98eb0c"
+	],
+	hide: true,
+	tasks: [{
+		uid: "793e07c1",
+		type: "item",
+		items: [{
+			item: "minecraft:coal"
+		}],
+		count: 8L
+	}],
+	rewards: [{
+		uid: "0eeb2122",
+		type: "xp",
+		xp: 10
+	},
+	{
+		uid: "3e0990d0",
+		type: "ftbmoney:money",
+		ftb_money: 10L
+	}]
+}

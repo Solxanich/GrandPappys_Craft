@@ -1,0 +1,28 @@
+{
+	title: "Fencer",
+	x: -3.0d,
+	y: -12.5d,
+	dependencies: [
+		"db98eb0c"
+	],
+	hide: true,
+	tasks: [{
+		uid: "c7f7be9e",
+		type: "item",
+		items: [{
+			item: "minecraft:stone_sword"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "074609bc",
+		type: "xp",
+		xp: 10
+	},
+	{
+		uid: "7afa355a",
+		type: "ftbmoney:money",
+		ftb_money: 10L
+	}]
+}

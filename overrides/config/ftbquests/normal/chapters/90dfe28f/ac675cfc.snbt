@@ -1,0 +1,25 @@
+{
+	x: -5.5d,
+	y: 4.0d,
+	dependencies: [
+		"842e3f45"
+	],
+	hide: true,
+	tasks: [{
+		uid: "edff2432",
+		type: "item",
+		items: [{
+			item: "mw:pilgrim_backpack"
+		}]
+	}],
+	rewards: [{
+		uid: "bb87f4d8",
+		type: "xp",
+		xp: 10
+	},
+	{
+		uid: "4e1264ed",
+		type: "ftbmoney:money",
+		ftb_money: 10L
+	}]
+}

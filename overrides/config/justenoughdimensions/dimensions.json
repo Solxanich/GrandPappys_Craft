@@ -12,7 +12,8 @@
 			},
 		"worldinfo_onetime": {
 			"SpawnX": 0,
-			"SpawnZ": 0
+			"SpawnZ": 0,
+			"RandomSeed": -2672465183655037147
 		}
 	},
 	{
@@ -23,7 +24,14 @@
 			}
 	},
 	{
-      		"dim": 57,
+		"dim": 111,
+		"override": true,
+		"jed": {
+				"PlayerInventoryGroup": "War"
+		}
+	},
+	{
+		"dim": 57,
 	  	"jed": {
                 	"PlayerInventoryGroup": "Pixelmon"
             	},

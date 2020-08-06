@@ -1,8 +1,8 @@
 {
-	x: -3.5d,
-	y: -4.5d,
+	x: -11.5d,
+	y: -7.0d,
 	dependencies: [
-		"fac6c160"
+		"a368375b"
 	],
 	hide: true,
 	tasks: [{
@@ -15,6 +15,17 @@
 	rewards: [{
 		uid: "fe9a16fe",
 		type: "item",
+		team_reward: true,
 		item: "enderstorage:ender_storage"
+	},
+	{
+		uid: "aa55f4e6",
+		type: "xp",
+		xp: 10
+	},
+	{
+		uid: "a15c1f74",
+		type: "ftbmoney:money",
+		ftb_money: 10L
 	}]
 }

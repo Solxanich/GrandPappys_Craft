@@ -14,8 +14,8 @@
 				"patchouli:book": "bewitchment:book_of_shadows"
 			}
 		}],
-		ignore_damage: true,
-		ignore_nbt: 1b
+		consume_items: true,
+		ignore_damage: true
 	}],
 	rewards: [{
 		uid: "4a34fac9",

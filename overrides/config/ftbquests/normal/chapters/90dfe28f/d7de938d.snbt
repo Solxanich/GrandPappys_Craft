@@ -1,0 +1,27 @@
+{
+	x: 7.5d,
+	y: -4.0d,
+	dependencies: [
+		"ae4da0bd"
+	],
+	hide: true,
+	tasks: [{
+		uid: "f5cc480b",
+		type: "item",
+		items: [{
+			item: "digimobs:digivices 1 2"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "1a2f8cd3",
+		type: "xp",
+		xp: 10
+	},
+	{
+		uid: "80970eb4",
+		type: "ftbmoney:money",
+		ftb_money: 10L
+	}]
+}

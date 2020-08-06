@@ -1,0 +1,40 @@
+{
+	title: "Natural Light",
+	x: 9.5d,
+	y: -3.0d,
+	dependencies: [
+		"347b934d"
+	],
+	hide: true,
+	tasks: [{
+		uid: "931d8dda",
+		type: "item",
+		items: [{
+			item: "minecraft:tallgrass 1 1"
+		}]
+	},
+	{
+		uid: "c2b32429",
+		type: "item",
+		items: [{
+			item: "minecraft:glowstone_dust"
+		}]
+	},
+	{
+		uid: "e15da2d9",
+		type: "item",
+		items: [{
+			item: "bewitchment:torchwood"
+		}]
+	}],
+	rewards: [{
+		uid: "2d9bfee8",
+		type: "ftbmoney:money",
+		ftb_money: 10L
+	},
+	{
+		uid: "51c076ec",
+		type: "xp",
+		xp: 10
+	}]
+}

@@ -1,6 +1,9 @@
 {
 	title: "Tainted",
 	icon: "thaumcraft:taint_geyser",
+	description: [
+		"InDev"
+	],
 	always_invisible: false,
 	group: 0,
 	default_quest_shape: ""

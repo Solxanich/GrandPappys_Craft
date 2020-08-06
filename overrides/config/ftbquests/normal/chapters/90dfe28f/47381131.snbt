@@ -1,0 +1,25 @@
+{
+	x: -11.0d,
+	y: -1.0d,
+	dependencies: [
+		"ea0720c5"
+	],
+	hide: true,
+	tasks: [{
+		uid: "3bd8ec71",
+		type: "item",
+		items: [{
+			item: "pixelmon:fossil_machine"
+		}]
+	}],
+	rewards: [{
+		uid: "9832eada",
+		type: "xp",
+		xp: 10
+	},
+	{
+		uid: "c7afb22f",
+		type: "ftbmoney:money",
+		ftb_money: 10L
+	}]
+}

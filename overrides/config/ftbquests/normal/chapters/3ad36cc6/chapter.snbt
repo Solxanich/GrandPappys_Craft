@@ -1,6 +1,9 @@
 {
 	title: "Ever Falling",
 	icon: "aether:aether_teleporter",
+	description: [
+		"InDev"
+	],
 	always_invisible: false,
 	group: 0,
 	default_quest_shape: ""

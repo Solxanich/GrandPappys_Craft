@@ -1,0 +1,25 @@
+{
+	x: -12.5d,
+	y: -4.5d,
+	dependencies: [
+		"e0bc8640"
+	],
+	hide: true,
+	tasks: [{
+		uid: "b057ea2d",
+		type: "item",
+		items: [{
+			item: "bloodmagic:altar"
+		}]
+	}],
+	rewards: [{
+		uid: "ffb40f73",
+		type: "ftbmoney:money",
+		ftb_money: 10L
+	},
+	{
+		uid: "b0b37732",
+		type: "xp",
+		xp: 10
+	}]
+}

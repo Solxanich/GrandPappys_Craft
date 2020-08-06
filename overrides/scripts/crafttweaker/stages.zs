@@ -11,7 +11,7 @@ import mods.zenstages.ZenStager;
 import mods.zenstages.Stage;
 import crafttweaker.item.IIngredient;
 
-static stageTerraria as Stage = ZenStager.initStage("Terraria");
+static stageWar as Stage = ZenStager.initStage("war");
 static stageDefault as Stage = ZenStager.initStage("Default");
 static stagePixelmon as Stage = ZenStager.initStage("Pixelmon");
 static stageOverworld as Stage = ZenStager.initStage("Overworld");
@@ -421,6 +421,7 @@ if(loadedMods.contains("evilcraft")){
 	}
 }
 
+
 if(loadedMods.contains("nex")){
 	mobsMap = {
 		stageOverworld.stage: [
@@ -428,6 +429,25 @@ if(loadedMods.contains("nex")){
 			"netherex:ghastling","netherex:gold_golem","netherex:mogus","netherex:nethermite",
 			"netherex:salamander","netherex:spinout","netherex:spore","netherex:spore_creeper",
 			"netherex:wight"
+		]
+	};
+	for _stage, mobs in mobsMap {
+		ZenStager.getStage(_stage).addMobs(mobs);
+	}
+}
+
+if(loadedMods.contains("instrumentalmobs")){
+	mobsMap = {
+		stageOverworld.stage: [
+			"instrumentalmobs:cymbal_husk",
+			"instrumentalmobs:drum_zombie",
+			"instrumentalmobs:french_horn_creeper",
+			"instrumentalmobs:maraca_spider",
+			"instrumentalmobs:microphone_ghast",
+			"instrumentalmobs:microphone_sound",
+			"instrumentalmobs:sound_waves",
+			"instrumentalmobs:tuba_enderman",
+			"instrumentalmobs:xylophone_skeleton"
 		]
 	};
 	for _stage, mobs in mobsMap {
@@ -473,6 +493,20 @@ if(loadedMods.contains("trumpetskeleton")){
 		ZenStager.getStage(_stage).addMobs(mobs);
 	}
 }
+/*if(loadedMods.contains("mw")){
+	mobsMap = {
+		stageWar.stage: [
+			"mw:ammo256","mw:bandit1","mw:deathclaw","mw:defiled zombie","mw:entityspreadable262",
+			"mw:gasgrenade261","mw:grenade259","mw:hazmat_zombie","mw:licker","mw:molded","mw:necromorph",
+			"mw:shellcasing258","mw:smokegrenade260","mw:tornzombie","mw:wcam257","mw:zombie",
+			"mw:zombieblistered","mw:zombieripper"
+		]
+	};
+	for _stage, mobs in mobsMap {
+		ZenStager.getStage(_stage).addMobs(mobs);
+	}
+}*/
+
 if(loadedMods.contains("thermalfoundation")){
 	mobsMap = {
 		stageOverworld.stage: [
@@ -580,7 +614,6 @@ if(loadedMods.contains("chickens")){
 		ZenStager.getStage(_stage).addMobs(mobs,72);
 	}
 }
-
 if(loadedMods.contains("hatchery")){
 	mobsMap = {
 		stageOverworld.stage: [
@@ -647,9 +680,6 @@ if(loadedMods.contains("lycanitesmobs")){
 // ==================================
 // Mod Staging
 static stagedMods as string[][string] = {
-/*	stageTerraria.stage : [
-		"terraria"
-	], */
 	stageOverworld.stage : [
 		"akashictome",
 		"cookingforblockheads",
@@ -665,6 +695,10 @@ static stagedMods as string[][string] = {
 		"immersiveengineering",
 		"immersivetech",
 		"mcwbridges"
+	],
+	stageWar.stage:[
+		"lostsouls",
+		"mw"
 	],
 	stagePixelmon.stage : [
 		"pixelmon"
@@ -686,7 +720,8 @@ static stagedMods as string[][string] = {
 	stageEnviTech.stage : [
 		"environmentaltech",
 		"immersivepetroleum",
-		"valkyrielib"
+		"valkyrielib",
+		"thermalexpansion"
 	],
 	stageAOA.stage : [
 		"aoa3"
@@ -764,7 +799,8 @@ static stagedCT as IIngredient[][string] = {
 	stageEngg.stage: [
 		<contenttweaker:drilllicense>,
 		<contenttweaker:digimoncartridge>,
-		<contenttweaker:terrariacartridge>
+		<contenttweaker:vicmwcartridge>,
+		//<item.lmreengaged:spawn_littlemaid_egg>
 	],
 	stageFarmer.stage: [
 		<contenttweaker:mysticegg>
@@ -824,5 +860,19 @@ ZenStager.buildAll();
 for mobs in mobSpawners {
 	mods.MobStages.toggleSpawner(mobs, true);
 }
-
+// Apply Dimension Stages
+mods.recipestages.Recipes.setRecipeStage("engg","lmreengaged:spawn_littlemaid_egg");
+mods.DimensionStages.addDimensionStage("tech",8);
+mods.DimensionStages.addDimensionStage("tech",57);
+mods.DimensionStages.addDimensionStage("Overworld",-1);
+mods.DimensionStages.addDimensionStage("Overworld",1);
+mods.DimensionStages.addDimensionStage("Overworld",2);
+mods.DimensionStages.addDimensionStage("aether",3);
+mods.DimensionStages.addDimensionStage("bard",20);
+mods.DimensionStages.addDimensionStage("bard",84);
+mods.DimensionStages.addDimensionStage("outcast",44);
+mods.DimensionStages.addDimensionStage("outcast",45);
+mods.DimensionStages.addDimensionStage("farmer",-127);
+mods.DimensionStages.addDimensionStage("engg",17);
+mods.DimensionStages.addDimensionStage("Default",0);
 // ==================================

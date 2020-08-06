@@ -1,0 +1,25 @@
+{
+	x: 18.0d,
+	y: -9.0d,
+	dependencies: [
+		"7b6cd683"
+	],
+	hide: true,
+	tasks: [{
+		uid: "df4d2e9e",
+		type: "item",
+		items: [{
+			item: "bewitchment:flying_ointment"
+		}]
+	}],
+	rewards: [{
+		uid: "fb5d092b",
+		type: "ftbmoney:money",
+		ftb_money: 10L
+	},
+	{
+		uid: "85d43690",
+		type: "xp",
+		xp: 10
+	}]
+}

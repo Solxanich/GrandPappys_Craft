@@ -1,0 +1,37 @@
+{
+	x: -2.5d,
+	y: 6.5d,
+	dependencies: [
+		"2497997d",
+		"842e3f45"
+	],
+	hide: true,
+	tasks: [{
+		uid: "98089db2",
+		type: "item",
+		items: [{
+			item: "mw:impactgrenade"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "310015bf",
+		type: "item",
+		items: [{
+			item: "mw:m67frag"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "cbac3453",
+		type: "xp",
+		xp: 10
+	},
+	{
+		uid: "af7cac01",
+		type: "ftbmoney:money",
+		ftb_money: 10L
+	}]
+}

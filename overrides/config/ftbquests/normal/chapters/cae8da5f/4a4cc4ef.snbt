@@ -1,0 +1,28 @@
+{
+	title: "Bloodsucker",
+	x: 0.5d,
+	y: -11.5d,
+	dependencies: [
+		"db98eb0c"
+	],
+	hide: true,
+	tasks: [{
+		uid: "faecdaa4",
+		type: "item",
+		items: [{
+			item: "minecraft:stone_axe"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "06baca40",
+		type: "xp",
+		xp: 10
+	},
+	{
+		uid: "362876e2",
+		type: "ftbmoney:money",
+		ftb_money: 10L
+	}]
+}

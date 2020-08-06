@@ -1,0 +1,27 @@
+{
+	x: -12.5d,
+	y: -1.5d,
+	dependencies: [
+		"e9c2082a"
+	],
+	hide: true,
+	dependency_requirement: "one_started",
+	tasks: [{
+		uid: "61bcff91",
+		type: "item",
+		items: [{
+			item: "bloodmagic:blood_rune"
+		}],
+		count: 8L
+	}],
+	rewards: [{
+		uid: "fead1a13",
+		type: "ftbmoney:money",
+		ftb_money: 10L
+	},
+	{
+		uid: "c9594ce9",
+		type: "xp",
+		xp: 10
+	}]
+}

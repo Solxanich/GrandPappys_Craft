@@ -1,0 +1,47 @@
+{
+	title: "My Own Maid?",
+	x: -1.0d,
+	y: -12.5d,
+	description: "Is this a Jojo Reference?",
+	text: [
+		"More Info:",
+		"https://www.minecraftforum.net/forums/mapping-and-modding-java-edition/minecraft-mods/",
+		"1287042-1-7-10-1-8-littlemaidmob-final-versions-updated"
+	],
+	dependencies: [
+		"be67ccab"
+	],
+	hide: true,
+	tasks: [{
+		uid: "27fb49ea",
+		type: "item",
+		items: [{
+			item: "item.lmreengaged:spawn_littlemaid_egg"
+		}]
+	},
+	{
+		uid: "d1065c42",
+		type: "item",
+		items: [{
+			item: "minecraft:sugar"
+		}],
+		count: 64L
+	},
+	{
+		uid: "6bbf356c",
+		type: "item",
+		items: [{
+			item: "minecraft:cake"
+		}]
+	}],
+	rewards: [{
+		uid: "5a9dfb1d",
+		type: "xp",
+		xp: 10
+	},
+	{
+		uid: "58bc014e",
+		type: "ftbmoney:money",
+		ftb_money: 10L
+	}]
+}

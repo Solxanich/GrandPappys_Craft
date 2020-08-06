@@ -15,3 +15,4 @@ recipes.remove(<minecraft:web>);
 recipes.remove(<sereneseasons:greenhouse_glass>);
 recipes.remove(<minecraft:sandstone>);
 recipes.remove(<minecraft:red_sandstone>);
+recipes.remove(<mcwbridges:iron_platform>);

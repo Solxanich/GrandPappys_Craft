@@ -1,0 +1,25 @@
+{
+	x: -14.0d,
+	y: -5.5d,
+	dependencies: [
+		"4448669b"
+	],
+	hide: true,
+	tasks: [{
+		uid: "46ffd543",
+		type: "item",
+		items: [{
+			item: "pixelmon:porygon_piece 1 1"
+		}]
+	}],
+	rewards: [{
+		uid: "d24ba258",
+		type: "xp",
+		xp: 10
+	},
+	{
+		uid: "03bfc772",
+		type: "ftbmoney:money",
+		ftb_money: 10L
+	}]
+}

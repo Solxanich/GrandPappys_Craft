@@ -1,0 +1,25 @@
+{
+	x: -14.0d,
+	y: -9.0d,
+	dependencies: [
+		"4448669b"
+	],
+	hide: true,
+	tasks: [{
+		uid: "fa476e01",
+		type: "item",
+		items: [{
+			item: "pixelmon:master_ball"
+		}]
+	}],
+	rewards: [{
+		uid: "94a51c70",
+		type: "xp",
+		xp: 10
+	},
+	{
+		uid: "209823ed",
+		type: "ftbmoney:money",
+		ftb_money: 10L
+	}]
+}

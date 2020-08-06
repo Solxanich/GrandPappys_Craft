@@ -1,6 +1,7 @@
 {
 	x: 18.5d,
 	y: -8.0d,
+	shape: "heart",
 	description: "Vampire Leveling II",
 	dependencies: [
 		"d36651ff",

@@ -1,6 +1,9 @@
 {
 	title: "Ice and Fire = Steam",
 	icon: "iceandfire:dragon_skull",
+	description: [
+		"Indev"
+	],
 	always_invisible: false,
 	group: 0,
 	default_quest_shape: ""

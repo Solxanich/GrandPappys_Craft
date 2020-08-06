@@ -1,0 +1,25 @@
+{
+	x: 3.0d,
+	y: -19.0d,
+	dependencies: [
+		"f936c08b"
+	],
+	hide: true,
+	tasks: [{
+		uid: "e70c15a7",
+		type: "item",
+		items: [{
+			item: "academy:metal_former"
+		}]
+	}],
+	rewards: [{
+		uid: "74f5d6f1",
+		type: "xp",
+		xp: 10
+	},
+	{
+		uid: "d7ec5fd8",
+		type: "ftbmoney:money",
+		ftb_money: 10L
+	}]
+}

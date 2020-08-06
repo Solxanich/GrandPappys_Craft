@@ -1,0 +1,27 @@
+{
+	x: 14.5d,
+	y: -9.0d,
+	dependencies: [
+		"698a223e"
+	],
+	hide: true,
+	tasks: [{
+		uid: "164f18c5",
+		type: "item",
+		items: [{
+			item: "bewitchment:broom"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "c3d37f06",
+		type: "ftbmoney:money",
+		ftb_money: 10L
+	},
+	{
+		uid: "eb940602",
+		type: "xp",
+		xp: 10
+	}]
+}

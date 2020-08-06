@@ -1,0 +1,26 @@
+{
+	title: "Healer",
+	x: -1.0d,
+	y: -14.0d,
+	dependencies: [
+		"db98eb0c"
+	],
+	hide: true,
+	tasks: [{
+		uid: "248b9c20",
+		type: "item",
+		items: [{
+			item: "minecraft:cooked_beef"
+		}]
+	}],
+	rewards: [{
+		uid: "5618ac09",
+		type: "xp",
+		xp: 10
+	},
+	{
+		uid: "6b833928",
+		type: "ftbmoney:money",
+		ftb_money: 10L
+	}]
+}

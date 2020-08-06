@@ -1,0 +1,34 @@
+{
+	x: -7.5d,
+	y: -4.5d,
+	dependencies: [
+		"42513406"
+	],
+	hide: true,
+	tasks: [{
+		uid: "f76365e8",
+		type: "item",
+		items: [{
+			item: "bloodmagic:soul_snare"
+		}]
+	},
+	{
+		uid: "2ab516bd",
+		type: "item",
+		items: [{
+			item: "bloodmagic:monster_soul"
+		}],
+		count: 3L,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "d9a7a8e6",
+		type: "ftbmoney:money",
+		ftb_money: 10L
+	},
+	{
+		uid: "1d3eca51",
+		type: "xp",
+		xp: 10
+	}]
+}

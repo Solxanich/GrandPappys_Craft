@@ -6,25 +6,21 @@
 	],
 	hide: true,
 	tasks: [{
-		uid: "7798ea2f",
+		uid: "385126c1",
 		type: "item",
 		items: [{
-			item: "mob_grinding_utils:saw"
-		}]
+			item: "openblocks:sponge"
+		}],
+		ignore_nbt: 2b
 	},
 	{
-		uid: "f9ae0e8b",
+		uid: "c7359b08",
 		type: "item",
 		items: [{
-			item: "mob_grinding_utils:wither_muffler"
-		}]
-	},
-	{
-		uid: "76b782b7",
-		type: "item",
-		items: [{
-			item: "mob_grinding_utils:tank_sink"
-		}]
+			item: "openblocks:sponge_on_a_stick"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 2b
 	}],
 	rewards: [{
 		uid: "02ffe68e",

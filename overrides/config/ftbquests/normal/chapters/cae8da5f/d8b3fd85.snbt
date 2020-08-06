@@ -1,0 +1,29 @@
+{
+	title: "Pharmacist",
+	x: 0.0d,
+	y: -14.0d,
+	text: [
+		""
+	],
+	dependencies: [
+		"db98eb0c"
+	],
+	hide: true,
+	tasks: [{
+		uid: "334cb8b2",
+		type: "item",
+		items: [{
+			item: "minecraft:glass_bottle"
+		}]
+	}],
+	rewards: [{
+		uid: "c7519a00",
+		type: "xp",
+		xp: 10
+	},
+	{
+		uid: "4c54c1e1",
+		type: "ftbmoney:money",
+		ftb_money: 10L
+	}]
+}

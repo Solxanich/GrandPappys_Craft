@@ -1,0 +1,39 @@
+{
+	x: -3.5d,
+	y: -8.0d,
+	dependencies: [
+		"a368375b"
+	],
+	hide: true,
+	tasks: [{
+		uid: "e66d543a",
+		type: "item",
+		items: [{
+			item: "pixelmon:thunder_stone"
+		}]
+	},
+	{
+		uid: "1ada2665",
+		type: "item",
+		items: [{
+			item: "pixelmon:water_stone"
+		}]
+	},
+	{
+		uid: "7dad3b71",
+		type: "item",
+		items: [{
+			item: "pixelmon:fire_stone"
+		}]
+	}],
+	rewards: [{
+		uid: "6c63abb8",
+		type: "xp",
+		xp: 10
+	},
+	{
+		uid: "53fbaae8",
+		type: "ftbmoney:money",
+		ftb_money: 10L
+	}]
+}
