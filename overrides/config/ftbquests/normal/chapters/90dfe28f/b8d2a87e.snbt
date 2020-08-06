@@ -1,0 +1,45 @@
+{
+	title: "Spying?",
+	x: 3.5d,
+	y: 6.5d,
+	dependencies: [
+		"880cad5e",
+		"2497997d"
+	],
+	hide: true,
+	tasks: [{
+		uid: "7eb0275e",
+		type: "item",
+		items: [{
+			item: "mw:wcam"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "c2c9edb3",
+		type: "item",
+		items: [{
+			item: "mw:tablet"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "39f38e67",
+		type: "item",
+		items: [{
+			item: "mw:camera_rotated"
+		}]
+	}],
+	rewards: [{
+		uid: "b4612277",
+		type: "xp",
+		xp: 10
+	},
+	{
+		uid: "46090223",
+		type: "ftbmoney:money",
+		ftb_money: 10L
+	}]
+}

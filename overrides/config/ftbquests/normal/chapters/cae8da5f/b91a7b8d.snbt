@@ -1,0 +1,29 @@
+{
+	title: "Demolisher",
+	x: -2.5d,
+	y: -13.5d,
+	text: [
+		""
+	],
+	dependencies: [
+		"db98eb0c"
+	],
+	hide: true,
+	tasks: [{
+		uid: "22e61375",
+		type: "item",
+		items: [{
+			item: "minecraft:tnt"
+		}]
+	}],
+	rewards: [{
+		uid: "64b7ac2a",
+		type: "xp",
+		xp: 10
+	},
+	{
+		uid: "aaee2e2c",
+		type: "ftbmoney:money",
+		ftb_money: 10L
+	}]
+}

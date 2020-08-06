@@ -1,0 +1,40 @@
+{
+	x: 7.5d,
+	y: -19.0d,
+	dependencies: [
+		"f936c08b"
+	],
+	hide: true,
+	tasks: [{
+		uid: "e282a53b",
+		type: "item",
+		items: [{
+			item: "academy:constraint_metal"
+		}]
+	},
+	{
+		uid: "d9583cb5",
+		type: "item",
+		items: [{
+			item: "academy:imagsil_ore"
+		}]
+	},
+	{
+		uid: "9361af08",
+		type: "item",
+		items: [{
+			item: "academy:crystal_low"
+		}],
+		count: 32L
+	}],
+	rewards: [{
+		uid: "020b6ee7",
+		type: "xp",
+		xp: 10
+	},
+	{
+		uid: "256a5819",
+		type: "ftbmoney:money",
+		ftb_money: 10L
+	}]
+}

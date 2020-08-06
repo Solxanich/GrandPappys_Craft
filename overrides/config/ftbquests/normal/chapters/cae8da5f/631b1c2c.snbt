@@ -1,0 +1,32 @@
+{
+	x: -1.5d,
+	y: -16.5d,
+	shape: "heart",
+	dependencies: [
+		"f10b0d98"
+	],
+	hide: true,
+	tasks: [{
+		uid: "7096244c",
+		type: "item",
+		items: [{
+			id: "academy:developer_portable",
+			tag: {
+				energy: 0.0d
+			},
+			Damage: 13s
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "84212b88",
+		type: "xp",
+		xp: 10
+	},
+	{
+		uid: "2164159b",
+		type: "ftbmoney:money",
+		ftb_money: 10L
+	}]
+}

@@ -9,7 +9,7 @@
 	tasks: [{
 		uid: "2d4e8a61",
 		type: "checkmark",
-		title: "Press M to draw a blood circle within 5 seconds of injury"
+		title: "Press Minus to draw a blood circle within 5 seconds of injury"
 	},
 	{
 		uid: "2e97d96d",

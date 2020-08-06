@@ -1,0 +1,52 @@
+{
+	title: "More Digimobs!",
+	x: 4.5d,
+	y: -8.0d,
+	text: [
+		""
+	],
+	dependencies: [
+		"aa9e8387"
+	],
+	hide: true,
+	tasks: [{
+		uid: "11850ff5",
+		type: "item",
+		items: [{
+			item: "digimobs:botaegg"
+		},
+		{
+			item: "digimobs:puniegg"
+		},
+		{
+			item: "digimobs:poyoegg"
+		},
+		{
+			item: "digimobs:ketoegg"
+		},
+		{
+			item: "digimobs:jyariegg"
+		},
+		{
+			item: "digimobs:pabuegg"
+		},
+		{
+			item: "digimobs:kuraegg"
+		},
+		{
+			item: "digimobs:nyokiegg"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "2799ea86",
+		type: "xp",
+		xp: 10
+	},
+	{
+		uid: "4a68d0f7",
+		type: "ftbmoney:money",
+		ftb_money: 10L
+	}]
+}

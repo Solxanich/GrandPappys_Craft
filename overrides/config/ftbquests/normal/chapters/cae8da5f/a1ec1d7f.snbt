@@ -1,0 +1,41 @@
+{
+	title: "Expanding IF Network",
+	x: 7.5d,
+	y: -14.0d,
+	dependencies: [
+		"f936c08b"
+	],
+	hide: true,
+	tasks: [{
+		uid: "c45aa422",
+		type: "item",
+		items: [{
+			item: "academy:reinforced_iron_plate"
+		}],
+		count: 3L
+	},
+	{
+		uid: "7d9c885c",
+		type: "item",
+		items: [{
+			item: "academy:matrix"
+		}]
+	},
+	{
+		uid: "f9c0bdd0",
+		type: "item",
+		items: [{
+			item: "academy:mat_core"
+		}]
+	}],
+	rewards: [{
+		uid: "e6d94e7e",
+		type: "xp",
+		xp: 10
+	},
+	{
+		uid: "65e32ea7",
+		type: "ftbmoney:money",
+		ftb_money: 10L
+	}]
+}

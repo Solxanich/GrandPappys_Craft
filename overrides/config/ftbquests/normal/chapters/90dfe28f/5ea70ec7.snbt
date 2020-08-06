@@ -1,0 +1,39 @@
+{
+	x: -6.0d,
+	y: -1.0d,
+	dependencies: [
+		"3305a1ae"
+	],
+	hide: true,
+	tasks: [{
+		uid: "4fd26ab9",
+		type: "item",
+		items: [{
+			item: "pixelmon:poke_ball_disc"
+		}]
+	},
+	{
+		uid: "86f8311a",
+		type: "item",
+		items: [{
+			item: "minecraft:stone_button"
+		}]
+	},
+	{
+		uid: "6c8e307b",
+		type: "item",
+		items: [{
+			item: "pixelmon:iron_disc"
+		}]
+	}],
+	rewards: [{
+		uid: "f61ba184",
+		type: "xp",
+		xp: 10
+	},
+	{
+		uid: "58bb8a00",
+		type: "ftbmoney:money",
+		ftb_money: 10L
+	}]
+}

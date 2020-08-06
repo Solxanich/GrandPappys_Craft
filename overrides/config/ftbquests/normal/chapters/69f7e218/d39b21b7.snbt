@@ -11,7 +11,7 @@
 		items: [{
 			item: "lordcraft:tile"
 		}],
-		count: 72L
+		count: 144L
 	}],
 	rewards: [{
 		uid: "083370bc",

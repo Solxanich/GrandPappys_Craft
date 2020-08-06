@@ -1,6 +1,9 @@
 {
 	x: -8.0d,
 	y: -16.5d,
+	text: [
+		"Hint: Add 4 Royal Torches Near Sarcophogus"
+	],
 	dependencies: [
 		"1c6543ad"
 	],

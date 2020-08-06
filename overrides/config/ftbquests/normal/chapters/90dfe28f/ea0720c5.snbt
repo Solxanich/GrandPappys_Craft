@@ -1,0 +1,25 @@
+{
+	x: -11.0d,
+	y: -3.0d,
+	dependencies: [
+		"a368375b"
+	],
+	hide: true,
+	tasks: [{
+		uid: "d5f7f441",
+		type: "item",
+		items: [{
+			item: "pixelmon:fossil_cleaner"
+		}]
+	}],
+	rewards: [{
+		uid: "c1a6e283",
+		type: "xp",
+		xp: 10
+	},
+	{
+		uid: "41cd49f4",
+		type: "ftbmoney:money",
+		ftb_money: 10L
+	}]
+}

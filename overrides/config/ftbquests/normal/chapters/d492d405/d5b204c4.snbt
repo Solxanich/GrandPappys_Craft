@@ -1,0 +1,38 @@
+{
+	title: "Alter of Witch",
+	x: 9.5d,
+	y: -6.0d,
+	text: [
+		"Maybe add some flora to spice up the area!"
+	],
+	dependencies: [
+		"b631de8c"
+	],
+	hide: true,
+	tasks: [{
+		uid: "bb883ce0",
+		type: "item",
+		items: [{
+			item: "bewitchment:stone_witches_altar"
+		}],
+		count: 6L
+	},
+	{
+		uid: "a6e662fc",
+		type: "item",
+		items: [{
+			item: "minecraft:carpet"
+		}],
+		count: 6L
+	}],
+	rewards: [{
+		uid: "2acd0912",
+		type: "ftbmoney:money",
+		ftb_money: 10L
+	},
+	{
+		uid: "3356602c",
+		type: "xp",
+		xp: 10
+	}]
+}

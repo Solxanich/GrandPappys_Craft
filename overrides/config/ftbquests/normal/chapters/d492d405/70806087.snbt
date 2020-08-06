@@ -1,0 +1,25 @@
+{
+	x: 9.5d,
+	y: -11.0d,
+	dependencies: [
+		"d5b204c4"
+	],
+	hide: true,
+	tasks: [{
+		uid: "8c927e8f",
+		type: "item",
+		items: [{
+			item: "bewitchment:spinning_wheel"
+		}]
+	}],
+	rewards: [{
+		uid: "23ccf9ac",
+		type: "ftbmoney:money",
+		ftb_money: 10L
+	},
+	{
+		uid: "0e00a09d",
+		type: "xp",
+		xp: 10
+	}]
+}

@@ -1,0 +1,27 @@
+{
+	x: -17.5d,
+	y: -10.5d,
+	dependencies: [
+		"c44e1bad"
+	],
+	hide: true,
+	tasks: [{
+		uid: "61174ce0",
+		type: "item",
+		items: [{
+			item: "bloodmagic:sigil_divination"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "9cb30b58",
+		type: "ftbmoney:money",
+		ftb_money: 10L
+	},
+	{
+		uid: "bfdeb55f",
+		type: "xp",
+		xp: 10
+	}]
+}

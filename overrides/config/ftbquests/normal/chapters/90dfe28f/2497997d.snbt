@@ -1,0 +1,25 @@
+{
+	x: 0.5d,
+	y: 6.5d,
+	dependencies: [
+		"ed8075f2"
+	],
+	hide: true,
+	tasks: [{
+		uid: "ee48b50c",
+		type: "item",
+		items: [{
+			item: "mw:steelingot"
+		}]
+	}],
+	rewards: [{
+		uid: "355b64ff",
+		type: "xp",
+		xp: 10
+	},
+	{
+		uid: "9d1e82ad",
+		type: "ftbmoney:money",
+		ftb_money: 10L
+	}]
+}

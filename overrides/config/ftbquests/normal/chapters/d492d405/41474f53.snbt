@@ -1,0 +1,27 @@
+{
+	x: -10.0d,
+	y: -3.0d,
+	dependencies: [
+		"e0bc8640"
+	],
+	hide: true,
+	tasks: [{
+		uid: "d52e73f9",
+		type: "item",
+		items: [{
+			id: "bloodmagic:soul_gem",
+			tag: {}
+		}],
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "c0ca45ac",
+		type: "ftbmoney:money",
+		ftb_money: 10L
+	},
+	{
+		uid: "e8383ca4",
+		type: "xp",
+		xp: 10
+	}]
+}

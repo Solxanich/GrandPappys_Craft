@@ -5,4 +5,4 @@ set SERVER_JAR=forge-1.12.2-14.23.5.2847-universal.jar
 REM You can edit these values if you wish.
 set MIN_RAM=1024M
 set MAX_RAM=8G
-set JAVA_PARAMETERS=-XX:+UseG1GC -Dsun.rmi.dgc.server.gcInterval=2147483646 -XX:+UnlockExperimentalVMOptions -XX:G1NewSizePercent=20 -XX:G1ReservePercent=20 -XX:MaxGCPauseMillis=50 -XX:G1HeapRegionSize=32M -Dfml.readTimeout=180
+set JAVA_PARAMETERS=-version:1.8 -d64 -server -XX:+AggressiveOpts -XX:ParallelGCThreads=4 -XX:+UseConcMarkSweepGC -XX:+UnlockExperimentalVMOptions -XX:+UseParNewGC -XX:MaxGCPauseMillis=10 -XX:GCPauseIntervalMillis=50 -XX:+UseFastAccessorMethods -XX:+OptimizeStringConcat -XX:NewSize=84m -XX:+UseAdaptiveGCBoundary -XX:NewRatio=3 -Dfml.readTimeout=90 -Ddeployment.trace=true -Ddeployment.log=true -Ddeployment.trace.level=all -XX:+DisableExplicitGC

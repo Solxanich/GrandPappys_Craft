@@ -1,0 +1,25 @@
+{
+	x: 12.0d,
+	y: 0.5d,
+	dependencies: [
+		"e3e66c5a"
+	],
+	hide: true,
+	tasks: [{
+		uid: "c39ad5fd",
+		type: "item",
+		items: [{
+			item: "bewitchment:brazier"
+		}]
+	}],
+	rewards: [{
+		uid: "4081c6a3",
+		type: "ftbmoney:money",
+		ftb_money: 10L
+	},
+	{
+		uid: "8184b4e2",
+		type: "xp",
+		xp: 10
+	}]
+}

@@ -1,0 +1,25 @@
+{
+	x: -10.0d,
+	y: -6.0d,
+	dependencies: [
+		"3b62911b"
+	],
+	hide: true,
+	tasks: [{
+		uid: "e8822968",
+		type: "item",
+		items: [{
+			item: "bloodmagic:soul_forge"
+		}]
+	}],
+	rewards: [{
+		uid: "c27af4b8",
+		type: "ftbmoney:money",
+		ftb_money: 10L
+	},
+	{
+		uid: "b6e4a760",
+		type: "xp",
+		xp: 10
+	}]
+}

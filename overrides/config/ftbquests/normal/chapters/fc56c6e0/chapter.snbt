@@ -1,6 +1,9 @@
 {
 	title: "Ascended",
 	icon: "aoa3:charging_table",
+	description: [
+		"InDev"
+	],
 	always_invisible: false,
 	group: 0,
 	default_quest_shape: ""

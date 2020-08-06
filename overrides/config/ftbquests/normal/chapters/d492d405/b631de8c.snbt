@@ -1,0 +1,25 @@
+{
+	x: 7.0d,
+	y: -4.5d,
+	dependencies: [
+		"a0f1e9fd"
+	],
+	hide: true,
+	tasks: [{
+		uid: "495624aa",
+		type: "item",
+		items: [{
+			item: "bewitchment:witches_oven"
+		}]
+	}],
+	rewards: [{
+		uid: "e90a0c8e",
+		type: "ftbmoney:money",
+		ftb_money: 10L
+	},
+	{
+		uid: "4c41f24d",
+		type: "xp",
+		xp: 10
+	}]
+}

@@ -1,6 +1,9 @@
 {
 	title: "Story-Mode",
 	icon: "aoa3:primordial_skull",
+	description: [
+		"Work In Progress"
+	],
 	always_invisible: false,
 	group: 0,
 	default_quest_shape: ""

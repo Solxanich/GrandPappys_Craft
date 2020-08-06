@@ -22,15 +22,15 @@ var DataPin = VanillaFactory.createItem("Data_Pin");
 DataPin.rarity = "rare";
 DataPin.register();
 
-var TerrariaCartridgeBlock = VanillaFactory.createBlock("TerrariaCartridge",<blockmaterial:ice>);
-TerrariaCartridgeBlock.setLightOpacity(3);
-TerrariaCartridgeBlock.setBlockHardness(20.0);
-TerrariaCartridgeBlock.setBlockResistance(999.0);
-TerrariaCartridgeBlock.setToolClass("pickaxe");
-TerrariaCartridgeBlock.setToolLevel(1);
-TerrariaCartridgeBlock.setBlockSoundType(<soundtype:Anvil>);
-TerrariaCartridgeBlock.setSlipperiness(0.3);
-TerrariaCartridgeBlock.register();
+var VICMWCartridgeBlock = VanillaFactory.createBlock("VICMWCartridge",<blockmaterial:ice>);
+VICMWCartridgeBlock.setLightOpacity(3);
+VICMWCartridgeBlock.setBlockHardness(20.0);
+VICMWCartridgeBlock.setBlockResistance(999.0);
+VICMWCartridgeBlock.setToolClass("pickaxe");
+VICMWCartridgeBlock.setToolLevel(1);
+VICMWCartridgeBlock.setBlockSoundType(<soundtype:Anvil>);
+VICMWCartridgeBlock.setSlipperiness(0.3);
+VICMWCartridgeBlock.register();
 
 var PixelmonCartridgeBlock = VanillaFactory.createBlock("PixelmonCartridge",<blockmaterial:ice>);
 PixelmonCartridgeBlock.setLightOpacity(3);

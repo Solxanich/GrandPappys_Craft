@@ -1,0 +1,25 @@
+{
+	x: -3.5d,
+	y: -4.5d,
+	dependencies: [
+		"fac6c160"
+	],
+	hide: true,
+	tasks: [{
+		uid: "3aeaeff6",
+		type: "item",
+		items: [{
+			item: "pixelmon:red_apricorn"
+		}]
+	}],
+	rewards: [{
+		uid: "c707ef54",
+		type: "xp",
+		xp: 10
+	},
+	{
+		uid: "6a397b0a",
+		type: "ftbmoney:money",
+		ftb_money: 10L
+	}]
+}

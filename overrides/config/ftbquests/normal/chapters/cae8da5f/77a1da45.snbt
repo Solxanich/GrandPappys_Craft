@@ -1,0 +1,39 @@
+{
+	x: -0.5d,
+	y: -19.0d,
+	dependencies: [
+		"f10b0d98"
+	],
+	hide: true,
+	tasks: [{
+		uid: "76812484",
+		type: "item",
+		items: [{
+			item: "academy:app_freq_transmitter"
+		}]
+	},
+	{
+		uid: "5458738d",
+		type: "item",
+		items: [{
+			item: "academy:app_media_player"
+		}]
+	},
+	{
+		uid: "7b0acda2",
+		type: "item",
+		items: [{
+			item: "academy:app_skill_tree"
+		}]
+	}],
+	rewards: [{
+		uid: "fc633e98",
+		type: "xp",
+		xp: 10
+	},
+	{
+		uid: "1ab1b350",
+		type: "ftbmoney:money",
+		ftb_money: 10L
+	}]
+}

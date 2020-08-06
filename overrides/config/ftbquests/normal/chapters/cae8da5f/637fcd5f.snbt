@@ -6,24 +6,17 @@
 	],
 	hide: true,
 	tasks: [{
-		uid: "52238d2a",
+		uid: "ab87c1ae",
 		type: "item",
 		items: [{
-			item: "mob_grinding_utils:fan"
+			item: "openblocks:tank"
 		}]
 	},
 	{
-		uid: "0094832b",
+		uid: "a2c56d8e",
 		type: "item",
 		items: [{
-			item: "mob_grinding_utils:absorption_hopper"
-		}]
-	},
-	{
-		uid: "a4748d4a",
-		type: "item",
-		items: [{
-			item: "mob_grinding_utils:spikes"
+			item: "openblocks:xp_drain"
 		}]
 	}],
 	rewards: [{

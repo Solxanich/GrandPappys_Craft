@@ -11,7 +11,7 @@
   "manifestType": "minecraftModpack",
   "manifestVersion": 1,
   "name": "Grandpappy's Craft",
-  "version": "0.7.0",
+  "version": "0.8.0",
   "author": "solxan",
   "files": [
     {
@@ -220,6 +220,11 @@
       "required": true
     },
     {
+      "projectID": 69163,
+      "fileID": 2926431,
+      "required": true
+    },
+    {
       "projectID": 307560,
       "fileID": 2656685,
       "required": true
@@ -265,11 +270,6 @@
       "required": true
     },
     {
-      "projectID": 345460,
-      "fileID": 2830628,
-      "required": true
-    },
-    {
       "projectID": 276951,
       "fileID": 2880613,
       "required": true
@@ -292,7 +292,7 @@
     {
       "projectID": 238524,
       "fileID": 2660568,
-      "required": true
+      "required": false
     },
     {
       "projectID": 283644,
@@ -317,11 +317,6 @@
     {
       "projectID": 258587,
       "fileID": 2959712,
-      "required": true
-    },
-    {
-      "projectID": 357178,
-      "fileID": 2939224,
       "required": true
     },
     {
@@ -706,7 +701,7 @@
     },
     {
       "projectID": 319441,
-      "fileID": 3019140,
+      "fileID": 3023506,
       "required": true
     },
     {
@@ -727,7 +722,7 @@
     {
       "projectID": 221976,
       "fileID": 2660575,
-      "required": true
+      "required": false
     },
     {
       "projectID": 223094,
@@ -855,6 +850,11 @@
       "required": true
     },
     {
+      "projectID": 269398,
+      "fileID": 2643976,
+      "required": true
+    },
+    {
       "projectID": 304493,
       "fileID": 2666560,
       "required": true
@@ -872,6 +872,11 @@
     {
       "projectID": 237102,
       "fileID": 3010492,
+      "required": true
+    },
+    {
+      "projectID": 243788,
+      "fileID": 3016704,
       "required": true
     },
     {
@@ -930,11 +935,6 @@
       "required": true
     },
     {
-      "projectID": 268888,
-      "fileID": 2655413,
-      "required": true
-    },
-    {
       "projectID": 270560,
       "fileID": 2667129,
       "required": true
@@ -966,7 +966,7 @@
     },
     {
       "projectID": 285612,
-      "fileID": 2996061,
+      "fileID": 3024978,
       "required": true
     },
     {
@@ -976,7 +976,7 @@
     },
     {
       "projectID": 233255,
-      "fileID": 2560971,
+      "fileID": 3022076,
       "required": true
     },
     {
@@ -1135,6 +1135,11 @@
       "required": true
     },
     {
+      "projectID": 314081,
+      "fileID": 2988156,
+      "required": true
+    },
+    {
       "projectID": 299602,
       "fileID": 2767795,
       "required": true
@@ -1225,11 +1230,6 @@
       "required": true
     },
     {
-      "projectID": 238372,
-      "fileID": 2595310,
-      "required": true
-    },
-    {
       "projectID": 303541,
       "fileID": 2636803,
       "required": true
@@ -1261,7 +1261,7 @@
     },
     {
       "projectID": 342543,
-      "fileID": 3015293,
+      "fileID": 3024415,
       "required": true
     },
     {

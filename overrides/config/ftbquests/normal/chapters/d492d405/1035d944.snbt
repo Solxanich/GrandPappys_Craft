@@ -1,0 +1,35 @@
+{
+	title: "Make a Friend",
+	x: 16.5d,
+	y: -12.0d,
+	dependencies: [
+		"7b6cd683"
+	],
+	hide: true,
+	tasks: [{
+		uid: "34bec761",
+		type: "item",
+		items: [{
+			item: "bewitchment:athame"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "192b0ccb",
+		type: "item",
+		items: [{
+			item: "bewitchment:silver_ingot"
+		}]
+	}],
+	rewards: [{
+		uid: "6184e63a",
+		type: "ftbmoney:money",
+		ftb_money: 10L
+	},
+	{
+		uid: "85051cd5",
+		type: "xp",
+		xp: 10
+	}]
+}

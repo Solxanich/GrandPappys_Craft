@@ -81,6 +81,7 @@ minecraft:llama_spit
 minecraft:parrot
 minecraft:villager
 minecraft:ender_crystal
+lmreengaged:littlemaid
 advanced-fishing:custom_fish_hook
 advanced-fishing:lava_fish_hook
 advanced-fishing:fireproof_item
@@ -434,7 +435,6 @@ instrumentalmobs:maraca_spider
 instrumentalmobs:microphone_ghast
 instrumentalmobs:sound_waves
 instrumentalmobs:microphone_sound
-lmreengaged:littlemaid
 lordcraft:lord_water
 lordcraft:lord_earth
 lordcraft:smash_spell
@@ -453,6 +453,14 @@ psi:spell_grenade
 psi:spell_charge
 psi:spell_mine
 multimob:dummy
+mw:ammo256
+mw:wcam257
+mw:shellcasing258
+mw:grenade259
+mw:smokegrenade260
+mw:gasgrenade261
+mw:flashgrenade262
+mw:entityspreadable263
 openmods:block
 openblocks:luggage
 openblocks:xp_orb_no_fly
@@ -497,6 +505,8 @@ primitivemobs:thrown_block
 primitivemobs:primitive_egg
 primitivemobs:spider_egg
 scalinghealth:blightfire
+thermalexpansion:florb
+thermalexpansion:morb
 bloodmagic:blood_light
 bloodmagic:soul_snare
 bloodmagic:soul_arrow
@@ -1823,6 +1833,18 @@ goodnightsleep:unicorn_gns
 goodnightsleep:gns_spawner
 mca:entityvillagermca
 mca:grimreapermca
+mw:bandit1
+mw:samplemissiongiver
+mw:zombieblistered
+mw:zombieripper
+mw:tornzombie
+mw:necromorph
+mw:licker
+mw:zombie
+mw:hazmat_zombie
+mw:defiled zombie
+mw:deathclaw
+mw:molded
 sit:entity_sit
 switchbow:arrowlightningbolt
 switchbow:arrowtnt

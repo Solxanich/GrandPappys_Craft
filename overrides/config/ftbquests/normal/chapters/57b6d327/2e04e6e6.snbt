@@ -9,7 +9,8 @@
 		"      2) 1x Arcane Ear - Audio Receiver",
 		"      3) 2x Sceptre of Thunder - Wire material",
 		"4) 1x Porygon Head - Microcontroller",
-		"5) 1x Refined Digizoid Metal - Phone Casing"
+		"5) 1x Refined Digizoid Metal - Phone Casing",
+		"6) 1x Stabilized Void Matter - Quantum Compressor"
 	],
 	dependencies: [
 		"813f678e"

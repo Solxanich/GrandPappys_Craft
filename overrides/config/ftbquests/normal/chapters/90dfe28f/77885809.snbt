@@ -1,0 +1,25 @@
+{
+	x: -10.0d,
+	y: -9.5d,
+	dependencies: [
+		"4448669b"
+	],
+	hide: true,
+	tasks: [{
+		uid: "6bc0db33",
+		type: "item",
+		items: [{
+			item: "pixelmon:healer"
+		}]
+	}],
+	rewards: [{
+		uid: "621bb8cd",
+		type: "xp",
+		xp: 10
+	},
+	{
+		uid: "c63ab4d6",
+		type: "ftbmoney:money",
+		ftb_money: 10L
+	}]
+}

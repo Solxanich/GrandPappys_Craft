@@ -1,0 +1,31 @@
+{
+	x: 12.5d,
+	y: -9.5d,
+	description: "Taming Item varies by Digimob",
+	dependencies: [
+		"7ccf6178"
+	],
+	hide: true,
+	tasks: [{
+		uid: "5e947e81",
+		type: "checkmark",
+		title: "Try Taming a Digimob!"
+	},
+	{
+		uid: "58e8ed96",
+		type: "item",
+		items: [{
+			item: "digimobs:digicore"
+		}]
+	}],
+	rewards: [{
+		uid: "9a10d5b0",
+		type: "xp",
+		xp: 10
+	},
+	{
+		uid: "6f82f578",
+		type: "ftbmoney:money",
+		ftb_money: 10L
+	}]
+}

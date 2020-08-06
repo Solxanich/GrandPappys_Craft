@@ -1,0 +1,27 @@
+{
+	x: 2.0d,
+	y: -16.5d,
+	dependencies: [
+		"f936c08b"
+	],
+	hide: true,
+	tasks: [{
+		uid: "79c810b7",
+		type: "item",
+		items: [{
+			item: "academy:terminal_installer"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "4af1380b",
+		type: "xp",
+		xp: 10
+	},
+	{
+		uid: "7d21c9b2",
+		type: "ftbmoney:money",
+		ftb_money: 10L
+	}]
+}

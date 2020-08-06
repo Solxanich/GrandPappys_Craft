@@ -1,0 +1,29 @@
+{
+	title: "Foresight",
+	x: 11.0d,
+	y: -9.0d,
+	text: [
+		""
+	],
+	dependencies: [
+		"7b6cd683"
+	],
+	hide: true,
+	tasks: [{
+		uid: "a273cf7d",
+		type: "item",
+		items: [{
+			item: "bewitchment:crystal_ball"
+		}]
+	}],
+	rewards: [{
+		uid: "3b61919d",
+		type: "ftbmoney:money",
+		ftb_money: 10L
+	},
+	{
+		uid: "33355a4f",
+		type: "xp",
+		xp: 10
+	}]
+}

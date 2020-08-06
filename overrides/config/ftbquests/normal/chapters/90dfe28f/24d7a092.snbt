@@ -1,5 +1,5 @@
 {
-	title: "Gamemode Not Supported?!?",
+	title: "Primal Warfare?",
 	x: 0.5d,
 	y: 2.0d,
 	dependencies: [
@@ -7,15 +7,46 @@
 	],
 	hide: true,
 	tasks: [{
-		uid: "e1a4368c",
+		uid: "0d5397cd",
 		type: "item",
 		items: [{
-			item: "contenttweaker:terrariacartridge"
+			item: "contenttweaker:vicmwcartridge"
+		}]
+	},
+	{
+		uid: "d5a381d0",
+		type: "item",
+		items: [{
+			item: "minecraft:redstone_block"
+		}],
+		count: 2L
+	},
+	{
+		uid: "a1a5ad82",
+		type: "item",
+		items: [{
+			item: "minecraft:iron_block"
+		}],
+		count: 2L
+	},
+	{
+		uid: "a98b06c3",
+		type: "item",
+		items: [{
+			item: "minecraft:gold_block"
+		}],
+		count: 4L
+	},
+	{
+		uid: "9e08a9de",
+		type: "item",
+		items: [{
+			item: "minecraft:packed_ice"
 		}]
 	}],
 	rewards: [{
-		uid: "f73cb62f",
-		type: "toast",
-		title: "Planned Mod: Terraria Craft"
+		uid: "94f27b16",
+		type: "ftbmoney:money",
+		ftb_money: 100L
 	}]
 }

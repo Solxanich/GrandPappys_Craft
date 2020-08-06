@@ -9,10 +9,11 @@ import crafttweaker.command.ICommandSender;
 import crafttweaker.event.IEventCancelable;
 
 events.onPlayerChangedDimension(function(event as crafttweaker.event.PlayerChangedDimensionEvent){
-    if (event.from==56) { event.player.addGameStage("Overworld"); }
-	if (event.from==0 & event.to==56) {event.player.addGameStage("Terraria"); event.player.removeGameStage("Overworld"); }
-	if (event.from==57) { event.player.addGameStage("Overworld"); }
-	if (event.from==0 & event.to==57) {event.player.addGameStage("Pixelmon"); event.player.sendChat("What is a Pixelmon? Can I eat it?"); event.player.removeGameStage("Overworld"); }
+    if (event.from==111) { event.player.removeGameStage("war"); }
+	if (event.from==0 & event.to==111) {event.player.addGameStage("war"); }
+	if (event.from==57) { event.player.addGameStage("Overworld"); event.player.addGameStage("engg"); }
+	if (event.from==0 & event.to==57) {event.player.addGameStage("Pixelmon"); event.player.sendChat("What is a Pixelmon? Can I eat it?"); 
+		event.player.removeGameStage("Overworld"); event.player.removeGameStage("engg"); }
 	if (event.from==8) { event.player.addGameStage("Overworld"); }
 	if (event.from==0 & event.to==8) {event.player.sendChat("Digimon activated. Now downloading..."); event.player.removeGameStage("Overworld");
 		event.player.sendChat("Downloaded.");}
@@ -23,7 +24,7 @@ events.onPlayerAdvancement(function(event as crafttweaker.event.PlayerAdvancemen
 		event.player.addGameStage("Overworld");event.player.sendChat("You hear a strange noise coming from beneath you...");
 		event.player.sendChat("The ancient spirits of light and dark have awoken!");
 		event.player.sendChat("It's dangerous to go alone now. Take this, and use it wisely!");
-		event.player.give(<bountifulbaubles:potionwormhole>);}
+		event.player.give(<minecraft:compass>);}
 });
 // add a remove gamestage overworld for respawn event when bed is obstructed or missing
 
@@ -40,8 +41,9 @@ events.onPlayerLoggedIn(function(event as crafttweaker.event.PlayerLoggedInEvent
 			title:"IMPORTANT: READ NOW",author:"Flight Attendant",
 			display:{Lore:["If you wish to live, you should probably listen to your flight attendant."]}}));
 		event.player.give(<improvedbackpacks:backpack>.withDisplayName("Parachute"));
-		event.player.addPotionEffect(<potion:minecraft:regeneration>.makePotionEffect(6000,2));
 		event.player.addPotionEffect(<potion:minecraft:absorption>.makePotionEffect(6000,2));
+		event.player.addPotionEffect(<potion:minecraft:weakness>.makePotionEffect(6000,2));
+		event.player.addPotionEffect(<potion:minecraft:poison>.makePotionEffect(6000,0));
 	}
 });
 

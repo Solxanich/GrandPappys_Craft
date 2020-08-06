@@ -1,0 +1,26 @@
+{
+	x: 12.0d,
+	y: -4.5d,
+	dependencies: [
+		"d5b204c4"
+	],
+	hide: true,
+	dependency_requirement: "one_started",
+	tasks: [{
+		uid: "b88dbdaa",
+		type: "item",
+		items: [{
+			item: "bewitchment:witches_cauldron"
+		}]
+	}],
+	rewards: [{
+		uid: "595f84a8",
+		type: "ftbmoney:money",
+		ftb_money: 10L
+	},
+	{
+		uid: "0501c4f5",
+		type: "xp",
+		xp: 10
+	}]
+}

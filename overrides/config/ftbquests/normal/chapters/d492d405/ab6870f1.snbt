@@ -1,0 +1,34 @@
+{
+	title: "Rituals can do a lot.",
+	x: -7.5d,
+	y: -11.5d,
+	dependencies: [
+		"f42f3203"
+	],
+	hide: true,
+	tasks: [{
+		uid: "4fb330de",
+		type: "item",
+		items: [{
+			item: "bloodmagic:ritual_controller"
+		}]
+	},
+	{
+		uid: "9f1559d5",
+		type: "item",
+		items: [{
+			item: "bloodmagic:ritual_diviner"
+		}],
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "a9514688",
+		type: "ftbmoney:money",
+		ftb_money: 10L
+	},
+	{
+		uid: "b1496682",
+		type: "xp",
+		xp: 10
+	}]
+}

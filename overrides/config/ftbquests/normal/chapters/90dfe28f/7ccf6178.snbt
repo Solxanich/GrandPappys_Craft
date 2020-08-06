@@ -1,0 +1,43 @@
+{
+	x: 13.5d,
+	y: -7.0d,
+	dependencies: [
+		"aa9e8387"
+	],
+	hide: true,
+	tasks: [{
+		uid: "15a87b61",
+		type: "item",
+		items: [{
+			item: "digimobs:smallmeat"
+		}],
+		count: 20L
+	},
+	{
+		uid: "d4db39a4",
+		type: "item",
+		items: [{
+			item: "digimobs:largemeat"
+		}],
+		count: 20L
+	},
+	{
+		uid: "f12a2d42",
+		type: "item",
+		items: [{
+			item: "digimobs:reddigizoidhoe"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "6f9fab2c",
+		type: "xp",
+		xp: 10
+	},
+	{
+		uid: "0858d9a8",
+		type: "ftbmoney:money",
+		ftb_money: 10L
+	}]
+}

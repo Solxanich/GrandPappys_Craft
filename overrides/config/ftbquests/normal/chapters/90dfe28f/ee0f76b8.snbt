@@ -1,0 +1,30 @@
+{
+	title: "Avoid data Corruption!",
+	x: 16.5d,
+	y: -8.5d,
+	text: [
+		""
+	],
+	dependencies: [
+		"7ccf6178"
+	],
+	hide: true,
+	tasks: [{
+		uid: "6ad0dcef",
+		type: "item",
+		items: [{
+			item: "digimobs:happyshroom"
+		}],
+		count: 3L
+	}],
+	rewards: [{
+		uid: "3ff59243",
+		type: "xp",
+		xp: 10
+	},
+	{
+		uid: "0c9f07c8",
+		type: "ftbmoney:money",
+		ftb_money: 10L
+	}]
+}

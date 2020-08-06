@@ -1,0 +1,62 @@
+{
+	title: "More Clothes",
+	x: 8.0d,
+	y: -13.0d,
+	dependencies: [
+		"70806087"
+	],
+	hide: true,
+	tasks: [{
+		uid: "2ae0cf80",
+		type: "item",
+		items: [{
+			item: "bewitchment:alchemist_hood"
+		},
+		{
+			item: "bewitchment:green_witch_hood"
+		},
+		{
+			item: "bewitchment:besmirched_hood"
+		}],
+		consume_items: false,
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "e612ea69",
+		type: "item",
+		items: [{
+			item: "bewitchment:green_witch_robes"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "d1f3fcf8",
+		type: "item",
+		items: [{
+			item: "bewitchment:alchemist_pants"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "e131f4c2",
+		type: "item",
+		items: [{
+			item: "bewitchment:besmirched_robes"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "b64848fa",
+		type: "ftbmoney:money",
+		ftb_money: 10L
+	},
+	{
+		uid: "e31e64d1",
+		type: "xp",
+		xp: 10
+	}]
+}

@@ -1,0 +1,43 @@
+{
+	title: "Who you gonna call?",
+	x: 4.5d,
+	y: -10.5d,
+	text: [
+		""
+	],
+	dependencies: [
+		"a29f014a"
+	],
+	hide: true,
+	tasks: [{
+		uid: "87b5f3d6",
+		type: "item",
+		items: [{
+			item: "bewitchment:sigil_sentinel"
+		}]
+	},
+	{
+		uid: "dc71eea4",
+		type: "item",
+		items: [{
+			item: "bewitchment:sigil_disorientation"
+		}]
+	},
+	{
+		uid: "c9ed2f01",
+		type: "item",
+		items: [{
+			item: "bewitchment:sigil_shrieking"
+		}]
+	}],
+	rewards: [{
+		uid: "c4c274ab",
+		type: "ftbmoney:money",
+		ftb_money: 10L
+	},
+	{
+		uid: "7db2d171",
+		type: "xp",
+		xp: 10
+	}]
+}

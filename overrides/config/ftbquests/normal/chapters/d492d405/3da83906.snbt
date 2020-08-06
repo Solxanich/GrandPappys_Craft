@@ -1,0 +1,32 @@
+{
+	x: 14.5d,
+	y: -3.0d,
+	dependencies: [
+		"347b934d"
+	],
+	hide: true,
+	tasks: [{
+		uid: "cb6ec25e",
+		type: "item",
+		title: "Natural Defence",
+		items: [{
+			item: "bewitchment:embergrass"
+		},
+		{
+			item: "bewitchment:frostflower"
+		},
+		{
+			item: "bewitchment:flower_siphoning_poppy"
+		}]
+	}],
+	rewards: [{
+		uid: "9a176e13",
+		type: "ftbmoney:money",
+		ftb_money: 10L
+	},
+	{
+		uid: "0988a38b",
+		type: "xp",
+		xp: 10
+	}]
+}

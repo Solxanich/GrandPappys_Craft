@@ -1,0 +1,25 @@
+{
+	x: 8.0d,
+	y: -9.0d,
+	dependencies: [
+		"d5b204c4"
+	],
+	hide: true,
+	tasks: [{
+		uid: "762d9911",
+		type: "item",
+		items: [{
+			item: "bewitchment:sigil_table"
+		}]
+	}],
+	rewards: [{
+		uid: "9a43322a",
+		type: "ftbmoney:money",
+		ftb_money: 10L
+	},
+	{
+		uid: "18b49de3",
+		type: "xp",
+		xp: 10
+	}]
+}

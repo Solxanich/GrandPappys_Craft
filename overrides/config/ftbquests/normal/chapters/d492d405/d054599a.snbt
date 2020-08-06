@@ -1,0 +1,25 @@
+{
+	x: -17.5d,
+	y: -1.5d,
+	dependencies: [
+		"5d502816"
+	],
+	hide: true,
+	tasks: [{
+		uid: "27cabfd6",
+		type: "item",
+		items: [{
+			item: "bloodmagic:demon_crystallizer"
+		}]
+	}],
+	rewards: [{
+		uid: "1fc79d54",
+		type: "ftbmoney:money",
+		ftb_money: 10L
+	},
+	{
+		uid: "cf79ebef",
+		type: "xp",
+		xp: 10
+	}]
+}

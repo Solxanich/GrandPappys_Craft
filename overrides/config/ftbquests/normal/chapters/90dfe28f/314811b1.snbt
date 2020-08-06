@@ -1,0 +1,25 @@
+{
+	x: 0.5d,
+	y: 9.0d,
+	dependencies: [
+		"2497997d"
+	],
+	hide: true,
+	tasks: [{
+		uid: "1965d2a0",
+		type: "item",
+		items: [{
+			item: "mw:swat_vest"
+		}]
+	}],
+	rewards: [{
+		uid: "d0ebfb8f",
+		type: "xp",
+		xp: 10
+	},
+	{
+		uid: "b78cfd2f",
+		type: "ftbmoney:money",
+		ftb_money: 10L
+	}]
+}

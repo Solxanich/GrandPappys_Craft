@@ -1,0 +1,25 @@
+{
+	x: 8.5d,
+	y: -16.5d,
+	dependencies: [
+		"f936c08b"
+	],
+	hide: true,
+	tasks: [{
+		uid: "3d5656d8",
+		type: "item",
+		items: [{
+			item: "academy:imag_fusor"
+		}]
+	}],
+	rewards: [{
+		uid: "ac47e3b1",
+		type: "xp",
+		xp: 10
+	},
+	{
+		uid: "7c98a836",
+		type: "ftbmoney:money",
+		ftb_money: 10L
+	}]
+}

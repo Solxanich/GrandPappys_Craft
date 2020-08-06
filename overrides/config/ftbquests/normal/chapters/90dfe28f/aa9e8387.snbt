@@ -1,0 +1,25 @@
+{
+	x: 10.5d,
+	y: -5.5d,
+	dependencies: [
+		"d7de938d"
+	],
+	hide: true,
+	tasks: [{
+		uid: "df7c0827",
+		type: "item",
+		items: [{
+			item: "digimobs:digifarm"
+		}]
+	}],
+	rewards: [{
+		uid: "2306825b",
+		type: "xp",
+		xp: 10
+	},
+	{
+		uid: "971302e9",
+		type: "ftbmoney:money",
+		ftb_money: 10L
+	}]
+}

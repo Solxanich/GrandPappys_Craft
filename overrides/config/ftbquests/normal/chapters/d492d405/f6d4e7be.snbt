@@ -1,0 +1,37 @@
+{
+	title: "Passive Blood?",
+	x: -15.0d,
+	y: -6.0d,
+	dependencies: [
+		"f3b0bdd5"
+	],
+	hide: true,
+	tasks: [{
+		uid: "5c577d77",
+		type: "item",
+		items: [{
+			item: "bloodmagic:pack_sacrifice"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "a74d2e45",
+		type: "item",
+		items: [{
+			item: "bloodmagic:pack_self_sacrifice"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "5a9850fe",
+		type: "ftbmoney:money",
+		ftb_money: 10L
+	},
+	{
+		uid: "a941608a",
+		type: "xp",
+		xp: 10
+	}]
+}

@@ -1,0 +1,27 @@
+{
+	title: "Torcher",
+	x: 0.5d,
+	y: -13.5d,
+	dependencies: [
+		"db98eb0c"
+	],
+	hide: true,
+	tasks: [{
+		uid: "1e8f8953",
+		type: "item",
+		items: [{
+			item: "minecraft:torch"
+		}],
+		count: 64L
+	}],
+	rewards: [{
+		uid: "cf40e81a",
+		type: "xp",
+		xp: 10
+	},
+	{
+		uid: "1bad260a",
+		type: "ftbmoney:money",
+		ftb_money: 10L
+	}]
+}

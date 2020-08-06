@@ -1,0 +1,36 @@
+{
+	x: 12.0d,
+	y: -1.0d,
+	dependencies: [
+		"33e83896"
+	],
+	hide: true,
+	tasks: [{
+		uid: "4777ddd8",
+		type: "item",
+		items: [{
+			item: "digimobs:blackdigizoidsword"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "d26f8a7a",
+		type: "item",
+		items: [{
+			item: "digimobs:golddigizoidsword"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "21887421",
+		type: "xp",
+		xp: 10
+	},
+	{
+		uid: "155d65bf",
+		type: "ftbmoney:money",
+		ftb_money: 10L
+	}]
+}

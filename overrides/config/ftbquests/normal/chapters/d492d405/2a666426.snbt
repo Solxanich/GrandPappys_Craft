@@ -1,0 +1,39 @@
+{
+	x: 4.5d,
+	y: -6.0d,
+	dependencies: [
+		"b631de8c"
+	],
+	hide: true,
+	tasks: [{
+		uid: "4a7c48bb",
+		type: "item",
+		items: [{
+			item: "bewitchment:birch_soul"
+		}]
+	},
+	{
+		uid: "b2490edb",
+		type: "item",
+		items: [{
+			item: "bewitchment:liquid_witchcraft"
+		}]
+	},
+	{
+		uid: "c63c16d7",
+		type: "item",
+		items: [{
+			item: "bewitchment:cloudy_oil"
+		}]
+	}],
+	rewards: [{
+		uid: "4d473b6a",
+		type: "ftbmoney:money",
+		ftb_money: 10L
+	},
+	{
+		uid: "5476779b",
+		type: "xp",
+		xp: 10
+	}]
+}

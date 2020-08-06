@@ -1,0 +1,55 @@
+{
+	x: -12.5d,
+	y: -13.0d,
+	dependencies: [
+		"f5ab7b75"
+	],
+	hide: true,
+	tasks: [{
+		uid: "19682ab2",
+		type: "item",
+		items: [{
+			item: "bloodmagic:living_armour_helmet"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "ea7b8cd0",
+		type: "item",
+		items: [{
+			id: "bloodmagic:living_armour_chest",
+			tag: {}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "54c43e89",
+		type: "item",
+		items: [{
+			item: "bloodmagic:living_armour_leggings"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "88b2fb99",
+		type: "item",
+		items: [{
+			item: "bloodmagic:living_armour_boots"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "316f74cc",
+		type: "ftbmoney:money",
+		ftb_money: 10L
+	},
+	{
+		uid: "127763c0",
+		type: "xp",
+		xp: 10
+	}]
+}

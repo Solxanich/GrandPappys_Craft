@@ -1,0 +1,25 @@
+{
+	x: 3.5d,
+	y: 4.0d,
+	dependencies: [
+		"ed8075f2"
+	],
+	hide: true,
+	tasks: [{
+		uid: "ba80f937",
+		type: "item",
+		items: [{
+			item: "mw:sulfurdust"
+		}]
+	}],
+	rewards: [{
+		uid: "74b46449",
+		type: "xp",
+		xp: 10
+	},
+	{
+		uid: "5e65b010",
+		type: "ftbmoney:money",
+		ftb_money: 10L
+	}]
+}
