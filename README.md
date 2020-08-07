@@ -10,7 +10,7 @@ The Vocational System:
 GrandPappy’s Craft uses a vocational system (via Game Stages and Lord Craft) to segment content into four balanced basic roles: The Engineer, The Outcast, The Farmer, and The Bard. Each role has their own unique sub-specializations they will gain access to through research, as well as opportunities to cooperate with other roles through gifting in-game items and ‘common knowledge’ content. Although designed for multiplayer teams of four, the vocation system also provides means to play with fewer players. For more information on vocations, refer to the mod unlock list provided.
 
 Specs, Server Setup, and Other Recommendations:
-This mudpack is RAM intensive. The recommended RAM is 8 to 10 GB for clients; for servers, use 5 GB plus one per player expected.
+This modpack is RAM intensive. The recommended RAM is 8 to 10 GB for clients; for servers, use 5 GB plus one per player expected.
 
 The installation includes a server settings folder; the files in this folder can be used to start the server with the appropriate settings for a smoother experience.  In addition, it is recommended to swap to Peko’s build for LittleMaidMobs for both client and server to resolve missing texture errors on a dedicated server. For more information on Peko’s Build, please refer to the following by Doll Junkie: 
 https://docs.google.com/document/d/1-BFxVeVZNwOyJYI4s5h9oTPkn07E4ttMDg0knls5-JY/edit 
